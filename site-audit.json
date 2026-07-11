@@ -1,0 +1,20 @@
+{
+  "source_pages_expected": 560,
+  "source_pages_verified": 560,
+  "text_mismatches": [],
+  "missing_archive_pages": [],
+  "runsignup_pages_expected": 10,
+  "runsignup_pages_verified": 10,
+  "runsignup_mismatches": [],
+  "html_files_checked": 574,
+  "broken_local_links": [],
+  "old_site_attributes": [],
+  "missing_navigation": [],
+  "css_missing_assets": [],
+  "gallery_images_checked": 2539,
+  "missing_gallery_images": [],
+  "external_media_links_indexed": 85,
+  "missing_album_contexts": [],
+  "local_media_files": 3995,
+  "passed": true
+}

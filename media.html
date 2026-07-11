@@ -3,9 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="assets/shore-ac.png">
   <title>Photos, Video & Social | Shore Athletic Club</title>
   <meta name="description" content="Shore A.C. photo galleries, Johnny Hayes archive images, race-day albums, video, and social channels.">
-  <link rel="stylesheet" href="interior.css">
+  <link rel="stylesheet" href="interior.css?v=20260711-7">
 </head>
 <body>
   <header class="site-header">
@@ -15,7 +16,7 @@
         <a class="button light" href="index.html">Home</a>
         <a class="button secondary" href="events.html">Races</a>
         <a class="button" href="club.html">Club</a>
-        <a class="button primary" href="https://runsignup.com/Club/NJ/SpringLake/ShoreAthleticClub">Join</a>
+        <a class="button primary" href="https://runsignup.com/MemberOrg/ShoreAthleticClub/Register">Join</a>
       </nav>
     </div>
   </header>
@@ -35,9 +36,10 @@
         <span id="alumni" hidden></span>
         <div class="section-head">
           <h2>Photo archive</h2>
-          <p>Choose a gallery. Images load on this page, so visitors stay inside the new site.</p>
+          <p>Choose a gallery or search a photo filename. Every image is hosted inside this site.</p>
         </div>
         <div class="gallery-toolbar" id="galleryFilters" aria-label="Photo gallery filters"></div>
+        <label class="gallery-search">Search photos<input id="gallerySearch" type="search" placeholder="Search an athlete, event, or filename"></label>
         <div class="grid two" style="margin-bottom:18px">
           <article class="card feature" id="galleryIntro">
             <h3>Official Photo Archive</h3>
@@ -45,7 +47,7 @@
           </article>
           <article class="card">
             <h3>Archive size</h3>
-            <p><strong id="galleryCount">0</strong> images available in this gallery. Use the button below to load more photos without making the page too heavy at first.</p>
+            <p><strong id="galleryCount">0</strong> matching images in this gallery. <strong id="totalGalleryCount">0</strong> distinct images are stored across the full local archive.</p>
             <button class="button secondary" type="button" id="loadMore">Load more photos</button>
           </article>
         </div>
@@ -59,9 +61,36 @@
           <h2>Video</h2>
           <p>Meet footage, interviews, race highlights, and moments from the club archive.</p>
         </div>
-        <div class="video-frame">
-          <iframe src="https://www.youtube.com/embed/WaJDlL0P7c4" title="Shore A.C. video archive" allowfullscreen></iframe>
+        <div class="video-grid">
+          <article>
+            <div class="video-frame"><iframe src="https://www.youtube.com/embed/WaJDlL0P7c4" title="1 hour postal walk at Monmouth College, 1977" loading="lazy" allowfullscreen></iframe></div>
+            <h3>1 hour postal walk at Monmouth College, 1977</h3>
+          </article>
+          <article>
+            <div class="video-frame"><iframe src="https://www.youtube.com/embed/gE28pci8yXw" title="Elliott Denman History of Shore A.C." loading="lazy" allowfullscreen></iframe></div>
+            <h3>Elliott Denman History of Shore A.C.</h3>
+          </article>
+          <article>
+            <div class="video-frame"><iframe src="https://www.youtube.com/embed/xXfP4shFDjc" title="2021 Asbury Park Sheehan Classic" loading="lazy" allowfullscreen></iframe></div>
+            <h3>2021 Asbury Park Sheehan Classic</h3>
+          </article>
         </div>
+      </div>
+    </section>
+
+    <section class="section white" id="hosted-albums">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Hosted photo and video collections</h2>
+          <p>Public galleries, photographer albums, cloud folders, and videos linked by the original Shore A.C. pages are indexed here. Purchased, licensed, and oversized media remain on their official services.</p>
+        </div>
+        <div class="album-controls">
+          <label>Search hosted media<input id="albumSearch" type="search" placeholder="Search an event or year"></label>
+          <label>Provider<select id="albumProvider"><option value="all">All providers</option></select></label>
+        </div>
+        <p class="archive-summary" id="albumCount" aria-live="polite"></p>
+        <div class="album-list" id="albumList"></div>
+        <div class="button-row"><button class="button secondary" id="albumLoadMore" type="button">Load more media</button></div>
       </div>
     </section>
 
@@ -105,17 +134,27 @@
     </div>
   </footer>
 
-  <script src="site-nav.js"></script>
-  <script src="gallery-data.js"></script>
+  <script src="site-nav.js?v=20260711-7"></script>
+  <script src="gallery-data.js?v=20260711-7"></script>
+  <script src="album-data.js?v=20260711-7"></script>
+  <script src="albums.js?v=20260711-7"></script>
   <script>
     const filters = document.getElementById("galleryFilters");
     const grid = document.getElementById("galleryGrid");
     const intro = document.getElementById("galleryIntro");
     const count = document.getElementById("galleryCount");
+    const totalCount = document.getElementById("totalGalleryCount");
     const loadMore = document.getElementById("loadMore");
+    const search = document.getElementById("gallerySearch");
     const galleries = window.SHORE_GALLERIES || [];
     let active = galleries[0];
     let visible = 24;
+
+    function photoLabel(src, fallback) {
+      const filename = src.split("/").pop().replace(/-[a-f0-9]{10}\.[^.]+$/, "");
+      const words = filename.replace(/[-_]+/g, " ").trim();
+      return words ? words.replace(/\b\w/g, (letter) => letter.toUpperCase()) : fallback;
+    }
 
     function renderButtons() {
       filters.innerHTML = "";
@@ -135,27 +174,49 @@
 
     function render() {
       renderButtons();
-      intro.querySelector("h3").textContent = active.title;
-      intro.querySelector("p").textContent = active.description;
-      count.textContent = active.images.length.toLocaleString();
+      const term = search.value.trim().toLowerCase();
+      const sourceImages = term
+        ? galleries.flatMap((gallery) => gallery.images.map((src) => ({ src, gallery: gallery.title })))
+        : active.images.map((src) => ({ src, gallery: active.title }));
+      const seen = new Set();
+      const matches = sourceImages.filter((item) => {
+        if (seen.has(item.src)) return false;
+        seen.add(item.src);
+        return !term || `${photoLabel(item.src, "")} ${item.gallery}`.toLowerCase().includes(term);
+      });
+      intro.querySelector("h3").textContent = term ? "Photo search results" : active.title;
+      intro.querySelector("p").textContent = term ? "Matches from every local gallery." : active.description;
+      count.textContent = matches.length.toLocaleString();
+      totalCount.textContent = galleries.reduce((sum, gallery) => sum + gallery.images.length, 0).toLocaleString();
       grid.innerHTML = "";
-      active.images.slice(0, visible).forEach((src, index) => {
+      matches.slice(0, visible).forEach((item, index) => {
+        const src = item.src;
         const card = document.createElement("figure");
         card.className = "gallery-card";
+        const link = document.createElement("a");
+        link.href = src;
+        link.target = "_blank";
+        link.rel = "noopener";
         const image = document.createElement("img");
         image.src = src;
-        image.alt = active.title + " photo " + (index + 1);
+        const label = photoLabel(src, active.title + " photo " + (index + 1));
+        image.alt = label;
         image.loading = "lazy";
         const caption = document.createElement("span");
-        caption.textContent = active.title + " #" + (index + 1);
-        card.append(image, caption);
+        caption.textContent = term ? `${label} · ${item.gallery}` : label;
+        link.appendChild(image);
+        card.append(link, caption);
         grid.appendChild(card);
       });
-      loadMore.style.display = visible >= active.images.length ? "none" : "inline-flex";
+      loadMore.style.display = visible >= matches.length ? "none" : "inline-flex";
     }
 
     loadMore.addEventListener("click", () => {
       visible += 24;
+      render();
+    });
+    search.addEventListener("input", () => {
+      visible = 24;
       render();
     });
 

@@ -1,0 +1,3396 @@
+{
+  "generated_at": "2026-07-11T04:45:09Z",
+  "source": "https://www.shoreac.org/",
+  "source_pages": 560,
+  "local_archive_pages": 560,
+  "runsignup_pages_imported": 10,
+  "runsignup_failures": [
+    {
+      "id": "alumni-xc",
+      "url": "https://runsignup.com/Race/NJ/Holmdel/AlumniXCRun",
+      "error": "404 Client Error: Not Found for url: https://runsignup.com/Race/NJ/Holmdel/AlumniXCRun"
+    }
+  ],
+  "media_planned": 4101,
+  "media_planned_local": 4099,
+  "media_imported": 3994,
+  "media_failed": [],
+  "media_external": [
+    {
+      "url": "https://www.dropbox.com/scl/fi/swgwa1nwp4osbajcynf8f/Big-Bang-Mile-Science-Talks-Lecture-_1-Cosmology_-_From-Dark-Ages-to-Dark-Energy_.mp4?rlkey=goex745eif1thue9ds37mknly&e=1&st=w68qn2lj&dl=0",
+      "size": 2491692375,
+      "reason": "Hosted on Dropbox because the 2.49 GB source exceeds GitHub's 100 MB per-file limit."
+    },
+    {
+      "url": "https://www.dropbox.com/scl/fi/i1mf0s2jv5x3vri4pu72b/Big-Bang-Mile-Science-Talks-Lecture-_2_-Nuclear-Fusion_-_The-Fastest-Route-to-Fusion-Energy_.mp4?rlkey=ae34kl267thy5jhptht9igup7&e=2&st=wzkq3ftw&dl=0",
+      "size": 2538082928,
+      "reason": "Hosted on Dropbox because the 2.54 GB source exceeds GitHub's 100 MB per-file limit."
+    }
+  ],
+  "media_deduplicated": 0,
+  "media_bytes": 504893849,
+  "gallery_images": 2539,
+  "gallery_missing_variants": 0,
+  "pages": [
+    {
+      "source_url": "https://www.shoreac.org/1h24-sac-results.html",
+      "local_url": "archive/1h24-sac-results.html",
+      "text_sha256": "e032ee3755ba8673d9a8f8446c2b1926cd73d235bb47b97749a380cc2f105da5",
+      "word_count": 395
+    },
+    {
+      "source_url": "https://www.shoreac.org/1h26-sac-results.html",
+      "local_url": "archive/1h26-sac-results.html",
+      "text_sha256": "ce3880345a62df29e1e251471c4965a96928a6066a28a03e8cc07d237f2a857f",
+      "word_count": 407
+    },
+    {
+      "source_url": "https://www.shoreac.org/2020-boulder-national-results.html",
+      "local_url": "archive/2020-boulder-national-results.html",
+      "text_sha256": "37dfbe9875a6816486c5c9e448b4d4e5583f61a44c68c24ba333207fb106fe35",
+      "word_count": 762
+    },
+    {
+      "source_url": "https://www.shoreac.org/2020-sac-ldr-results.html",
+      "local_url": "archive/2020-sac-ldr-results.html",
+      "text_sha256": "d48786e02df1491ab21338ea519e44c09e155aa005dc289e2c333a75c8fd0a26",
+      "word_count": 86
+    },
+    {
+      "source_url": "https://www.shoreac.org/2020-vboulder-july-4-sac-results.html",
+      "local_url": "archive/2020-vboulder-july-4-sac-results.html",
+      "text_sha256": "08f9209cc12b2a4097f3ae5acb9da9cfc5403f0b038ce5efa24ec08b49f79530",
+      "word_count": 805
+    },
+    {
+      "source_url": "https://www.shoreac.org/2020-vboulder-labor-day-results.html",
+      "local_url": "archive/2020-vboulder-labor-day-results.html",
+      "text_sha256": "d3e0c65ef348679a0ac66169d6822d4cd7e86b7268a7afa77a737ee3142c229f",
+      "word_count": 1297
+    },
+    {
+      "source_url": "https://www.shoreac.org/2020-vlager-5k-probables-men.html",
+      "local_url": "archive/2020-vlager-5k-probables-men.html",
+      "text_sha256": "c81cc3a8ff576d9671c7b89b6c18795678cd6b3ed30f044599f81a65b9da4a9d",
+      "word_count": 99
+    },
+    {
+      "source_url": "https://www.shoreac.org/2020-vlager-5k-probables-women.html",
+      "local_url": "archive/2020-vlager-5k-probables-women.html",
+      "text_sha256": "53c08a41d84a6dc92afcd2f7239570c674fd8a1752924fda934f93bf48060306",
+      "word_count": 80
+    },
+    {
+      "source_url": "https://www.shoreac.org/2021-asbury-5k-results.html",
+      "local_url": "archive/2021-asbury-5k-results.html",
+      "text_sha256": "68d30ad8708da429c0dadaf89400d111f5202b126470985cdf7216553fbadfe0",
+      "word_count": 1491
+    },
+    {
+      "source_url": "https://www.shoreac.org/2021-ashenfelter-8k-sac-probables-men.html",
+      "local_url": "archive/2021-ashenfelter-8k-sac-probables-men.html",
+      "text_sha256": "20ff0395d14a1b7b61512ecf2e2b988f4b69b51a9da806fcdc2f6ac934579d7a",
+      "word_count": 108
+    },
+    {
+      "source_url": "https://www.shoreac.org/2021-ashenfelter-8k-sac-probables-women.html",
+      "local_url": "archive/2021-ashenfelter-8k-sac-probables-women.html",
+      "text_sha256": "b4231ac7ccc33be346bc6ac315e43b868f526fdef3dff8c6bc2d501695f8d873",
+      "word_count": 81
+    },
+    {
+      "source_url": "https://www.shoreac.org/2021-ashenfelter-8k-sac-results.html",
+      "local_url": "archive/2021-ashenfelter-8k-sac-results.html",
+      "text_sha256": "9b590d088e1c14ca94db44392cfcdcc2a521b3220895d4220bd73a08679c03d0",
+      "word_count": 2559
+    },
+    {
+      "source_url": "https://www.shoreac.org/2021-big-bang-mile-results.html",
+      "local_url": "archive/2021-big-bang-mile-results.html",
+      "text_sha256": "12853313a30be8f788ee281a4ce40845cd9004ebd68d786de38341823b7b43bd",
+      "word_count": 2177
+    },
+    {
+      "source_url": "https://www.shoreac.org/2021-giralda-10k-sac-results.html",
+      "local_url": "archive/2021-giralda-10k-sac-results.html",
+      "text_sha256": "38df29802e7fa9d06d7768851ff554ba2a376d08e891ca951501ca4961ff8d38",
+      "word_count": 2715
+    },
+    {
+      "source_url": "https://www.shoreac.org/2021-halloween-hm-sac-results.html",
+      "local_url": "archive/2021-halloween-hm-sac-results.html",
+      "text_sha256": "26cf1cc707eae63e5ddcc28e2463ea3542e79e059e3c19caeb1f0c44d02bb6b4",
+      "word_count": 1612
+    },
+    {
+      "source_url": "https://www.shoreac.org/2021-hook-12k-race-results.html",
+      "local_url": "archive/2021-hook-12k-race-results.html",
+      "text_sha256": "0988744a8b19250a2ca2e1dd3f647f09ddc45a0c325d9800f5e2248ab4a32435",
+      "word_count": 1084
+    },
+    {
+      "source_url": "https://www.shoreac.org/2021-lager-5k-race-report.html",
+      "local_url": "archive/2021-lager-5k-race-report.html",
+      "text_sha256": "a4f6ff3fcd232b282fbf0a05f78362b1bdfdbe5d743d8cc89d06929079a8bd3a",
+      "word_count": 1363
+    },
+    {
+      "source_url": "https://www.shoreac.org/2021-little-silver-5k-results.html",
+      "local_url": "archive/2021-little-silver-5k-results.html",
+      "text_sha256": "69bfa917220cd9b42d1b12ef81528bf37875a6bb3980e5dffb2a3925c655530b",
+      "word_count": 860
+    },
+    {
+      "source_url": "https://www.shoreac.org/2021-sac-ldr-results.html",
+      "local_url": "archive/2021-sac-ldr-results.html",
+      "text_sha256": "b9b49514506a8e9cf2c37142a0b6df0dadfc0f1bc12f39c82ec6d2f63f7a86ab",
+      "word_count": 210
+    },
+    {
+      "source_url": "https://www.shoreac.org/2021-usatf-5k-xc-results.html",
+      "local_url": "archive/2021-usatf-5k-xc-results.html",
+      "text_sha256": "659646de6e045941c3a9e1b938e891a2e55bb365f15ccfee643e65b5c3e84579",
+      "word_count": 1399
+    },
+    {
+      "source_url": "https://www.shoreac.org/2021-usatf-club-xc-probables-men.html",
+      "local_url": "archive/2021-usatf-club-xc-probables-men.html",
+      "text_sha256": "033f3ba736e2546c5c7b329f7d1c48c7828963f18e73ea29ba13cb253f5fbd50",
+      "word_count": 88
+    },
+    {
+      "source_url": "https://www.shoreac.org/2021-usatf-club-xc-probables-women.html",
+      "local_url": "archive/2021-usatf-club-xc-probables-women.html",
+      "text_sha256": "0e843635b49cfe29b0af4122bb9348fb2ed3f27a3f9fb4c17c5dcfa3681b9092",
+      "word_count": 60
+    },
+    {
+      "source_url": "https://www.shoreac.org/2021-usatf-club-xc-sac-results.html",
+      "local_url": "archive/2021-usatf-club-xc-sac-results.html",
+      "text_sha256": "3cc096a7386b208f332e175574b9cfee1cfb1c3f9440ec033cda481f432cef00",
+      "word_count": 2415
+    },
+    {
+      "source_url": "https://www.shoreac.org/2021-xc-series-big-brook-oct-16th.html",
+      "local_url": "archive/2021-xc-series-big-brook-oct-16th.html",
+      "text_sha256": "1b8627b29cf65aa4d5f5f5f1acb7b57b5e7c695eac92250f6bb4acc7926b45fc",
+      "word_count": 995
+    },
+    {
+      "source_url": "https://www.shoreac.org/2021-xc-series-holmdel-ii-oct-30th.html",
+      "local_url": "archive/2021-xc-series-holmdel-ii-oct-30th.html",
+      "text_sha256": "888220af127ce6df002ac9130d756580a7d09a13757a4be71f4a75fa43b5e66c",
+      "word_count": 1067
+    },
+    {
+      "source_url": "https://www.shoreac.org/2021-xc-series-holmdel-sept-25th.html",
+      "local_url": "archive/2021-xc-series-holmdel-sept-25th.html",
+      "text_sha256": "c7675ac08b41f06908a64c0e6f31395e3fec8706c5381a200c80ef5f91c01975",
+      "word_count": 1240
+    },
+    {
+      "source_url": "https://www.shoreac.org/2021-xc-series-tatum-oct-9th.html",
+      "local_url": "archive/2021-xc-series-tatum-oct-9th.html",
+      "text_sha256": "83596162a4c43f092e86baa0d8965f09de98b8f5a78b37a94746ad3a22e0cb9a",
+      "word_count": 1093
+    },
+    {
+      "source_url": "https://www.shoreac.org/2021-xc-series-thompson-oct-2nd.html",
+      "local_url": "archive/2021-xc-series-thompson-oct-2nd.html",
+      "text_sha256": "95e5af19a8711907ecd57177fb909c5b5c9576988e6dd66e793179c2e5b499f6",
+      "word_count": 1056
+    },
+    {
+      "source_url": "https://www.shoreac.org/2021-xc-series-wolf-hill-oct-23rd.html",
+      "local_url": "archive/2021-xc-series-wolf-hill-oct-23rd.html",
+      "text_sha256": "c93f28abf3dc1ed47033580a8c7be27f7e10ad623e477360c76067ba9193a9c4",
+      "word_count": 958
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-asbury-park-5k-sac-team-results.html",
+      "local_url": "archive/2022-asbury-park-5k-sac-team-results.html",
+      "text_sha256": "0d2d8600e21db2a305f1cb1b199635a85b6a0913dc783ed7fa471a3edf95d68c",
+      "word_count": 1119
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-ashenfelter-8k-sac-probables-men.html",
+      "local_url": "archive/2022-ashenfelter-8k-sac-probables-men.html",
+      "text_sha256": "8618bfc8a14050e2a7fbb138fa267ce79a1163e7ad450094806d4a1362127a58",
+      "word_count": 130
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-ashenfelter-8k-sac-probables-women.html",
+      "local_url": "archive/2022-ashenfelter-8k-sac-probables-women.html",
+      "text_sha256": "ad9ab216683ff0ef349928098ea37616c761f8c01feba16a0f198e0e64d20623",
+      "word_count": 73
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-ashenfelter-8k-sac-results.html",
+      "local_url": "archive/2022-ashenfelter-8k-sac-results.html",
+      "text_sha256": "db61c38c0962c93a0cea0d43d22bc316df1ffcd614d6ec09f398fa2e7798d1e0",
+      "word_count": 1133
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-big-bang-mile-sac-results.html",
+      "local_url": "archive/2022-big-bang-mile-sac-results.html",
+      "text_sha256": "d67a986d1985ce87bdbed49fc54ed2f9266236590b130eb67cb684f6b68af450",
+      "word_count": 3111
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-cherry-blossom-sac-results.html",
+      "local_url": "archive/2022-cherry-blossom-sac-results.html",
+      "text_sha256": "2bd49e90b5ef51b0291817834fba1fe6dcfd41532c5e6abee43420d060d219d7",
+      "word_count": 1805
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-club-xc-sac-results.html",
+      "local_url": "archive/2022-club-xc-sac-results.html",
+      "text_sha256": "daba6661cf9c431f70a0528c08073b4ead46beaf3a643e48b3568fd6e460863d",
+      "word_count": 1527
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-gs-xc-race-sac-results.html",
+      "local_url": "archive/2022-gs-xc-race-sac-results.html",
+      "text_sha256": "b257687d683dc2929c8a43873c0c1d6f1dd5bd1bd6b746f5407a72c750c753a7",
+      "word_count": 612
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-gs-xc-sac-probables-men.html",
+      "local_url": "archive/2022-gs-xc-sac-probables-men.html",
+      "text_sha256": "08226562976ffb1ac218b83a8ce82e7d1bdccd43da35dbfc60a773a631ee8306",
+      "word_count": 85
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-gs-xc-sac-probables-women.html",
+      "local_url": "archive/2022-gs-xc-sac-probables-women.html",
+      "text_sha256": "27555b923a1fda6f1db8596d0f5ec8c866d617ad0905b918524cd258a5497a61",
+      "word_count": 74
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-harrington-5k-sac-probables-men.html",
+      "local_url": "archive/2022-harrington-5k-sac-probables-men.html",
+      "text_sha256": "324e9edf07d91e3b9191b86d428871ef31f5d103d43e65058510ff6edbc98689",
+      "word_count": 68
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-harrington-park-5k-sac-results.html",
+      "local_url": "archive/2022-harrington-park-5k-sac-results.html",
+      "text_sha256": "54bc62e8ab85b14da94a588a0c854ef6dd9cb7f9c990a54220247bf0673bdcfe",
+      "word_count": 835
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-hook-crook-12k-sac-probables-men.html",
+      "local_url": "archive/2022-hook-crook-12k-sac-probables-men.html",
+      "text_sha256": "e92587b22218acee08e0531ccf651252db510e8d83f14be6912e77d13da7e0eb",
+      "word_count": 177
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-hook-crook-12k-sac-probables-women.html",
+      "local_url": "archive/2022-hook-crook-12k-sac-probables-women.html",
+      "text_sha256": "7f27023edecbe32cd0b2741ec1ce693eba443096c5e56f6aa3bdcc26ae9de9aa",
+      "word_count": 106
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-lager-5k-sac-results.html",
+      "local_url": "archive/2022-lager-5k-sac-results.html",
+      "text_sha256": "ba6b52364a80e96ae4704d998590c6548984fb75aa3a4f13af6f7b97d4cb2063",
+      "word_count": 1127
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-little-silver-5k-sac-results.html",
+      "local_url": "archive/2022-little-silver-5k-sac-results.html",
+      "text_sha256": "1ef889e58fb37e8700a9d9440da747dbbe2aa940664bdae78cc6d70b3a9dc338",
+      "word_count": 942
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-red-bank-5k-sac-results.html",
+      "local_url": "archive/2022-red-bank-5k-sac-results.html",
+      "text_sha256": "55d9cbe471f6755df01055629df2c01f10ebfcbba4ac7251804b2da7381080ff",
+      "word_count": 1292
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-sac-ldr-results.html",
+      "local_url": "archive/2022-sac-ldr-results.html",
+      "text_sha256": "e969e6331ea35be0ee56c99bc6e9c947ae8517251163326fdfe261b2179126e8",
+      "word_count": 2170
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-spring-15k-sac-results.html",
+      "local_url": "archive/2022-spring-15k-sac-results.html",
+      "text_sha256": "e082f8349d7e6dc73eea7dfc72c4da6e639fbc41051e86d171b42f27b04c3025",
+      "word_count": 1322
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-steeplechase-10k-sac-results.html",
+      "local_url": "archive/2022-steeplechase-10k-sac-results.html",
+      "text_sha256": "3498a27d8f81437e137bc2dff4cafe0b47f03b9ec1142aea267cdcfb2387058c",
+      "word_count": 1552
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-superhero-hm-sac-results.html",
+      "local_url": "archive/2022-superhero-hm-sac-results.html",
+      "text_sha256": "efd9787345a60c7ebdffaf5593dba5dd878ded0cd5478647523e144d12d4fd02",
+      "word_count": 2048
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-usatf-12k-hook-or-crook-sac-results.html",
+      "local_url": "archive/2022-usatf-12k-hook-or-crook-sac-results.html",
+      "text_sha256": "f75d3beb71c8de5e1ce692e1b578e623311b97514648e7006f1359d997adf638",
+      "word_count": 1357
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-usatf-5k-atlanta-sac-results.html",
+      "local_url": "archive/2022-usatf-5k-atlanta-sac-results.html",
+      "text_sha256": "9f490309a9c814c473e58fc8bcc4c1b25fe5b6ba21c4a6d8e385e2c9ddc2bf63",
+      "word_count": 925
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-usatf-5k-xc-sac-probables-men.html",
+      "local_url": "archive/2022-usatf-5k-xc-sac-probables-men.html",
+      "text_sha256": "b299258beca4b9e855929ae3d3f928f7f5c037e70782d8dc5ecf14a94c79b4d4",
+      "word_count": 50
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-usatf-5k-xc-sac-probables-women.html",
+      "local_url": "archive/2022-usatf-5k-xc-sac-probables-women.html",
+      "text_sha256": "888f36ec1a689c7d91276031d24fbadd3efb733d798cbc84559b05499deeafeb",
+      "word_count": 41
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-usatf-5k-xc-shore-ac-results.html",
+      "local_url": "archive/2022-usatf-5k-xc-shore-ac-results.html",
+      "text_sha256": "ca27497dd602e83eeac8fe3bb0541cae13a30c81c2916d6ae51ceb1d50db9681",
+      "word_count": 1076
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-usatf-club-xc-sac-probables-men.html",
+      "local_url": "archive/2022-usatf-club-xc-sac-probables-men.html",
+      "text_sha256": "9822401d761ddaf5fef082b2fc85f8f095da17289e2d8454761bff8bb9f82498",
+      "word_count": 76
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-usatf-club-xc-sac-probables-women.html",
+      "local_url": "archive/2022-usatf-club-xc-sac-probables-women.html",
+      "text_sha256": "c92ef04c279d79f10bfc0e75d50df0fb88de3aec6a8f253d16970d31dc009d81",
+      "word_count": 53
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-usatf-james-joyce-10k-sac-results.html",
+      "local_url": "archive/2022-usatf-james-joyce-10k-sac-results.html",
+      "text_sha256": "4b6afae86dc369c201310a8d15f4f5801febe6323d61f64991fc7dfa12b19ca5",
+      "word_count": 1903
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-usatf-nj-5k-xc-sac-results.html",
+      "local_url": "archive/2022-usatf-nj-5k-xc-sac-results.html",
+      "text_sha256": "4a1efb517bd7cf21546b56fa1c7bf37d343fdc6ca34267990d8e1aad8cb8ea3c",
+      "word_count": 1610
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-usatf-rochester-mile-sac-results.html",
+      "local_url": "archive/2022-usatf-rochester-mile-sac-results.html",
+      "text_sha256": "0d51a5142edbe1a7984b7bc08c63d33c398cdb50dbdd21f48e26aca1c9d8ff4c",
+      "word_count": 1726
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-usatf-syracuse-hm-shore-ac-results.html",
+      "local_url": "archive/2022-usatf-syracuse-hm-shore-ac-results.html",
+      "text_sha256": "0e5cae5ee3d5704b9ad1922b05f1fafdd3be7dcc32db858832c33430f216e6e1",
+      "word_count": 1227
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-xc-series-big-brook-oct-1st.html",
+      "local_url": "archive/2022-xc-series-big-brook-oct-1st.html",
+      "text_sha256": "273902f7ff3af6b324fa45c93d4728f362a2d32c2c16346138f9c898bbdb8548",
+      "word_count": 573
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-xc-series-holmdel-park-oct-15th.html",
+      "local_url": "archive/2022-xc-series-holmdel-park-oct-15th.html",
+      "text_sha256": "c8d40ff9eb6b720630e0690fb5e00bb5a5dad07d790a64b76579ae27b6c7cf8e",
+      "word_count": 916
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-xc-series-huber-woods-nov-6th.html",
+      "local_url": "archive/2022-xc-series-huber-woods-nov-6th.html",
+      "text_sha256": "6d197e6ede5e7a1ed1c5b03fb8caeab802d15e65d69a970c985086f0f7800a8a",
+      "word_count": 871
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-xc-series-tatum-park-oct-29th.html",
+      "local_url": "archive/2022-xc-series-tatum-park-oct-29th.html",
+      "text_sha256": "19455b7a6e3cdd8c31586595985e2b7160d0442958f98dbd39360549a3e504cc",
+      "word_count": 860
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-xc-series-thompson-park-oct-22nd.html",
+      "local_url": "archive/2022-xc-series-thompson-park-oct-22nd.html",
+      "text_sha256": "60a418a5104585ca30c11162327192358a3f3010e591dfe71063a5022dd53f16",
+      "word_count": 895
+    },
+    {
+      "source_url": "https://www.shoreac.org/2022-xc-series-wolf-hill-oct-8th.html",
+      "local_url": "archive/2022-xc-series-wolf-hill-oct-8th.html",
+      "text_sha256": "b80582f60967e007fcae24e4075c2b727ddc930c359ab885115e4a9ec902d662",
+      "word_count": 798
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-ashenfelter-8k-sac-results.html",
+      "local_url": "archive/2023-ashenfelter-8k-sac-results.html",
+      "text_sha256": "50c638d2f5c14f5a8882c990f49805a0920929f7447cbc8fa667e791251ffd19",
+      "word_count": 2884
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-big-bang-mile-sac-results.html",
+      "local_url": "archive/2023-big-bang-mile-sac-results.html",
+      "text_sha256": "41c19d30d175e8afded19f528b9630111e6133d612c7e0784cc53025b3ac99bb",
+      "word_count": 3555
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-cherry-blossom-10k-sac-results.html",
+      "local_url": "archive/2023-cherry-blossom-10k-sac-results.html",
+      "text_sha256": "16898bea8eb1d6383959c242cbda4720c70e4988ccc1cdcb0e2dbeb903718713",
+      "word_count": 486
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-clinton-15k-sac-results.html",
+      "local_url": "archive/2023-clinton-15k-sac-results.html",
+      "text_sha256": "f8dcf3bb1a7f52f13061cbca6a4816ec5d691fa7fdf6bd4c705c4fcc25431c1d",
+      "word_count": 179
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-e-brunswick-12k-sac-results.html",
+      "local_url": "archive/2023-e-brunswick-12k-sac-results.html",
+      "text_sha256": "5209ca3ad38dd3a20e1fc56937d1dc1d8c7fe100d872aa434aa926e7ac5a2218",
+      "word_count": 225
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-f40.html",
+      "local_url": "archive/2023-f40.html",
+      "text_sha256": "87a8c06c41f639bf4fb5eb280559c9873de7fccd6b865bd13afd386e9ec74275",
+      "word_count": 184
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-f50.html",
+      "local_url": "archive/2023-f50.html",
+      "text_sha256": "270dbceb1e5051544ccac9790ea96fcace1796e10f5d7a92c16029fc01de04a1",
+      "word_count": 166
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-f60.html",
+      "local_url": "archive/2023-f60.html",
+      "text_sha256": "6f61dcf498aa78573b06ba9cc2c4d25435e382fb350c9882331b9c4ab62d398d",
+      "word_count": 177
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-f70.html",
+      "local_url": "archive/2023-f70.html",
+      "text_sha256": "9e172ee156d736150a1b7b922074ce86cef1533795907b237e54c203c7751c46",
+      "word_count": 57
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-giralda-10k-sac-results.html",
+      "local_url": "archive/2023-giralda-10k-sac-results.html",
+      "text_sha256": "260a3d7c9d5d05a8ed4ce66b128595195b3f3dfb2f204f26cb8607bcebf1e402",
+      "word_count": 348
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-haworth5k-sac-results.html",
+      "local_url": "archive/2023-haworth5k-sac-results.html",
+      "text_sha256": "aa00cd60be799486a8019f72fd015e41a80825a63c070a4e001eb138407981ca",
+      "word_count": 1138
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-hook-12k-sac-results.html",
+      "local_url": "archive/2023-hook-12k-sac-results.html",
+      "text_sha256": "628ca88b5855ba2d774f21e1e89e4cf44aab8734d18bd1615767c5c00ddeab3c",
+      "word_count": 3596
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-lager-5k-sac-results.html",
+      "local_url": "archive/2023-lager-5k-sac-results.html",
+      "text_sha256": "c97fbdbf6c952dde79175a0666fe0c5062573cf04593be114e37efbaa8a7dcc4",
+      "word_count": 812
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-m40.html",
+      "local_url": "archive/2023-m40.html",
+      "text_sha256": "cc98f208d94338f8fe5bc377ac102064764376ce6aaf19624e4ba479ecd9aa82",
+      "word_count": 317
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-m50.html",
+      "local_url": "archive/2023-m50.html",
+      "text_sha256": "ec27be250b321f7002d659f89b2b7f1b98d2c0be9cb025e304a8b522f631b5e9",
+      "word_count": 439
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-m60.html",
+      "local_url": "archive/2023-m60.html",
+      "text_sha256": "63c9e09b13264fcb1f82cfe4c785f160cfcf265471892d97c41be582dbdcbe63",
+      "word_count": 273
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-m70.html",
+      "local_url": "archive/2023-m70.html",
+      "text_sha256": "ad0c483f48a41e6292d897b4003380e9eb5673294f6a17bad7b5574075edd982",
+      "word_count": 187
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-open-men-xc-series.html",
+      "local_url": "archive/2023-open-men-xc-series.html",
+      "text_sha256": "11a1017572ccff037e06516a946f97c6eb94646257413a2ff6fca75a406dde09",
+      "word_count": 1659
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-open-women-xc-series.html",
+      "local_url": "archive/2023-open-women-xc-series.html",
+      "text_sha256": "c7d02ad01fcb4cbe5d92e7280c71dd6b0332a3d9e379a802f1bb43097692110b",
+      "word_count": 797
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-our-house-4m-sac-results.html",
+      "local_url": "archive/2023-our-house-4m-sac-results.html",
+      "text_sha256": "b2e9a5d3b3d4f9e2e9e026c472526c346038c56e1b8077d72731e5ca3e219a5b",
+      "word_count": 2250
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-presidents-cup-5k-sac-results.html",
+      "local_url": "archive/2023-presidents-cup-5k-sac-results.html",
+      "text_sha256": "56f4a73aae960f2e4fd8cd3dc8f207e02be9255ee4ac2c730dd03fa8db17f5f4",
+      "word_count": 287
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-ridgewood-10k-sac-results.html",
+      "local_url": "archive/2023-ridgewood-10k-sac-results.html",
+      "text_sha256": "ccebc6942700c48fe004e36b5104e8897564948fce0b023c49c99d3a883b1167",
+      "word_count": 1921
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-roemer-10k-sac-results.html",
+      "local_url": "archive/2023-roemer-10k-sac-results.html",
+      "text_sha256": "5c2b936a9f26f20b38f54b92d49d4edca06f84d8a450558fc64414eb497afb40",
+      "word_count": 1255
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-sac-ldr-results.html",
+      "local_url": "archive/2023-sac-ldr-results.html",
+      "text_sha256": "1fe03c27838cde3f455b9e69628469758ddf428c2213c9bde514ce6b8ad2993e",
+      "word_count": 2518
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-spring-15k-sac-results.html",
+      "local_url": "archive/2023-spring-15k-sac-results.html",
+      "text_sha256": "01a6cb52a57da571b3e0d4368932e8b68ee1732dbc41bf5f3db75d959d792439",
+      "word_count": 3015
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-three-bridges-5m-sac-results.html",
+      "local_url": "archive/2023-three-bridges-5m-sac-results.html",
+      "text_sha256": "9fa13a8a0a93aeefff39af8cdeceedf7211cde90bf0c7ad68ec6a3535e35f770",
+      "word_count": 444
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-usatf-10k-ramble-sac-results.html",
+      "local_url": "archive/2023-usatf-10k-ramble-sac-results.html",
+      "text_sha256": "ac0a6f2f0ac0c66945602799bd230a8e294eb49dc6ccf96842bd7d58845bf674",
+      "word_count": 1461
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-usatf-1m-indianapolis-sac-results.html",
+      "local_url": "archive/2023-usatf-1m-indianapolis-sac-results.html",
+      "text_sha256": "e24aef7d5897d3cb6975096e69711425b4b4b96b3d1603fbb3057371a1ec2ac5",
+      "word_count": 1573
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-usatf-5k-atlanta-sac-results.html",
+      "local_url": "archive/2023-usatf-5k-atlanta-sac-results.html",
+      "text_sha256": "96d7864a8eb56dc8e74b99ec3b20e31f2ed3ad30f2992eaf41422371327fbf48",
+      "word_count": 1282
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-usatf-5k-xc-boca-sac-results.html",
+      "local_url": "archive/2023-usatf-5k-xc-boca-sac-results.html",
+      "text_sha256": "f14f458f4d605e6d05a233af27c8c67e534e886db439c96b15818e0464678b4b",
+      "word_count": 1983
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-usatf-club-xc-sac-results.html",
+      "local_url": "archive/2023-usatf-club-xc-sac-results.html",
+      "text_sha256": "83e9f86d3e599d71637d89bb46d5f6906428aba787039e2d851dd7d97b1934fa",
+      "word_count": 2484
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-usatf-hm-syracuse-sac-race-report.html",
+      "local_url": "archive/2023-usatf-hm-syracuse-sac-race-report.html",
+      "text_sha256": "c7e36c0543093bb999045260a3bce2440cc75b9effbf9072e1399734e0ca689c",
+      "word_count": 1132
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-usatf-nj-5k-xc-sac-results.html",
+      "local_url": "archive/2023-usatf-nj-5k-xc-sac-results.html",
+      "text_sha256": "f991f24f36a1c75591c9700bc1815c5d97eb84d153b74ec7d131da50500b82e4",
+      "word_count": 2177
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-usatf-nj-8k-xc-sac-results.html",
+      "local_url": "archive/2023-usatf-nj-8k-xc-sac-results.html",
+      "text_sha256": "56e06ea686a236d2e85cc15f4aaed291d5ba00fc9b345115a95efbbb3b511d60",
+      "word_count": 2130
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-usatf-xc-richmond-sac-results.html",
+      "local_url": "archive/2023-usatf-xc-richmond-sac-results.html",
+      "text_sha256": "99fbe57d5e87df6dbebad3772141a65ebc115b26431cfd91697e94ea97b900b2",
+      "word_count": 1754
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-xc-series-big-brook-sep-30th.html",
+      "local_url": "archive/2023-xc-series-big-brook-sep-30th.html",
+      "text_sha256": "31c56864955125b21865e93792e65d5280ba7790a0321dda611fdbff8c359692",
+      "word_count": 786
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-xc-series-holmdel-park-oct-14th.html",
+      "local_url": "archive/2023-xc-series-holmdel-park-oct-14th.html",
+      "text_sha256": "248226bb605f80d354a2fa51a6d1f07ef31af280e178e3b0bc0b0dd53163988d",
+      "word_count": 1064
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-xc-series-huber-woods-park-nov-4th.html",
+      "local_url": "archive/2023-xc-series-huber-woods-park-nov-4th.html",
+      "text_sha256": "b34d108c219c64c1e317d5da309ce8dcae73f0eaf5cd2eaeed005472238f90d0",
+      "word_count": 635
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-xc-series-tatum-park-oct-21st.html",
+      "local_url": "archive/2023-xc-series-tatum-park-oct-21st.html",
+      "text_sha256": "83cc73cacdaef7b7b63d42e5868d17739811799843e0f1a7d0dc6aa92c7d1436",
+      "word_count": 825
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-xc-series-thompson-park-oct-28th.html",
+      "local_url": "archive/2023-xc-series-thompson-park-oct-28th.html",
+      "text_sha256": "2ee6903833788f8310d8b8352061ab1df3ac09c349ea3e483ae967f50ddc01d7",
+      "word_count": 922
+    },
+    {
+      "source_url": "https://www.shoreac.org/2023-xc-series-wolf-hill-park-oct-7th.html",
+      "local_url": "archive/2023-xc-series-wolf-hill-park-oct-7th.html",
+      "text_sha256": "db65c9aed9b0ae9dfed8f753a482b77cb1d5ed4da2b6b70b2e0dffb887fd5a36",
+      "word_count": 674
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-all-school-5k-sac-results.html",
+      "local_url": "archive/2024-all-school-5k-sac-results.html",
+      "text_sha256": "dfdc63078ab51fdc7b48b2451a4cab2b11f41eaba7d49edb3741d9ce0e56a08b",
+      "word_count": 898
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-ashenfelter-8k-sac-results.html",
+      "local_url": "archive/2024-ashenfelter-8k-sac-results.html",
+      "text_sha256": "f20e470869a80116710280d94fc00cd1bfc67baf6d42bf0b09dd9ad93f61ecc5",
+      "word_count": 2861
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-big-bang-mile-sac-results.html",
+      "local_url": "archive/2024-big-bang-mile-sac-results.html",
+      "text_sha256": "d426618b2ff98019024200c3e97bf15c6006e58849ba20287dec37b4eba3ed2f",
+      "word_count": 2206
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-cherry-blossom-10k-sac-probables-men.html",
+      "local_url": "archive/2024-cherry-blossom-10k-sac-probables-men.html",
+      "text_sha256": "fa2f62f41740f900a79a4d5a011634bd6d566145f747534b2ecd09b48279a8b4",
+      "word_count": 59
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-cherry-blossom-10k-sac-probables-women.html",
+      "local_url": "archive/2024-cherry-blossom-10k-sac-probables-women.html",
+      "text_sha256": "ae4b7d186cae18e28fc092b4f9780b3ce203a6a6ac3fd6dc86d0d6a2a5a3e90d",
+      "word_count": 49
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-cherry-blossom-10k-sac-results.html",
+      "local_url": "archive/2024-cherry-blossom-10k-sac-results.html",
+      "text_sha256": "e0601925961d4f20711396d2efcd5cb8098b5746d522d60081e8a7567ecd25fd",
+      "word_count": 1207
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-giralda-farms-10k-sac-results.html",
+      "local_url": "archive/2024-giralda-farms-10k-sac-results.html",
+      "text_sha256": "e609eeab98867ec82e18fb1ac227ec390dfb5b64040cbe7508a7d8db31886f4f",
+      "word_count": 1406
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-haworth-5k-sac-results.html",
+      "local_url": "archive/2024-haworth-5k-sac-results.html",
+      "text_sha256": "535f141abccee1a7b180b13ad806b002bf0e786c3ea97b9262b089b4dd9b1712",
+      "word_count": 1427
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-hookcrook-12k-sac-results.html",
+      "local_url": "archive/2024-hookcrook-12k-sac-results.html",
+      "text_sha256": "ec306fba186dbfa663c36b6a35a2340348f68c51a65467e3ce62f7c1bd9a27ba",
+      "word_count": 2868
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-lager-5k-sac-results.html",
+      "local_url": "archive/2024-lager-5k-sac-results.html",
+      "text_sha256": "012b306276d03c0ac90f3ece229a8917138d7f1c77051074b0c48834a4539c05",
+      "word_count": 2606
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-last-chance-8k-xc-sac-results.html",
+      "local_url": "archive/2024-last-chance-8k-xc-sac-results.html",
+      "text_sha256": "569f9a4746025347353c93e7374b8a7032b946a53dbe472e5a0f65b915866ec5",
+      "word_count": 2623
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-mile-by-impact-zone-sac-results.html",
+      "local_url": "archive/2024-mile-by-impact-zone-sac-results.html",
+      "text_sha256": "b2eb68626877786e6ffc7dff5fb209ac3e64beb1fa19b22ae9bf0f186cf435f3",
+      "word_count": 1801
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-our-house-4m-sac-results.html",
+      "local_url": "archive/2024-our-house-4m-sac-results.html",
+      "text_sha256": "2f4de648d8683ea0f585ed0e056e16168d77fd221aa2a911d9ea3e20d740c7ee",
+      "word_count": 2393
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-ridgewood-10k-sac-results.html",
+      "local_url": "archive/2024-ridgewood-10k-sac-results.html",
+      "text_sha256": "205fc8cfcce6fc9fab8fd4ec5caabf1801b8f4d4a2bb8b4a1ac464118e24c648",
+      "word_count": 1383
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-sac-ldr-results.html",
+      "local_url": "archive/2024-sac-ldr-results.html",
+      "text_sha256": "a9b28358255e09973ec491b665dbf17150247ca014ee343ca3186a25c525e66e",
+      "word_count": 2651
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-spring-15k-sac-probables-men.html",
+      "local_url": "archive/2024-spring-15k-sac-probables-men.html",
+      "text_sha256": "fd3bbaff44a7f4e31dcc27426dc0a85ebf23e0c87870e9dec262438fd42786d2",
+      "word_count": 236
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-spring-15k-sac-probables-women.html",
+      "local_url": "archive/2024-spring-15k-sac-probables-women.html",
+      "text_sha256": "daba08504733b48bc18daaf82a6aa85dc38071759e29b208a192fc5a87636bd9",
+      "word_count": 160
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-spring-15k-sac-results.html",
+      "local_url": "archive/2024-spring-15k-sac-results.html",
+      "text_sha256": "611a5b99eb46b4c24ce090ed0a33ecbf775bede5438fa03e49ff414ed5e8b4c8",
+      "word_count": 1956
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-steeplechase-10k-sac-results.html",
+      "local_url": "archive/2024-steeplechase-10k-sac-results.html",
+      "text_sha256": "275e3b915014dac01815eb00f46279ec6e4f765cbbdba503df657ab65d6e1830",
+      "word_count": 1483
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-sunset-5m-sac-results.html",
+      "local_url": "archive/2024-sunset-5m-sac-results.html",
+      "text_sha256": "728891c5346b9fbdba23e41a9a8adb99cc5333265fe6cc178f09e5ccda3254eb",
+      "word_count": 401
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-team-xc-series-champ-scoring.html",
+      "local_url": "archive/2024-team-xc-series-champ-scoring.html",
+      "text_sha256": "de823a453c9ffb6fb41502266137436fdb81e8e729cbab5b2b06830214a15adf",
+      "word_count": 173
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-terri-roemer-10k-sac-results.html",
+      "local_url": "archive/2024-terri-roemer-10k-sac-results.html",
+      "text_sha256": "86f4d56ba7841d0485e382298c04cac2a99617fdfc1192bdc106066b794f67fe",
+      "word_count": 827
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-usatf-10-mile-sac-results.html",
+      "local_url": "archive/2024-usatf-10-mile-sac-results.html",
+      "text_sha256": "bdd5fb835fd09004282c6ca324e97b82759331ad3b1341baf07822193a188a39",
+      "word_count": 1678
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-usatf-10k-dedham-sac-results.html",
+      "local_url": "archive/2024-usatf-10k-dedham-sac-results.html",
+      "text_sha256": "3df4bd8268f36781732c97dfbb0491872048d0ab0683f103d86dcbce693462e6",
+      "word_count": 1697
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-usatf-5k-atlanta-sac-results.html",
+      "local_url": "archive/2024-usatf-5k-atlanta-sac-results.html",
+      "text_sha256": "a9b6847dd649063039ffb606bc416d781a2d8156ea872fc5c49cccd10c917237",
+      "word_count": 1723
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-usatf-5k-xc-sac-results.html",
+      "local_url": "archive/2024-usatf-5k-xc-sac-results.html",
+      "text_sha256": "78a04e464c32c64577d660975bb90e16747e1fe9ce80a14ffa95d6b9d36a082d",
+      "word_count": 1929
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-usatf-club-xc-sac-results.html",
+      "local_url": "archive/2024-usatf-club-xc-sac-results.html",
+      "text_sha256": "4d8c505cd4d02d9a4ecadf16ca40eb9dc4b1b23c2432af6336baa26660fa2131",
+      "word_count": 2455
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-usatf-indy-hm-sac-results.html",
+      "local_url": "archive/2024-usatf-indy-hm-sac-results.html",
+      "text_sha256": "03256dc8531d2dd8947beb6927742c8b003ce794c66dad330b54f93269db02f1",
+      "word_count": 756
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-usatf-nj-5k-xc-sac-results.html",
+      "local_url": "archive/2024-usatf-nj-5k-xc-sac-results.html",
+      "text_sha256": "e0a85a7a38da5867ebc916528d81f4b411697af41b281047c78dc39a4197e808",
+      "word_count": 2321
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-usatf-xc-richmond-sac-results.html",
+      "local_url": "archive/2024-usatf-xc-richmond-sac-results.html",
+      "text_sha256": "a27fac83abc32dabd6795c98532e0a5f847b814a2e34e7530937aa4b0679857e",
+      "word_count": 3176
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-xc-series-big-brook-park-oct-5th.html",
+      "local_url": "archive/2024-xc-series-big-brook-park-oct-5th.html",
+      "text_sha256": "e88cf92c325bf673586fc923f1ca2d7e1f39a1a9627aa9701605698d76b73273",
+      "word_count": 962
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-xc-series-champ-scoring.html",
+      "local_url": "archive/2024-xc-series-champ-scoring.html",
+      "text_sha256": "70a5326a05b2b2287a5c9486bfa651acbfd45241a1ae54897f44e5cab9c3b166",
+      "word_count": 4339
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-xc-series-holmdel-oct-19th.html",
+      "local_url": "archive/2024-xc-series-holmdel-oct-19th.html",
+      "text_sha256": "518238c5407e74365e8c648b2e4b110fe9d84f5c7c2ffece49e1c73e3ec24e1a",
+      "word_count": 1039
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-xc-series-huber-nov-9th.html",
+      "local_url": "archive/2024-xc-series-huber-nov-9th.html",
+      "text_sha256": "07feec5cf11fea76451fdcb41ebb83b842e2507a314bcfb23164e9062230dffd",
+      "word_count": 884
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-xc-series-tatum-park-oct-26th.html",
+      "local_url": "archive/2024-xc-series-tatum-park-oct-26th.html",
+      "text_sha256": "9e4885232fc9d1f7eb3fbde524aa46ada1a06d8502ff83248b3253aad15cd07f",
+      "word_count": 949
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-xc-series-thompson-park-nov-2nd.html",
+      "local_url": "archive/2024-xc-series-thompson-park-nov-2nd.html",
+      "text_sha256": "15ddd9602b19347c3cf05523df2fadc764d174017439618bad781566f5037b18",
+      "word_count": 1017
+    },
+    {
+      "source_url": "https://www.shoreac.org/2024-xc-series-wolf-hill-oct-12th.html",
+      "local_url": "archive/2024-xc-series-wolf-hill-oct-12th.html",
+      "text_sha256": "af19574c1512750c85da4a23d87eeb6935674c43887bce9c50d03a58903fc252",
+      "word_count": 1019
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-ashenfelter-8k-sac-probables-men.html",
+      "local_url": "archive/2025-ashenfelter-8k-sac-probables-men.html",
+      "text_sha256": "b46e7a67c2e144b6a64f7911cb6804ba1d8456b817633e981d4806a8d3a92bd4",
+      "word_count": 169
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-ashenfelter-8k-sac-probables-women.html",
+      "local_url": "archive/2025-ashenfelter-8k-sac-probables-women.html",
+      "text_sha256": "f00117f1f26b24d238df5362d9df334d7f9cf63fe1de782f81af930c498f9c29",
+      "word_count": 105
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-ashenfelter-8k-sac-results.html",
+      "local_url": "archive/2025-ashenfelter-8k-sac-results.html",
+      "text_sha256": "73083986dc3d2423526db5a4fc44e8c6d35224332a8c109f18c963787a3c3c4a",
+      "word_count": 1798
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-big-bang-mile-sac-probables-men.html",
+      "local_url": "archive/2025-big-bang-mile-sac-probables-men.html",
+      "text_sha256": "8a3dbada5b14f21c892dd8418a3a9d3aafcdfb23c878a81aba9efc693dd231e7",
+      "word_count": 187
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-big-bang-mile-sac-probables-women.html",
+      "local_url": "archive/2025-big-bang-mile-sac-probables-women.html",
+      "text_sha256": "679c83aec9c01b637b20cbc682eebc3acabd5c1185dcb9b17c128bbb8afc89d8",
+      "word_count": 127
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-big-bang-mile-sac-results.html",
+      "local_url": "archive/2025-big-bang-mile-sac-results.html",
+      "text_sha256": "c34788d69c90f36dfe3eeee6732d9b1a19ea2987d161f9af62c0d0616f51ed26",
+      "word_count": 2946
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-cherry-blossom-10k-sac-results.html",
+      "local_url": "archive/2025-cherry-blossom-10k-sac-results.html",
+      "text_sha256": "c6ebe9dd3d5f0d4922e5fd4a1c1ff793d542b3cb7ae886b02424e77642803b18",
+      "word_count": 1419
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-garden-state-10-miler-sac-results.html",
+      "local_url": "archive/2025-garden-state-10-miler-sac-results.html",
+      "text_sha256": "ba8ab4791be8ba61e81944a6687e245b8e56ecbf4e6997bd463cb1cc31a39656",
+      "word_count": 2470
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-giralda-farms-10k-sac-probables-men.html",
+      "local_url": "archive/2025-giralda-farms-10k-sac-probables-men.html",
+      "text_sha256": "a297043a8d5bb3cc3590686f959df6f4109fac41e9980c06d71209633e176b1c",
+      "word_count": 84
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-giralda-farms-10k-sac-results.html",
+      "local_url": "archive/2025-giralda-farms-10k-sac-results.html",
+      "text_sha256": "af7a95dabfb67748ee3fab63f530f00c096c2236450f0e7ab7cbd3e2f20cdb10",
+      "word_count": 1501
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-harrington-5k-sac-probables-women.html",
+      "local_url": "archive/2025-harrington-5k-sac-probables-women.html",
+      "text_sha256": "45b48514fea7f3f1d84b74e1903cef85bb6cfe97dc967e45954eb2dbfd0ab8f9",
+      "word_count": 69
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-harrington-park-5k-sac-results.html",
+      "local_url": "archive/2025-harrington-park-5k-sac-results.html",
+      "text_sha256": "0c2fccf81b5c8be7ac18912f796e7c47927fa038f8c7baf55f993da7db5ea18e",
+      "word_count": 630
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-haworth-5k-sac-probables-men.html",
+      "local_url": "archive/2025-haworth-5k-sac-probables-men.html",
+      "text_sha256": "87c7a22ae22cbe5cec9678297b12772b46862c1b5bcfd56c2563eb1a1f0b6cd8",
+      "word_count": 96
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-haworth-5k-sac-results.html",
+      "local_url": "archive/2025-haworth-5k-sac-results.html",
+      "text_sha256": "ca50df561734ed57f8d5405d7504033f244afec55e729a4a2556a872a38a2780",
+      "word_count": 1619
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-lager-5k-sac-probables-women.html",
+      "local_url": "archive/2025-lager-5k-sac-probables-women.html",
+      "text_sha256": "ee0acdf92c8d44bd21287061a055586cc726af659f9b850905c5a0e55da14299",
+      "word_count": 101
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-lager-5k-sac-results.html",
+      "local_url": "archive/2025-lager-5k-sac-results.html",
+      "text_sha256": "5cb60d5d61bc4d4993b5569e9c4e2df05415e1c8852060d4fb5aac6c54737b97",
+      "word_count": 2005
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-lbi-12k-sac-probables-men.html",
+      "local_url": "archive/2025-lbi-12k-sac-probables-men.html",
+      "text_sha256": "ad46f478beafdf1429403a387c02079c33df953933236d09c2a6df74ba61e5e7",
+      "word_count": 58
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-lbi-12k-sac-probables-women.html",
+      "local_url": "archive/2025-lbi-12k-sac-probables-women.html",
+      "text_sha256": "161affc61892ad06238465d7c64acf6892e1e513d561594e19ea011414af70e2",
+      "word_count": 39
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-mile-by-impact-zone-sac-probables-men.html",
+      "local_url": "archive/2025-mile-by-impact-zone-sac-probables-men.html",
+      "text_sha256": "e8e02e74e61ecdad2d08a40aad63142a290c4795d01f3bba45c2ec0320235810",
+      "word_count": 65
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-mile-by-impact-zone-sac-probables-women.html",
+      "local_url": "archive/2025-mile-by-impact-zone-sac-probables-women.html",
+      "text_sha256": "8341c6b088097db139530bbe06bb96bf1d7f2bdf5f5e05cfdbd2ba563a2d075f",
+      "word_count": 52
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-mile-by-impact-zone-sac-results.html",
+      "local_url": "archive/2025-mile-by-impact-zone-sac-results.html",
+      "text_sha256": "e0501ace03ee51dbbee54b11652e1d59b9f9fe7b0ae22389b4ffd804e02b9b0e",
+      "word_count": 1375
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-penguin-pace-5k-sac-results.html",
+      "local_url": "archive/2025-penguin-pace-5k-sac-results.html",
+      "text_sha256": "f58f2db3ffa9df2fad9f8ec891a9080fdaad1b65df7d47dae7a6a313f2c6011e",
+      "word_count": 1194
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-pres-cup-5k-sac-probables-men.html",
+      "local_url": "archive/2025-pres-cup-5k-sac-probables-men.html",
+      "text_sha256": "73b97c85158c484e836a8033406ab390d282c66752e8e2b24b8e2bc523e25388",
+      "word_count": 94
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-pres-cup-5k-sac-results.html",
+      "local_url": "archive/2025-pres-cup-5k-sac-results.html",
+      "text_sha256": "e64379827b107cef716a4f37f53ab92a5410024f4115c924bc0083ae933c6846",
+      "word_count": 915
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-ridgewood-10k-sac-probables-men.html",
+      "local_url": "archive/2025-ridgewood-10k-sac-probables-men.html",
+      "text_sha256": "022f23738b1f23637bc5fef17eaaaae8a9582ea6005195532b2cbfdb0632e2c3",
+      "word_count": 118
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-ridgewood-10k-sac-probables-women.html",
+      "local_url": "archive/2025-ridgewood-10k-sac-probables-women.html",
+      "text_sha256": "a1d29cac6b1d573173f192858285d89ab64267598a8c49c6b18a31d1026235d5",
+      "word_count": 98
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-ridgewood-10k-sac-results.html",
+      "local_url": "archive/2025-ridgewood-10k-sac-results.html",
+      "text_sha256": "e560757c3919ccc77f4e7f3d39eb014663f2f2c49e38b597186736bbe7ce619f",
+      "word_count": 2062
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-sac-ldr-results.html",
+      "local_url": "archive/2025-sac-ldr-results.html",
+      "text_sha256": "dfd99ebd194ee613428a2f1b9f9ac5a19146f090af5f49c0902d655ad5640188",
+      "word_count": 2736
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-spring-classic-15k-sac-results.html",
+      "local_url": "archive/2025-spring-classic-15k-sac-results.html",
+      "text_sha256": "a9a7ccfb4ca90aed1378c81130722b99e83006000e25d628610718ef276ae12e",
+      "word_count": 1563
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-spring-distance-15k-sac-probables-women.html",
+      "local_url": "archive/2025-spring-distance-15k-sac-probables-women.html",
+      "text_sha256": "cdf2f95fd571bf6de68e83bfb694bae9c0ab62f015b8e5cd40f1e9595278581d",
+      "word_count": 86
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-sunset-5-miler-sac-probables-men.html",
+      "local_url": "archive/2025-sunset-5-miler-sac-probables-men.html",
+      "text_sha256": "b3d15b139297373951a09a11e051281dcd1655acc92c470d6199fd6cb4036adc",
+      "word_count": 72
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-sunset-5-miler-sac-probables-women.html",
+      "local_url": "archive/2025-sunset-5-miler-sac-probables-women.html",
+      "text_sha256": "8f613ffe2502ac9a6e9ed29bd5ff897279a46d5ae4f9543ad131d9b5cf59c715",
+      "word_count": 77
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-sunset-5m-sac-results.html",
+      "local_url": "archive/2025-sunset-5m-sac-results.html",
+      "text_sha256": "8de239e46b3b85a342d5d058092ad039cadec905cf3f5a32101a30c371d080f6",
+      "word_count": 662
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-terri-roemer-10k-sac-probables-women.html",
+      "local_url": "archive/2025-terri-roemer-10k-sac-probables-women.html",
+      "text_sha256": "27cc7da376f809c2783b21ada2ad69aaa12d5abe9dd0caae841765a985944dd6",
+      "word_count": 53
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-terri-roemer-10k-sac-results.html",
+      "local_url": "archive/2025-terri-roemer-10k-sac-results.html",
+      "text_sha256": "be2291945bb746b0b4a6615ac27c5a440edcffbdfb3a9345b99ca028678d51ca",
+      "word_count": 925
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-three-bridges-5m-sac-probables-men.html",
+      "local_url": "archive/2025-three-bridges-5m-sac-probables-men.html",
+      "text_sha256": "cf1c0b6c460c338819cd95c90612f11c9fcb8a68584a8978fad4980035e48f02",
+      "word_count": 41
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-three-bridges-5m-sac-probables-women.html",
+      "local_url": "archive/2025-three-bridges-5m-sac-probables-women.html",
+      "text_sha256": "80f8a05ba0ae93ec5d2203c27aaa625ff9527d0308619d19f58731d2bdf43629",
+      "word_count": 34
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-three-bridges-5m-sac-results.html",
+      "local_url": "archive/2025-three-bridges-5m-sac-results.html",
+      "text_sha256": "ede0634d41a2860f05c354cdccba46d51b75527af3db3a246443e2d2bc30a2fe",
+      "word_count": 334
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-usatf-10k-dedham-sac-results.html",
+      "local_url": "archive/2025-usatf-10k-dedham-sac-results.html",
+      "text_sha256": "5aa8c745f42089ef71a8ded831baa2660f5b9c8b58cf479711c953251ccdbc9f",
+      "word_count": 2843
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-usatf-1m-indianapolis-sac-results.html",
+      "local_url": "archive/2025-usatf-1m-indianapolis-sac-results.html",
+      "text_sha256": "2b4417345b1b7096d4d4c416f3eca2b4cbd9c8b8d247ab9dd1c8818b1cbbee2c",
+      "word_count": 1859
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-usatf-4m-peoria-sac-results.html",
+      "local_url": "archive/2025-usatf-4m-peoria-sac-results.html",
+      "text_sha256": "e0436053c50a685717f69de5b98c836631fb18c3925be91cb806590efad74905",
+      "word_count": 1483
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-usatf-5k-xc-sac-probables-men.html",
+      "local_url": "archive/2025-usatf-5k-xc-sac-probables-men.html",
+      "text_sha256": "498051339222da67c92610580f8702ed8a7fcb4839f1183b060c76a56e492fa6",
+      "word_count": 71
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-usatf-5k-xc-sac-probables-women.html",
+      "local_url": "archive/2025-usatf-5k-xc-sac-probables-women.html",
+      "text_sha256": "1cf4aca4e6208005c13a2253488b1abaf385df75862f9e1ccbb9a8a0c6ebe90f",
+      "word_count": 42
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-usatf-5k-xc-sac-results.html",
+      "local_url": "archive/2025-usatf-5k-xc-sac-results.html",
+      "text_sha256": "ec94d01de047cd452cb460fc8143bbf4f0b531f98d41ec6ba36e2b572dc2a750",
+      "word_count": 1173
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-usatf-atlanta-5k-sac-probables-men.html",
+      "local_url": "archive/2025-usatf-atlanta-5k-sac-probables-men.html",
+      "text_sha256": "23dd68475235af637fc5aada5d52c367dcbcb146d7d494b37cafef04e74e729e",
+      "word_count": 71
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-usatf-atlanta-5k-sac-probables-women.html",
+      "local_url": "archive/2025-usatf-atlanta-5k-sac-probables-women.html",
+      "text_sha256": "ee7364f0d4f58b999e65810e3706e6bd6d1184c9c978f916e8a5bc23f0004940",
+      "word_count": 50
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-usatf-hm-sac-probables-men.html",
+      "local_url": "archive/2025-usatf-hm-sac-probables-men.html",
+      "text_sha256": "bd518dd1a8a2861cf578d0549530d7be704fa970bab698ba42f2991e15a6c090",
+      "word_count": 36
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-usatf-hm-sac-probables-women.html",
+      "local_url": "archive/2025-usatf-hm-sac-probables-women.html",
+      "text_sha256": "dd3e5393ce31cecb4513570977c6092ae2be567492111d391f9f51257c914600",
+      "word_count": 27
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-usatf-nat-atlanta-5k-sac-results.html",
+      "local_url": "archive/2025-usatf-nat-atlanta-5k-sac-results.html",
+      "text_sha256": "c3da322624ea134181bc0922141eec6dc2da27e24f804b91c619b3325cf2b43a",
+      "word_count": 2065
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-usatf-nat-hm-sac-results.html",
+      "local_url": "archive/2025-usatf-nat-hm-sac-results.html",
+      "text_sha256": "462352b43a97885b7e8ad261aa7e8b1013db3359febcc2e3a416d776e63cb769",
+      "word_count": 246
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-usatf-nj-5k-xc-sac-probables-men.html",
+      "local_url": "archive/2025-usatf-nj-5k-xc-sac-probables-men.html",
+      "text_sha256": "029ef4f368ddd2f16a5238f45525379c848cd20d727290531690712e74e02090",
+      "word_count": 150
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-usatf-nj-5k-xc-sac-probables-women.html",
+      "local_url": "archive/2025-usatf-nj-5k-xc-sac-probables-women.html",
+      "text_sha256": "85ca38b9602403345abf3de0a00c7d1966daf3c8ee2926cec75643d58ac2d870",
+      "word_count": 65
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-usatf-nj-5k-xc-sac-results.html",
+      "local_url": "archive/2025-usatf-nj-5k-xc-sac-results.html",
+      "text_sha256": "61007821126b884bb9038c50279eeb0e122eb115c1c2db228b994fd07fa9a3e5",
+      "word_count": 3489
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-usatf-nj-8k-xc-sac-probables-men.html",
+      "local_url": "archive/2025-usatf-nj-8k-xc-sac-probables-men.html",
+      "text_sha256": "b2eb5a55e49af4bae379e46b63399ef98ad6a110127438cecae1c10a889d30a8",
+      "word_count": 81
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-usatf-nj-8k-xc-sac-probables-women.html",
+      "local_url": "archive/2025-usatf-nj-8k-xc-sac-probables-women.html",
+      "text_sha256": "90a8ae8dbb723c445ba98216c1a8af96b310d61fbc6662e81c083105f7a7ab44",
+      "word_count": 54
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-usatf-nj-8k-xc-sac-results.html",
+      "local_url": "archive/2025-usatf-nj-8k-xc-sac-results.html",
+      "text_sha256": "cdc4a0506bc35c4fb37764d1bedf1749849acc5455bd6d0ad73934d6ed219a32",
+      "word_count": 1925
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-usatf-njnyct-indoor-sac-results.html",
+      "local_url": "archive/2025-usatf-njnyct-indoor-sac-results.html",
+      "text_sha256": "25e0357f7ca0efbe2d4ad549501cddf0a0a1df5bd4219b13b84b3fe7f78b37be",
+      "word_count": 297
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-usatf-xc-sac-probables-men.html",
+      "local_url": "archive/2025-usatf-xc-sac-probables-men.html",
+      "text_sha256": "646654edd472369821cf83cb25fbcd39d077eddaf4ec2f1ff087db1d2bd3b1ac",
+      "word_count": 59
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-usatf-xc-sac-probables-women.html",
+      "local_url": "archive/2025-usatf-xc-sac-probables-women.html",
+      "text_sha256": "99315956298a172b50a590f56f2a8ff0300b5d57b5c0bf4205f7983ca307a7f2",
+      "word_count": 46
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-usatf-xc-sac-results.html",
+      "local_url": "archive/2025-usatf-xc-sac-results.html",
+      "text_sha256": "66f843bdec745bfc10bdf3b3d70b7751b7f03f762a8e0d70acc7dfedbbcad6e6",
+      "word_count": 526
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-usatf-xc-sac-results1.html",
+      "local_url": "archive/2025-usatf-xc-sac-results1.html",
+      "text_sha256": "297899c5e3a94bbeccd85666ed83712dd75771b911031f172ef3ff3ccdf393da",
+      "word_count": 1708
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-wayne-5k-sac-results.html",
+      "local_url": "archive/2025-wayne-5k-sac-results.html",
+      "text_sha256": "df1723ec3d236f3b791675291d800be2247b15ad1066175e74652f73ec222df6",
+      "word_count": 850
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-wma-sac-results.html",
+      "local_url": "archive/2025-wma-sac-results.html",
+      "text_sha256": "358142de9de74d642c033261242729db9976baf0b1151a3a53b48ffb86e9e6f7",
+      "word_count": 1527
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-xc-series-big-brook-park-oct-4th.html",
+      "local_url": "archive/2025-xc-series-big-brook-park-oct-4th.html",
+      "text_sha256": "ae0e6b2695ed2c48bfc62b03f8b07fe97a429f002a07c86ae06d7b8c84a56336",
+      "word_count": 1072
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-xc-series-champ-scoring.html",
+      "local_url": "archive/2025-xc-series-champ-scoring.html",
+      "text_sha256": "51acd8b4ec527ccd5c0b6a56082d4fdbbe6aeebaf0c4471dacab58bf53205776",
+      "word_count": 4888
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-xc-series-holmdel-park-oct-18th.html",
+      "local_url": "archive/2025-xc-series-holmdel-park-oct-18th.html",
+      "text_sha256": "101d5aca3d71a319c6eb977faff3b0762a096ada0718d04233f1a38a3eca9182",
+      "word_count": 1142
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-xc-series-huber-woods-oct-25th.html",
+      "local_url": "archive/2025-xc-series-huber-woods-oct-25th.html",
+      "text_sha256": "f02e1c62db5387c0aaf5008b0cc08c2f84092824f38bb94efbc323c792ae72ca",
+      "word_count": 795
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-xc-series-tatum-park-nov-1st.html",
+      "local_url": "archive/2025-xc-series-tatum-park-nov-1st.html",
+      "text_sha256": "8498adbe313418386949550961825808af3b8153fed938302cf71ea9990907be",
+      "word_count": 773
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-xc-series-thompson-park-nov-8th.html",
+      "local_url": "archive/2025-xc-series-thompson-park-nov-8th.html",
+      "text_sha256": "95c0f23f6faa3ee1d1ccd8c5c1e05e410b36721e08be005961e08a903da0295e",
+      "word_count": 846
+    },
+    {
+      "source_url": "https://www.shoreac.org/2025-xc-series-wolf-hill-oct-11th.html",
+      "local_url": "archive/2025-xc-series-wolf-hill-oct-11th.html",
+      "text_sha256": "6ba0f8e27002e7bef86ba05064911f4638501ef6865d2f265486281613aabdab",
+      "word_count": 956
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-big-bang-mile-sac-probables-men.html",
+      "local_url": "archive/2026-big-bang-mile-sac-probables-men.html",
+      "text_sha256": "2a25f4811b9a401b43bd56a26385ca543aaa6f0c3fd752eba91927fd797e3e77",
+      "word_count": 218
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-big-bang-mile-sac-probables-women.html",
+      "local_url": "archive/2026-big-bang-mile-sac-probables-women.html",
+      "text_sha256": "d23e0bc91f06df200e0a58cf887d2391044d1f03b8e8523af2923a14a2760767",
+      "word_count": 138
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-boston-marathon-sac-results.html",
+      "local_url": "archive/2026-boston-marathon-sac-results.html",
+      "text_sha256": "10afdb6b8d98e8e869a58bcb07f5a3be89f0f646f1de5804550d1d090763d2e4",
+      "word_count": 438
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-cherry-blossom-10k-sac-probables-men.html",
+      "local_url": "archive/2026-cherry-blossom-10k-sac-probables-men.html",
+      "text_sha256": "c1254466795230f6df68abcc8e6c31b757e9dc009ca96b1eaf721cbe955f5b28",
+      "word_count": 74
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-cherry-blossom-10k-sac-probables-women.html",
+      "local_url": "archive/2026-cherry-blossom-10k-sac-probables-women.html",
+      "text_sha256": "f22022704d85aeb411c977f13f43e0ce53b1bcfa831623ac2fba0a2606328f29",
+      "word_count": 83
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-cherry-blossom-10k-sac-results.html",
+      "local_url": "archive/2026-cherry-blossom-10k-sac-results.html",
+      "text_sha256": "13c524504a7cdf5a4fb8dbaa4592fceb9c652e9707dd2532d8342b7f45673c53",
+      "word_count": 1390
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-dedham-10k-sac-probables-men.html",
+      "local_url": "archive/2026-dedham-10k-sac-probables-men.html",
+      "text_sha256": "a744059a9f64755a53da993f89aeef2bce46f66230f9539cbc82ecf3f695b1fd",
+      "word_count": 76
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-dedham-10k-sac-probables-women.html",
+      "local_url": "archive/2026-dedham-10k-sac-probables-women.html",
+      "text_sha256": "434ed360f9c1b7d1c99a934defaf9e0064b19791fd57c787e1d9c1dbd11f7028",
+      "word_count": 83
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-dedham-10k-sac-results.html",
+      "local_url": "archive/2026-dedham-10k-sac-results.html",
+      "text_sha256": "23e5a53eaec2961f46563bdac4d056726cf19445d637cd0fac3529c0b4c55d49",
+      "word_count": 2263
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-lager-5k-sac-probables-men.html",
+      "local_url": "archive/2026-lager-5k-sac-probables-men.html",
+      "text_sha256": "7dd61bc78e7b0d4ee5baea0ee73d4eff944535247c7a1cf53b2bd6a7444b1fd5",
+      "word_count": 118
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-lager-5k-sac-probables-women.html",
+      "local_url": "archive/2026-lager-5k-sac-probables-women.html",
+      "text_sha256": "23c133b53d6c2df334d46feea2b43a737213e05edf3400e67595328f2aee2468",
+      "word_count": 94
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-lager-5k-sac-results.html",
+      "local_url": "archive/2026-lager-5k-sac-results.html",
+      "text_sha256": "6d37905f82017444934d0177173041e127d63dcde1f921a8d512bb13abf96aba",
+      "word_count": 1023
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-our-house-4m-sac-probables-men.html",
+      "local_url": "archive/2026-our-house-4m-sac-probables-men.html",
+      "text_sha256": "470b39f009b35b9a83b84825e9f2da297d7b1aca77c908020fde69f2366cdffd",
+      "word_count": 121
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-our-house-4m-sac-probables-women.html",
+      "local_url": "archive/2026-our-house-4m-sac-probables-women.html",
+      "text_sha256": "316dc13d561666a8994f7fdf6e90d3ee362bb260f7a3fc25e64df737493ca408",
+      "word_count": 99
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-our-house-4m-sac-results.html",
+      "local_url": "archive/2026-our-house-4m-sac-results.html",
+      "text_sha256": "489ccec2d45af031b17e7f312c832d770f4797b52f6cf7afba89162721324ff2",
+      "word_count": 2957
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-penguin-pace-5k-sac-probables-men.html",
+      "local_url": "archive/2026-penguin-pace-5k-sac-probables-men.html",
+      "text_sha256": "557b9638d1e7a9f70c499caac0881f8e80527c13fe6af23f27a1b88caaa706be",
+      "word_count": 68
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-penguin-pace-5k-sac-probables-women.html",
+      "local_url": "archive/2026-penguin-pace-5k-sac-probables-women.html",
+      "text_sha256": "2c6e7b7118f17912cd9868031576c71af53ddb459f3282b8dbce1c84ed538247",
+      "word_count": 50
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-penguin-pace-5k-sac-results.html",
+      "local_url": "archive/2026-penguin-pace-5k-sac-results.html",
+      "text_sha256": "460e0e4d3c5729e839d5620deb31dde719edcc7a0864323dcb37c770b7ebbe4d",
+      "word_count": 1162
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-ridgewood-10k-sac-probables-men.html",
+      "local_url": "archive/2026-ridgewood-10k-sac-probables-men.html",
+      "text_sha256": "d28a988532139b90db473b4f7ce5615278fcaebd64beba9edc625ebb8927ca3e",
+      "word_count": 115
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-ridgewood-10k-sac-results.html",
+      "local_url": "archive/2026-ridgewood-10k-sac-results.html",
+      "text_sha256": "282c023b1639c90a79ac415a770b6a19692db1ce06310c9952d8b98b4c97f6b5",
+      "word_count": 2010
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-sunset-5m-sac-probables-men.html",
+      "local_url": "archive/2026-sunset-5m-sac-probables-men.html",
+      "text_sha256": "6eb26241f7c042793c1228de63137183a19c34b17e9abbead0652c4022aaa1ab",
+      "word_count": 83
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-sunset-5m-sac-probables-women.html",
+      "local_url": "archive/2026-sunset-5m-sac-probables-women.html",
+      "text_sha256": "e63e504aabc02a2b52a7114421aef098c0f05f70e579d7413febd29677be389f",
+      "word_count": 52
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-sunset-5m-sac-results.html",
+      "local_url": "archive/2026-sunset-5m-sac-results.html",
+      "text_sha256": "f87d79f359c9168ba8a91cde9ba3d254e09b9d82a340ea2144b71c5ab77c49c8",
+      "word_count": 872
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-three-bridges-sac-probables-men.html",
+      "local_url": "archive/2026-three-bridges-sac-probables-men.html",
+      "text_sha256": "a4c1e909684a7cbbd8497eebe09cd675ff9dace3ba412b516c4342c82c969531",
+      "word_count": 22
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-three-bridges-sac-probables-women.html",
+      "local_url": "archive/2026-three-bridges-sac-probables-women.html",
+      "text_sha256": "a3b93ec3006b504550b8dddf9b9d2196f40ca0bd77640521910fd5e13a42b17c",
+      "word_count": 33
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-usatf-4-miler-sac-probables-men.html",
+      "local_url": "archive/2026-usatf-4-miler-sac-probables-men.html",
+      "text_sha256": "31febbbf7a8f136d5457d4908e2768c4d56d43c8d884a8b573dc95a6fd8fb83a",
+      "word_count": 64
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-usatf-4-miler-sac-probables-women.html",
+      "local_url": "archive/2026-usatf-4-miler-sac-probables-women.html",
+      "text_sha256": "803bf63e2928805f762a14738c46dc44ec11e11ef6be6e2a8739bb4e4fdc51e7",
+      "word_count": 63
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-usatf-4-miler-sac-results.html",
+      "local_url": "archive/2026-usatf-4-miler-sac-results.html",
+      "text_sha256": "061308be51c733c0496606da75b1154868e61d1c14c87ac7aac3367db4b1ef8c",
+      "word_count": 53
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-usatf-5k-atlanta-sac-probables-men.html",
+      "local_url": "archive/2026-usatf-5k-atlanta-sac-probables-men.html",
+      "text_sha256": "cc0b49537afb4a89190e9056943e3b8b563a2297c12946f68aa83069a5cd4b27",
+      "word_count": 32
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-usatf-5k-atlanta-sac-probables-women.html",
+      "local_url": "archive/2026-usatf-5k-atlanta-sac-probables-women.html",
+      "text_sha256": "a1600ba589e7bb70f3b49544f4616fae80014b31e7cb8607774621ad68a6ae98",
+      "word_count": 35
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-usatf-5k-xc-huntsville-sac-probables-men.html",
+      "local_url": "archive/2026-usatf-5k-xc-huntsville-sac-probables-men.html",
+      "text_sha256": "ce691df0ea59eb65c5b4d20b08b1f87be690031185662f61498a0a1ebed708e9",
+      "word_count": 33
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-usatf-5k-xc-huntsville-sac-probables-women.html",
+      "local_url": "archive/2026-usatf-5k-xc-huntsville-sac-probables-women.html",
+      "text_sha256": "90e463e7335ee65c7578007150f0ad96f0fff8c66c29c377756a39c463f45c9a",
+      "word_count": 46
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-usatf-club-xc-sac-probables-men.html",
+      "local_url": "archive/2026-usatf-club-xc-sac-probables-men.html",
+      "text_sha256": "b5e090f2b8c8da766f36a37c704c608a230a011946e6980e58dd8679bedf2264",
+      "word_count": 137
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-usatf-club-xc-sac-probables-women.html",
+      "local_url": "archive/2026-usatf-club-xc-sac-probables-women.html",
+      "text_sha256": "20b12f30cbef87ae756335e0ca3396fb6e8e0006aabddbc9494b9370b3bf42c7",
+      "word_count": 103
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-usatf-club-xc-sac-results.html",
+      "local_url": "archive/2026-usatf-club-xc-sac-results.html",
+      "text_sha256": "931e1222fd3e632f9a2f1724f9d2ba2ce8d662f7646bbe2ea315549a69436f5c",
+      "word_count": 5148
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-usatf-mile-sac-probables-men.html",
+      "local_url": "archive/2026-usatf-mile-sac-probables-men.html",
+      "text_sha256": "8c604e7a9c8859d294714a8f2e1c23c97b5dc450c5f601bfb29f93207f6a1e95",
+      "word_count": 56
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-usatf-mile-sac-probables-women.html",
+      "local_url": "archive/2026-usatf-mile-sac-probables-women.html",
+      "text_sha256": "b7f8751a1c070d2779a1b2bc14c277c0011b78207f1c1dd2dc511f03314b34a9",
+      "word_count": 30
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-usatf-mile-sac-results.html",
+      "local_url": "archive/2026-usatf-mile-sac-results.html",
+      "text_sha256": "2cae3a37d4c818a62739ac5d4d1ab8a0fb7e084a529a8824db4d78e14a972ae8",
+      "word_count": 1025
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-usatf-nj-5k-xc-sac-probables-men.html",
+      "local_url": "archive/2026-usatf-nj-5k-xc-sac-probables-men.html",
+      "text_sha256": "85e2a35a97b19c54969ecea538fb12f9e21da7c8158e444e77b88247b2c726e0",
+      "word_count": 43
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-usatf-nj-5k-xc-sac-probables-women.html",
+      "local_url": "archive/2026-usatf-nj-5k-xc-sac-probables-women.html",
+      "text_sha256": "78805f5270d90d3eebf051cfc77d7f1774b19ac1e23884620ae7dbf2c11df92e",
+      "word_count": 31
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-wayne-5k-sac-probables-men.html",
+      "local_url": "archive/2026-wayne-5k-sac-probables-men.html",
+      "text_sha256": "25f89e4d15b0e9aca1827760a817cdcb2f914e51057bc899b82e3d73f7cf13f2",
+      "word_count": 80
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-wayne-5k-sac-probables-women.html",
+      "local_url": "archive/2026-wayne-5k-sac-probables-women.html",
+      "text_sha256": "28555bede7960e6aba8ccdac1834ea419e9c7ec924323b2e5937cfaae6df0668",
+      "word_count": 71
+    },
+    {
+      "source_url": "https://www.shoreac.org/2026-wayne-5k-sac-results.html",
+      "local_url": "archive/2026-wayne-5k-sac-results.html",
+      "text_sha256": "90d5ad3b482d57934dfd8a1b9203099bb0be3e826e393677f016760a449944d9",
+      "word_count": 638
+    },
+    {
+      "source_url": "https://www.shoreac.org/2h26-sac-results.html",
+      "local_url": "archive/2h26-sac-results.html",
+      "text_sha256": "42652c56616b853e4ab0841b5d016ab8a00f5063450900077896e16591139042",
+      "word_count": 376
+    },
+    {
+      "source_url": "https://www.shoreac.org/85th-anniversaryelliotts-birthday.html",
+      "local_url": "archive/85th-anniversaryelliotts-birthday.html",
+      "text_sha256": "1271f0b884a5a7a6bbadac1ab9d6194b601eec3d000cd3e6801683fafa7e15d6",
+      "word_count": 13
+    },
+    {
+      "source_url": "https://www.shoreac.org/about-us.html",
+      "local_url": "archive/about-us.html",
+      "text_sha256": "951149680acf779e45b55ff3953bfd96da32cc478540f4901a450f80efe7b960",
+      "word_count": 350
+    },
+    {
+      "source_url": "https://www.shoreac.org/about.html",
+      "local_url": "archive/about.html",
+      "text_sha256": "0a77f879a9172849a8bc7546fbb345c17e2265b0bfbbcd330c7c388b46080e2c",
+      "word_count": 375
+    },
+    {
+      "source_url": "https://www.shoreac.org/adult-xc-series.html",
+      "local_url": "archive/adult-xc-series.html",
+      "text_sha256": "598a57df038a790c939f198b3584dd17046c3ad4c8bbb15fa27c1c0db2e7ed2f",
+      "word_count": 284
+    },
+    {
+      "source_url": "https://www.shoreac.org/all-comers-tf-meet-series.html",
+      "local_url": "archive/all-comers-tf-meet-series.html",
+      "text_sha256": "5b05779b1b489fa4a321153a8f87314ae73952fea33305940116da5ddb132387",
+      "word_count": 158
+    },
+    {
+      "source_url": "https://www.shoreac.org/alumni-xc-run.html",
+      "local_url": "archive/alumni-xc-run.html",
+      "text_sha256": "58bb044c78ca33b2d7a18503b416b1f7994167c1e68d7b825fd7e58214ff8d92",
+      "word_count": 6
+    },
+    {
+      "source_url": "https://www.shoreac.org/alumni-xc-run1.html",
+      "local_url": "archive/alumni-xc-run1.html",
+      "text_sha256": "24a69ec1fb029b9d6f99b47cbc9d3d2a465a2a6f2b3b8664ebc5b77118e7c81b",
+      "word_count": 488
+    },
+    {
+      "source_url": "https://www.shoreac.org/awards--fundraising.html",
+      "local_url": "archive/awards--fundraising.html",
+      "text_sha256": "be3728dd85513c34a64996824433b7c14b52498f17447e4cf52570f997eeefba",
+      "word_count": 45
+    },
+    {
+      "source_url": "https://www.shoreac.org/bbm-course-pre-certification.html",
+      "local_url": "archive/bbm-course-pre-certification.html",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "word_count": 0
+    },
+    {
+      "source_url": "https://www.shoreac.org/become-a-supporter.html",
+      "local_url": "archive/become-a-supporter.html",
+      "text_sha256": "e0fb3e3b3f7aba80d47e40b155779bee575bcef5eb83e8345bcace7d107eec76",
+      "word_count": 12
+    },
+    {
+      "source_url": "https://www.shoreac.org/big-bang-mile-2023.html",
+      "local_url": "archive/big-bang-mile-2023.html",
+      "text_sha256": "6b816288e4177c67282c8102de180ab6e74812e3794327239e69d40e36cfa459",
+      "word_count": 1228
+    },
+    {
+      "source_url": "https://www.shoreac.org/big-bang-mile-2024.html",
+      "local_url": "archive/big-bang-mile-2024.html",
+      "text_sha256": "00cfa6eac6f63eb1c2bbd9f4ce4aafa9b78650b3d20ca546c6b878b1447b31a8",
+      "word_count": 1829
+    },
+    {
+      "source_url": "https://www.shoreac.org/big-bang-mile-2025.html",
+      "local_url": "archive/big-bang-mile-2025.html",
+      "text_sha256": "1842c746f1f151e0bf2cce2783b9a948c46f6e6f4a61344c9a4df09e32032879",
+      "word_count": 1918
+    },
+    {
+      "source_url": "https://www.shoreac.org/big-bang-mile-course-records---2022.html",
+      "local_url": "archive/big-bang-mile-course-records---2022.html",
+      "text_sha256": "e3cadfff386ac4e8d6520dc093619053c595f18d71802b4b0959a0dfa28a8c6f",
+      "word_count": 299
+    },
+    {
+      "source_url": "https://www.shoreac.org/big-bang-mile-course-records---2025.html",
+      "local_url": "archive/big-bang-mile-course-records---2025.html",
+      "text_sha256": "01194db897606b82aebddbf557b05dd127e2fe32ccc61453369f33d46b5c24db",
+      "word_count": 297
+    },
+    {
+      "source_url": "https://www.shoreac.org/big-bang-mile-meet-records.html",
+      "local_url": "archive/big-bang-mile-meet-records.html",
+      "text_sha256": "03a7944733e72b9e086ed733ddbacafb86648fe0339b574976d3ec56d7acec2e",
+      "word_count": 298
+    },
+    {
+      "source_url": "https://www.shoreac.org/big-bang-mile-science-festival.html",
+      "local_url": "archive/big-bang-mile-science-festival.html",
+      "text_sha256": "beec91bfc3d577a5254a088e899fd54f85e9bc60b2bf2d6b4eff0cdc206655b3",
+      "word_count": 103
+    },
+    {
+      "source_url": "https://www.shoreac.org/big-bang-mile-science-talks.html",
+      "local_url": "archive/big-bang-mile-science-talks.html",
+      "text_sha256": "c8ce017e9aa7fcf1153feae73f591e8ab654ed10541d4e6b57175ded18612c34",
+      "word_count": 360
+    },
+    {
+      "source_url": "https://www.shoreac.org/big-bang-mile-sponsor-solicitation.html",
+      "local_url": "archive/big-bang-mile-sponsor-solicitation.html",
+      "text_sha256": "2fcaa62059e1b9c2385d2b6f93cd85a0ea2916c5ae14342193add41e423fd561",
+      "word_count": 683
+    },
+    {
+      "source_url": "https://www.shoreac.org/big-bang-mile.html",
+      "local_url": "archive/big-bang-mile.html",
+      "text_sha256": "640d6c8a1d686952724aedbb836973e7cf6dfdb5e6eb127d72d35fb8716621b4",
+      "word_count": 2056
+    },
+    {
+      "source_url": "https://www.shoreac.org/board-of-directors.html",
+      "local_url": "archive/board-of-directors.html",
+      "text_sha256": "0d8e4915e97143987951877209089679a4a5f5247de4552bc147503c70ba42fc",
+      "word_count": 284
+    },
+    {
+      "source_url": "https://www.shoreac.org/board-staff.html",
+      "local_url": "archive/board-staff.html",
+      "text_sha256": "218bfac07d20121cddc6d15c708637abffbb60c604e3859bc97ca70cc22939c0",
+      "word_count": 164
+    },
+    {
+      "source_url": "https://www.shoreac.org/captain-zinn-photos.html",
+      "local_url": "archive/captain-zinn-photos.html",
+      "text_sha256": "e60df3447f78cc0485c69fe3d6ba1460cb2335586ebfd6801fb9ffbb3e217e9e",
+      "word_count": 8
+    },
+    {
+      "source_url": "https://www.shoreac.org/captain-zinn.html",
+      "local_url": "archive/captain-zinn.html",
+      "text_sha256": "9d91145953182fab72591aa0321f4a326cbd793195f87bff8cfe982c3599e201",
+      "word_count": 439
+    },
+    {
+      "source_url": "https://www.shoreac.org/club-records.html",
+      "local_url": "archive/club-records.html",
+      "text_sha256": "f54895df4a139fe469c1f77f86bdda871c94ed86aa1b5de3574db669cc2498b6",
+      "word_count": 14
+    },
+    {
+      "source_url": "https://www.shoreac.org/coaching.html",
+      "local_url": "archive/coaching.html",
+      "text_sha256": "b6713b5fb512d08c0421a518fa92c00274aecf0de5fb23109d0e265d2eefb0d7",
+      "word_count": 2037
+    },
+    {
+      "source_url": "https://www.shoreac.org/compete-for-us.html",
+      "local_url": "archive/compete-for-us.html",
+      "text_sha256": "d826a7d8ec6b319ebbe11760f3bdcc90f3080423d5c4940e53294ba0b64518b9",
+      "word_count": 103
+    },
+    {
+      "source_url": "https://www.shoreac.org/competition-teams.html",
+      "local_url": "archive/competition-teams.html",
+      "text_sha256": "362d073c4521c60154074ac9e54b3121aac4b0db293f611af7cf1dafa35fe43a",
+      "word_count": 75
+    },
+    {
+      "source_url": "https://www.shoreac.org/contact-us.html",
+      "local_url": "archive/contact-us.html",
+      "text_sha256": "183558c425ba87d14f55edd598b5905fe03b79f8d3a7ecbbc872d4fac6cc4ca8",
+      "word_count": 26
+    },
+    {
+      "source_url": "https://www.shoreac.org/contact.html",
+      "local_url": "archive/contact.html",
+      "text_sha256": "ec8af9f6fde6d39aa313b1d8ab221401fab27c1c0b8d638721e200a0787e64bf",
+      "word_count": 18
+    },
+    {
+      "source_url": "https://www.shoreac.org/cross-country-series.html",
+      "local_url": "archive/cross-country-series.html",
+      "text_sha256": "2660304684ed7e331631b29bd28d495c58c8eb17b8a7a2f1e9d2563216c8a5c1",
+      "word_count": 686
+    },
+    {
+      "source_url": "https://www.shoreac.org/example-results.html",
+      "local_url": "archive/example-results.html",
+      "text_sha256": "3e3e7109808cc4ed7158b9d946500de548d19a70616e41ffbebe25d924108a4a",
+      "word_count": 1451
+    },
+    {
+      "source_url": "https://www.shoreac.org/hall-of-fame.html",
+      "local_url": "archive/hall-of-fame.html",
+      "text_sha256": "665a986837abb4855f8f3c4e47455d36a9347555130253001a09e46d1329e176",
+      "word_count": 759
+    },
+    {
+      "source_url": "https://www.shoreac.org/history.html",
+      "local_url": "archive/history.html",
+      "text_sha256": "525f6067a306c0a8a3b0e4c5baf8813d5f14e8fd1aae4bf8b7c1e1d9c3e06b0a",
+      "word_count": 281
+    },
+    {
+      "source_url": "https://www.shoreac.org/honors-list.html",
+      "local_url": "archive/honors-list.html",
+      "text_sha256": "08d6ff7bd26290b65d712e23481ff5701dd70d30967de6076345c721e2d1416d",
+      "word_count": 1088
+    },
+    {
+      "source_url": "https://www.shoreac.org/hs-alumni-xc-race.html",
+      "local_url": "archive/hs-alumni-xc-race.html",
+      "text_sha256": "81de4575c862c0504d50f8226a92e76a3b9018201bdf6e6e2c7feded1b36ca34",
+      "word_count": 285
+    },
+    {
+      "source_url": "https://www.shoreac.org/index.html",
+      "local_url": "archive/index.html",
+      "text_sha256": "ca84174d833f059456210848434b29ece60aac349641f0701aea48e22c8bc809",
+      "word_count": 623
+    },
+    {
+      "source_url": "https://www.shoreac.org/international-track-meet.html",
+      "local_url": "archive/international-track-meet.html",
+      "text_sha256": "97384585cf0dd3bb28a1d304104f942cdd764ab624a80db560f66a56444b9c3e",
+      "word_count": 283
+    },
+    {
+      "source_url": "https://www.shoreac.org/jersey-shore-half.html",
+      "local_url": "archive/jersey-shore-half.html",
+      "text_sha256": "0041fc8c4f8f75d0a4821f10a88a270720e158ba9ed720728b34e34f12a25cf4",
+      "word_count": 826
+    },
+    {
+      "source_url": "https://www.shoreac.org/johnny-hayes.html",
+      "local_url": "archive/johnny-hayes.html",
+      "text_sha256": "427e64b247530763c222508efed2c96db2151a79ff6d396c95b741082b2caf1a",
+      "word_count": 347
+    },
+    {
+      "source_url": "https://www.shoreac.org/lake-tak-7-14-2025.html",
+      "local_url": "archive/lake-tak-7-14-2025.html",
+      "text_sha256": "805fbb59aeae612d3a0d682a705c138b2a998c25fe0737592af4e266faf23d85",
+      "word_count": 727
+    },
+    {
+      "source_url": "https://www.shoreac.org/lake-tak-7-21-2025.html",
+      "local_url": "archive/lake-tak-7-21-2025.html",
+      "text_sha256": "2295cb5d2e811c75b9bb1603ed4f1d7b574cc1c44b044d8d32154c6e2d813cf5",
+      "word_count": 703
+    },
+    {
+      "source_url": "https://www.shoreac.org/lake-tak-7-28-2025.html",
+      "local_url": "archive/lake-tak-7-28-2025.html",
+      "text_sha256": "1a9a03e7ef9590aa4a91e738184c5e68f8981743c63a03627cdc37d824c9f1e9",
+      "word_count": 627
+    },
+    {
+      "source_url": "https://www.shoreac.org/lake-tak-8-5-2025.html",
+      "local_url": "archive/lake-tak-8-5-2025.html",
+      "text_sha256": "c382a3bf74265a19181cb225ac5db24b7ef6edbd07172783f7897995b70f6ced",
+      "word_count": 627
+    },
+    {
+      "source_url": "https://www.shoreac.org/lake-takanassee-series.html",
+      "local_url": "archive/lake-takanassee-series.html",
+      "text_sha256": "ad1abc6d2fd6134a7d3312ef9e698496eb6fa756e71cea8b68231ca7284fea90",
+      "word_count": 249
+    },
+    {
+      "source_url": "https://www.shoreac.org/meet-greets.html",
+      "local_url": "archive/meet-greets.html",
+      "text_sha256": "4aef8a5c2fb69f5063e326d515ed8cce2b0f865756e6c56a873506cffdeceffe",
+      "word_count": 284
+    },
+    {
+      "source_url": "https://www.shoreac.org/membership-593412.html",
+      "local_url": "archive/membership-593412.html",
+      "text_sha256": "116c2c854aea6c71d1c8465a411afcddbdd17db1092c571d3519b6dfe3fcd4ba",
+      "word_count": 207
+    },
+    {
+      "source_url": "https://www.shoreac.org/membership.html",
+      "local_url": "archive/membership.html",
+      "text_sha256": "88b0140e2cee3dd10441db83e375ef4dc8d6c04d170798edbc753a56f822a4ed",
+      "word_count": 246
+    },
+    {
+      "source_url": "https://www.shoreac.org/men-s-indoor-relay.html",
+      "local_url": "archive/men-s-indoor-relay.html",
+      "text_sha256": "1f032373ae594210827cac5d7fec2b5d46bb6dccdf98fe297cc3dd14442ca121",
+      "word_count": 347
+    },
+    {
+      "source_url": "https://www.shoreac.org/men-s-outdoor-relay.html",
+      "local_url": "archive/men-s-outdoor-relay.html",
+      "text_sha256": "a9b6e94958ff5bcf2abc137723e548fa815dbddc7790be66858b20362044b168",
+      "word_count": 377
+    },
+    {
+      "source_url": "https://www.shoreac.org/millrose-2020.html",
+      "local_url": "archive/millrose-2020.html",
+      "text_sha256": "9065307107bc319c83e40411ff34c636e01b12561cd4bb54ab7c6904e4fc0140",
+      "word_count": 14
+    },
+    {
+      "source_url": "https://www.shoreac.org/mopl.html",
+      "local_url": "archive/mopl.html",
+      "text_sha256": "b9921483e5eb59f689c9ee2f381ea3ec0a8e5a335e8dc8aa464c7eddabcd3a18",
+      "word_count": 933
+    },
+    {
+      "source_url": "https://www.shoreac.org/njinternational.html",
+      "local_url": "archive/njinternational.html",
+      "text_sha256": "1e842713afde4cce3c82b2f4ce4a005e059ffb8e51853f488f001908a8fee666",
+      "word_count": 330
+    },
+    {
+      "source_url": "https://www.shoreac.org/olympians.html",
+      "local_url": "archive/olympians.html",
+      "text_sha256": "acced518e65a2305e01e69c866a2d364203efecf3be0fb3b0e7b05919a37561d",
+      "word_count": 248
+    },
+    {
+      "source_url": "https://www.shoreac.org/photos-265258.html",
+      "local_url": "archive/photos-265258.html",
+      "text_sha256": "db1d60073119d18f6ae8b671e16dde7533f92187ff720a678ae69b94c4ff0b26",
+      "word_count": 19
+    },
+    {
+      "source_url": "https://www.shoreac.org/photos.html",
+      "local_url": "archive/photos.html",
+      "text_sha256": "c7f970efe5a01545beff6251edb449e6cabf00f269f86c7bd54094ac14b7f830",
+      "word_count": 37
+    },
+    {
+      "source_url": "https://www.shoreac.org/polar-bear-races.html",
+      "local_url": "archive/polar-bear-races.html",
+      "text_sha256": "e623ee8c07db4fd93ec77203b0f26cf7e6d96a5f66484ae514aa461576b7466b",
+      "word_count": 233
+    },
+    {
+      "source_url": "https://www.shoreac.org/presidents.html",
+      "local_url": "archive/presidents.html",
+      "text_sha256": "7b93c3e293c1c3b7b7a0d52e18795dbee5625a08c107343eb5636c63e8a25dfa",
+      "word_count": 282
+    },
+    {
+      "source_url": "https://www.shoreac.org/sac-asbury-park-5k-probables-men.html",
+      "local_url": "archive/sac-asbury-park-5k-probables-men.html",
+      "text_sha256": "3b9abe5a23b8a513c158ec56855ca19a4a1a7c26dfc5c3a8310c4cfede98b792",
+      "word_count": 16
+    },
+    {
+      "source_url": "https://www.shoreac.org/san_diego_report_2020.html",
+      "local_url": "archive/san_diego_report_2020.html",
+      "text_sha256": "365f91ff98a3d86e8af85e76be29919d252f48992ea378957b07e22af29a5a3f",
+      "word_count": 1161
+    },
+    {
+      "source_url": "https://www.shoreac.org/schedule-of-events.html",
+      "local_url": "archive/schedule-of-events.html",
+      "text_sha256": "402150469b93600ecf26fb2b9ae6735d30698b1a07c1b819c317a82036d0f0ba",
+      "word_count": 1471
+    },
+    {
+      "source_url": "https://www.shoreac.org/scott-linnell.html",
+      "local_url": "archive/scott-linnell.html",
+      "text_sha256": "28761341e0e7183c8dbe1e96ac5ec7da97e05e78ad21a1600a8c3ef5dee92369",
+      "word_count": 39
+    },
+    {
+      "source_url": "https://www.shoreac.org/sheehan-classic.html",
+      "local_url": "archive/sheehan-classic.html",
+      "text_sha256": "fe47ad48aac1f173263e9ca4c78bc8181025e6995125d43eaeef78f62b7d4fc6",
+      "word_count": 389
+    },
+    {
+      "source_url": "https://www.shoreac.org/sheehan-classic1.html",
+      "local_url": "archive/sheehan-classic1.html",
+      "text_sha256": "4fa57e1ada16955d0ca4ff265396d6981fce797d275bd57a53449e8c3d946d90",
+      "word_count": 34
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news.html",
+      "local_url": "archive/shore-ac-news.html",
+      "text_sha256": "86bd47623cf7e0e4408eb143381f14db8b6f2ab87c9e8e8fecf1e2fb77b46ee6",
+      "word_count": 10628
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/112th-nyrr-millrose-to-feature-stellar-jack-lewis-rudin-womens-800m",
+      "local_url": "archive/shore-ac-news--112th-nyrr-millrose-to-feature-stellar-jack-lewis-rudin-womens-800m.html",
+      "text_sha256": "05358e5323f02bb6c7767180f66710ea635e79e3bf22bffa978aee78bca8c908",
+      "word_count": 1212
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/114th-millrose-games-to-welcome-64-olympians-including-3-individual-gold-medal-winners",
+      "local_url": "archive/shore-ac-news--114th-millrose-games-to-welcome-64-olympians-including-3-individual-gold-medal-winners.html",
+      "text_sha256": "ad53ed5f5db4a0efd2245733a15f40da04853b4d1a67a98f732ca4e4a06bc049",
+      "word_count": 1016
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/16-athlete-shore-ac-delegationready-for-actionon-multiple-frontsat-usa-masters-nationalsin-greensboro-north-carolina",
+      "local_url": "archive/shore-ac-news--16-athlete-shore-ac-delegationready-for-actionon-multiple-frontsat-usa-masters-nationalsin-greensboro-north-carolina.html",
+      "text_sha256": "ad12d99b419f12d984c520ed4f966be2570b07ebfc7d0800a0788d9974ae03da",
+      "word_count": 685
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/36th-annual-new-jersey-international-meet-set-for-june-17-at-monmouth-university-and-will-honor-elliott-denman",
+      "local_url": "archive/shore-ac-news--36th-annual-new-jersey-international-meet-set-for-june-17-at-monmouth-university-and-will-honor-elliott-denman.html",
+      "text_sha256": "d396ab9df0eae8851c81cc15259f51f99fac3644405e69878f1daf7bc1113025",
+      "word_count": 496
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/57th-polar-bear-races-tradition-stays-alive",
+      "local_url": "archive/shore-ac-news--57th-polar-bear-races-tradition-stays-alive.html",
+      "text_sha256": "bb30baf12d4ef9561cd7a2158b34330ef4e325191142c78de89477d421911076",
+      "word_count": 218
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/a-kind-note-of-acceptance-humanitarian-award-given-to-donna-cetrulo",
+      "local_url": "archive/shore-ac-news--a-kind-note-of-acceptance-humanitarian-award-given-to-donna-cetrulo.html",
+      "text_sha256": "f15a23eca922f06ca951c662d280656f1ad6d91637f4a0456b071789b546cbe4",
+      "word_count": 366
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/a-new-jersey-track-athleteand-b-olympic-gold-medalistremind-the-worldits-dominica-not-the-dominican-repubic",
+      "local_url": "archive/shore-ac-news--a-new-jersey-track-athleteand-b-olympic-gold-medalistremind-the-worldits-dominica-not-the-dominican-repubic.html",
+      "text_sha256": "e1a94145a1500c8e7d91a850258d16eca5536d7947575c138a73670822078c27",
+      "word_count": 828
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/a-note-from-our-founder",
+      "local_url": "archive/shore-ac-news--a-note-from-our-founder.html",
+      "text_sha256": "72d2c9ac53abf6a0c3ec5fea869676ba1e24d519def579e6ebc5e5d3d459e4af",
+      "word_count": 201
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/a-preview-of-the-9th-annual-nsaf-american-javfest-last-weekend",
+      "local_url": "archive/shore-ac-news--a-preview-of-the-9th-annual-nsaf-american-javfest-last-weekend.html",
+      "text_sha256": "2109905c32c6abe3e64409c88e11915f88b97a72129fef73849bb2f0003d5528",
+      "word_count": 11
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/a-thank-you-to-mary-beth-mcdonnell",
+      "local_url": "archive/shore-ac-news--a-thank-you-to-mary-beth-mcdonnell.html",
+      "text_sha256": "cb4f00c42a167a2678f9e289e954dc284845c8f5be93b4cdd9a4576473066dc1",
+      "word_count": 31
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/abbott-becomes-a-national-champion-this-past-weekend-congrats-jess-kudos-to-teammate-lilah-gordon-for-a-standout-perofrmance-too",
+      "local_url": "archive/shore-ac-news--abbott-becomes-a-national-champion-this-past-weekend-congrats-jess-kudos-to-teammate-lilah-gordon-for-a-standout-perofrmance-too.html",
+      "text_sha256": "52e3a94c7551c25eb49c7eeafaa08eac057f9c40a74b38ae613aba7b52c91c9c",
+      "word_count": 47
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/abbott-runs-to-second-place-finish-at-junior-olympic-championships-in-nevada",
+      "local_url": "archive/shore-ac-news--abbott-runs-to-second-place-finish-at-junior-olympic-championships-in-nevada.html",
+      "text_sha256": "22d2e30b84bbdd3e9df84f33c85cc82c90c24142ad986516607356b47a708bc8",
+      "word_count": 58
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/ajee-wilson-looking-ahead-to-season-opener-at-ocean-breeze",
+      "local_url": "archive/shore-ac-news--ajee-wilson-looking-ahead-to-season-opener-at-ocean-breeze.html",
+      "text_sha256": "a92475a9b6aff7e52a07edaed9ce31f252c4e82e12bfea7e1440d4a6fb9dc70f",
+      "word_count": 1089
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/ajee-wilsons-15876-800-steals-the-show-at-denmannj-international-meet-at-monmouth-university",
+      "local_url": "archive/shore-ac-news--ajee-wilsons-15876-800-steals-the-show-at-denmannj-international-meet-at-monmouth-university.html",
+      "text_sha256": "bc59f7b74690a8bd61a5bedffd86c08be11890b2e8c43769946eabd302bd5e76",
+      "word_count": 1402
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/amanda-marino-now-amanda-marino-huneke",
+      "local_url": "archive/shore-ac-news--amanda-marino-now-amanda-marino-huneke.html",
+      "text_sha256": "706cb4e7a4c58b800f46e541b5f8a2b845ffb21b0abda90fc0e3f8a6edc98951",
+      "word_count": 208
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/amanda-runs-238-in-chicago",
+      "local_url": "archive/shore-ac-news--amanda-runs-238-in-chicago.html",
+      "text_sha256": "defc64233a8e5c1b6f7effba2e38113fac9b011ae2bea701c36346fd36f534cc",
+      "word_count": 73
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/american-record-holder-ajee-wilson-to-join-other-premier-athletes-to-teach-and-inspire-high-school-student-athletes-during-nov-16-camp",
+      "local_url": "archive/shore-ac-news--american-record-holder-ajee-wilson-to-join-other-premier-athletes-to-teach-and-inspire-high-school-student-athletes-during-nov-16-camp.html",
+      "text_sha256": "00a18b7320541f077137d9664d9c7c8e52b093fdef6a7bd98aae2bb2fd3d0f0d",
+      "word_count": 1832
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/ancient-ic4a-championshipsshow-new-life-in-150th-year",
+      "local_url": "archive/shore-ac-news--ancient-ic4a-championshipsshow-new-life-in-150th-year.html",
+      "text_sha256": "643b710c526f72b2fe0627062b52e2c4d9206cc273390e882f90357981475421",
+      "word_count": 1213
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/august-11th-2021",
+      "local_url": "archive/shore-ac-news--august-11th-2021.html",
+      "text_sha256": "5d069a5983fab6243ebfd2bb219d620dd8898b3067080d223bb369b7ef7014bb",
+      "word_count": 4199
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/be-extrodinary-podcast-with-joetta-clark",
+      "local_url": "archive/shore-ac-news--be-extrodinary-podcast-with-joetta-clark.html",
+      "text_sha256": "47908da11bbcf06559ae740139a23615c7d3140bed4bf7f3a0655ad662e4ded0",
+      "word_count": 14
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/black-rossiter-win-again-for-shore-ac-on-final-day-of-usatf-national-masters-indoor-championships-in-chcago",
+      "local_url": "archive/shore-ac-news--black-rossiter-win-again-for-shore-ac-on-final-day-of-usatf-national-masters-indoor-championships-in-chcago.html",
+      "text_sha256": "cdba467a15336b273b65129f114e5abd0fd7e87c75a54006a0d929bb58810ef3",
+      "word_count": 347
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/bridgett-foster-sail-out-to-great-long-jump-marks",
+      "local_url": "archive/shore-ac-news--bridgett-foster-sail-out-to-great-long-jump-marks.html",
+      "text_sha256": "0d5383662b0e6d2d98d57a856165940156603e8b9d6a92648d2e085da5ae732a",
+      "word_count": 167
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/captain-zinn-memorial-5k-raceswill-honor-olympic-greatand-all-vietnam-veterans",
+      "local_url": "archive/shore-ac-news--captain-zinn-memorial-5k-raceswill-honor-olympic-greatand-all-vietnam-veterans.html",
+      "text_sha256": "3e4be9f5d8c7b25f6ff08f8e9a74d1dadbc90ea6ebf3f26a6124bac57b4a286d",
+      "word_count": 569
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/captain-zinn-memorial-races-again-honor-olympic-great-and-all-vietnam-veterans",
+      "local_url": "archive/shore-ac-news--captain-zinn-memorial-races-again-honor-olympic-great-and-all-vietnam-veterans.html",
+      "text_sha256": "443fd6726eac097b6fe64168b875e20d451ecce793731007909fde000acf44bf",
+      "word_count": 402
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/check-back-here-daily-this-week-elliott-will-be-sending-olympic-trails-updates-from-eugene-oregon",
+      "local_url": "archive/shore-ac-news--check-back-here-daily-this-week-elliott-will-be-sending-olympic-trails-updates-from-eugene-oregon.html",
+      "text_sha256": "64505f05a687648bd86a1e407c75357b4423e217a1721b46aa279790852193c3",
+      "word_count": 742
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/cheers-for-mr-devin-hart-and-stanford-xc-teamand-all-our-shore-ac-teammates-friends-and-alumnicontinuing-to-do-big-things-in-our-sport",
+      "local_url": "archive/shore-ac-news--cheers-for-mr-devin-hart-and-stanford-xc-teamand-all-our-shore-ac-teammates-friends-and-alumnicontinuing-to-do-big-things-in-our-sport.html",
+      "text_sha256": "7db7dc092b04e4156d032e39fe14e7e0450b0f416dcca1b6c7392b3491f23a10",
+      "word_count": 425
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/chester-chet-bowmanwest-long-branchs-hometown-paris-olympianof-a-century-ago",
+      "local_url": "archive/shore-ac-news--chester-chet-bowmanwest-long-branchs-hometown-paris-olympianof-a-century-ago.html",
+      "text_sha256": "8a3889acbf465ada096beb65b0efe709f33d7ff0da70a1410c09c51a3093ea0c",
+      "word_count": 1123
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/climbing-all-those-stairs-to-sitting-this-one-out-by-elliott-denman",
+      "local_url": "archive/shore-ac-news--climbing-all-those-stairs-to-sitting-this-one-out-by-elliott-denman.html",
+      "text_sha256": "2aba981d512a55e450d48b279152ee58635387f52eb8bf5f33f565ec4759f959",
+      "word_count": 1541
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/coach-joe-napoli-retires-from-georgian-court-university-throws-coach-position",
+      "local_url": "archive/shore-ac-news--coach-joe-napoli-retires-from-georgian-court-university-throws-coach-position.html",
+      "text_sha256": "c182e148f21637564e98a7adac6fd14995225270ebba12cd2553efc29bcbee39",
+      "word_count": 274
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/congratulations-to-beth-marzigliano-on-earning-1st-place-in-the-2020-virtual-boston-marathon",
+      "local_url": "archive/shore-ac-news--congratulations-to-beth-marzigliano-on-earning-1st-place-in-the-2020-virtual-boston-marathon.html",
+      "text_sha256": "6b4e230585a12821986a965c413a074e44a644dddf34ecc3715bcee8d124b25d",
+      "word_count": 62
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/congratulations-to-harry-nolan-who-has-been-running-for-more-than-50-years",
+      "local_url": "archive/shore-ac-news--congratulations-to-harry-nolan-who-has-been-running-for-more-than-50-years.html",
+      "text_sha256": "c442cdaced580e61af4bbf854b9890160b2f96fc68f5572b759a92439f34d672",
+      "word_count": 71
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/connie-and-matt-brown-friends-and-family-celebrate-her-44th-nyc-marathon-and-80th-birthday-at-gala-gathering",
+      "local_url": "archive/shore-ac-news--connie-and-matt-brown-friends-and-family-celebrate-her-44th-nyc-marathon-and-80th-birthday-at-gala-gathering.html",
+      "text_sha256": "00cdbfae41b857ccb79c48ae59ad48fd0ddf81b4f22c0c515c286ce24b29aecc",
+      "word_count": 814
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/day-1-doha-world-championship-recap",
+      "local_url": "archive/shore-ac-news--day-1-doha-world-championship-recap.html",
+      "text_sha256": "79da4679a2bb409373bf87f2561432e031b7578719ba2f04c232c651a53336cb",
+      "word_count": 445
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/day-2-doha-world-championship-recap",
+      "local_url": "archive/shore-ac-news--day-2-doha-world-championship-recap.html",
+      "text_sha256": "ab2f4f5b88188c2a48e25beb4e8b3da5b7f077a81b8e7c6b814d61e18adb9a26",
+      "word_count": 650
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/day-2-usa-olympic-trials-by-elliott-denman-from-eugene-oregon",
+      "local_url": "archive/shore-ac-news--day-2-usa-olympic-trials-by-elliott-denman-from-eugene-oregon.html",
+      "text_sha256": "f4010d44ddeed7e17e6aec4cabf2fff862d1842753276836f9a4d07c8c33b6b5",
+      "word_count": 806
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/day-3-olympic-trials-blog-by-elliott-denman-from-eugene-oregon",
+      "local_url": "archive/shore-ac-news--day-3-olympic-trials-blog-by-elliott-denman-from-eugene-oregon.html",
+      "text_sha256": "5235661efa1343bf3c05e53e66281fb6de5c7f4470911469482f9d5b0c8f96fa",
+      "word_count": 838
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/day-4-olympic-trials-blog-by-elliott-denman-from-eugene-oregon",
+      "local_url": "archive/shore-ac-news--day-4-olympic-trials-blog-by-elliott-denman-from-eugene-oregon.html",
+      "text_sha256": "868bbe104d9f7527eab71bac5d5bc1ddc7e48dacbe48dae8c8b7f9fd68d7d2a5",
+      "word_count": 1052
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/day-5-recap-and-the-bearded-guy-visits-the-oregon-coast-on-day-off-from-the-olympic-trials",
+      "local_url": "archive/shore-ac-news--day-5-recap-and-the-bearded-guy-visits-the-oregon-coast-on-day-off-from-the-olympic-trials.html",
+      "text_sha256": "9f1cc19356c626f96c72c764e66f922b2f209bd634a80cdbe731d1e1cdd3a4aa",
+      "word_count": 748
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/day-8-columnblog-from-usa-olympic-trials-by-elliott-denman",
+      "local_url": "archive/shore-ac-news--day-8-columnblog-from-usa-olympic-trials-by-elliott-denman.html",
+      "text_sha256": "2c26847029452ca5b7bc59c9d707e0f4553e9dd1e65c6933de6e137a8da998dc",
+      "word_count": 787
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/day-foursix-finalssix-nations-strike-gold",
+      "local_url": "archive/shore-ac-news--day-foursix-finalssix-nations-strike-gold.html",
+      "text_sha256": "d0cb0105b117386d7ae7b8346afa2d723bf8fbc1dda2c2b5fa7ea19a88cb7d93",
+      "word_count": 374
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/december-04th-2023",
+      "local_url": "archive/shore-ac-news--december-04th-2023.html",
+      "text_sha256": "6469213a224f3ae19d2a00534b454c66b9eace99964e8568c1307b9992bffad4",
+      "word_count": 1079
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/denman-blog-from-doha",
+      "local_url": "archive/shore-ac-news--denman-blog-from-doha.html",
+      "text_sha256": "50d275b60ef83ee4999d81488945f6d45b903c354968644ca36352c325427e92",
+      "word_count": 1130
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/diggs-races-to-ncaa-400-titlecheers-reverberatearound-the-nation",
+      "local_url": "archive/shore-ac-news--diggs-races-to-ncaa-400-titlecheers-reverberatearound-the-nation.html",
+      "text_sha256": "2621d8ca7c3872f2334b10a203ff784bd35c41e5b3d812ad8e6e3a41bda08183",
+      "word_count": 879
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/elliott-denman-presents-poster-to-ajee-wilson",
+      "local_url": "archive/shore-ac-news--elliott-denman-presents-poster-to-ajee-wilson.html",
+      "text_sha256": "11933eddaa5478cc83629eb0cad6b914cec34dbe8a3c440738bca140aac8c8d6",
+      "word_count": 1020
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/elliott-denman-speaks-on-diversity-inclusion",
+      "local_url": "archive/shore-ac-news--elliott-denman-speaks-on-diversity-inclusion.html",
+      "text_sha256": "da5df046b1baaa7ebc1664a8e2fd1548c99d131e5661986aa439af05de161722",
+      "word_count": 413
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/fast-races-big-jumps-long-throws-feature-elliott-denmannj-international-meets-olympic-prelude-at-monmouth-university",
+      "local_url": "archive/shore-ac-news--fast-races-big-jumps-long-throws-feature-elliott-denmannj-international-meets-olympic-prelude-at-monmouth-university.html",
+      "text_sha256": "210d95452d55f099f6eb76d3f8be0022d38d909c3415646d87561b2b9d5f7e63",
+      "word_count": 1398
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/father-mom-share-joy-of-son-jake-wightmans-stunning-world-championship-1500-meter-run",
+      "local_url": "archive/shore-ac-news--father-mom-share-joy-of-son-jake-wightmans-stunning-world-championship-1500-meter-run.html",
+      "text_sha256": "dc1fff4c855a4532a5917fa417dc7f13f6e79592c7319650c26cb9755b3adc2d",
+      "word_count": 961
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/february-2022-newsletter",
+      "local_url": "archive/shore-ac-news--february-2022-newsletter.html",
+      "text_sha256": "79cf15117261510eeff945d092b5fd709396baad64e9070c72748a3f285df2f4",
+      "word_count": 31
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/final-recap-of-the-2019-world-championships",
+      "local_url": "archive/shore-ac-news--final-recap-of-the-2019-world-championships.html",
+      "text_sha256": "a11a3a1a41567e230a02f1f3e94d3b763814b13ea988ed27c966f3c352a5fb34",
+      "word_count": 815
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/four-shore-ac-athletes-again-bring-glory-to-club-at-2023-usa-nationals-in-eugene",
+      "local_url": "archive/shore-ac-news--four-shore-ac-athletes-again-bring-glory-to-club-at-2023-usa-nationals-in-eugene.html",
+      "text_sha256": "18237f756a9f201ec3746400628d022141e609401a55a9404148583914838f72",
+      "word_count": 743
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/four-teammates-named-to-usa-world-team",
+      "local_url": "archive/shore-ac-news--four-teammates-named-to-usa-world-team.html",
+      "text_sha256": "cb5f4c9c4791e3fd9c94b3ffd33045ea000cf087bf93288139b9b256a69eb2ba",
+      "word_count": 626
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/frank-harrisons-analysisthe-greatest-test-of-mankindsability-to-determinethe-finest-athlete-on-earth",
+      "local_url": "archive/shore-ac-news--frank-harrisons-analysisthe-greatest-test-of-mankindsability-to-determinethe-finest-athlete-on-earth.html",
+      "text_sha256": "2f19e27ad2b565d44ac76bd616ed27c8c17b7049476344a0ef549fb4cf26fa5e",
+      "word_count": 696
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/front-running-josette-andrewsthrills-fans-from-tokyo-to-new-yorknew-jerseyand-locations-far-beyond",
+      "local_url": "archive/shore-ac-news--front-running-josette-andrewsthrills-fans-from-tokyo-to-new-yorknew-jerseyand-locations-far-beyond.html",
+      "text_sha256": "d572e81cb082acdc5d9a5da1a5a0cef9a031d1426e04a69a6f12c24acdf7301d",
+      "word_count": 1352
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/gabriele-montefalcone-ita-ran-5017-a-personal-record",
+      "local_url": "archive/shore-ac-news--gabriele-montefalcone-ita-ran-5017-a-personal-record.html",
+      "text_sha256": "ef9b7d6eacc8aa3422a08318e460da3b250c151a74a856a41712c3dda5dfb640",
+      "word_count": 67
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/good-on-grandslam-trackbut-lets-look-back-backon-tracks-bad-old-days",
+      "local_url": "archive/shore-ac-news--good-on-grandslam-trackbut-lets-look-back-backon-tracks-bad-old-days.html",
+      "text_sha256": "9c71215622aaea0d75de94e455cb267bdf65cee1b0961d200c109b59035eb2dd",
+      "word_count": 2373
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/gordons-junior-olympics-win-earns-her-usatf-athlete-of-the-week-honors-usatf",
+      "local_url": "archive/shore-ac-news--gordons-junior-olympics-win-earns-her-usatf-athlete-of-the-week-honors-usatf.html",
+      "text_sha256": "003502a210dedd77e291773b7be320764bea7d1718d4b53816bfab42c9b1535c",
+      "word_count": 106
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/great-turnout-and-results-from-the-usatf-njny-dual-meet",
+      "local_url": "archive/shore-ac-news--great-turnout-and-results-from-the-usatf-njny-dual-meet.html",
+      "text_sha256": "56519dc24dd6856c1be204615124f3b75064551b706bd252d42d0b5556bdb0f1",
+      "word_count": 535
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/greensboro-gold-rush-story-shore-ac-masters-strike-gold-eleven-times-at-usa-nationals-monesmith-lee-lewis-huff-black-winners",
+      "local_url": "archive/shore-ac-news--greensboro-gold-rush-story-shore-ac-masters-strike-gold-eleven-times-at-usa-nationals-monesmith-lee-lewis-huff-black-winners.html",
+      "text_sha256": "76e9b8cc1570b7f89849913f3f9703c04a12b2de97b352d59e33bd351401f221",
+      "word_count": 887
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/honorees-announced-for-annual-banquet-scheduled-for-march-10-at-the-english-manor",
+      "local_url": "archive/shore-ac-news--honorees-announced-for-annual-banquet-scheduled-for-march-10-at-the-english-manor.html",
+      "text_sha256": "1110f7a23539bed960ffa37813e146bda43e552a30050110092bd90407a9a0fd",
+      "word_count": 681
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/in-honor-of-penn-relays",
+      "local_url": "archive/shore-ac-news--in-honor-of-penn-relays.html",
+      "text_sha256": "600b8b422a345e2801d0cd95e226ac2d1454d48488db95ebf62b95c6f1c1ab00",
+      "word_count": 200
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/in-memory-of-dick-hill-an-extrodinary-teammate",
+      "local_url": "archive/shore-ac-news--in-memory-of-dick-hill-an-extrodinary-teammate.html",
+      "text_sha256": "2457394d37881dea0e9cf89101966bee01843a1aa1a1ab1ffbdc47ffdf65acf4",
+      "word_count": 161
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/it-only-took-39-years-but-eugene-brought-great-world-meet-to-usa-for-first-time",
+      "local_url": "archive/shore-ac-news--it-only-took-39-years-but-eugene-brought-great-world-meet-to-usa-for-first-time.html",
+      "text_sha256": "e47cd45fc9f14f65d1aa5d5f201cd9ca22a181cf662e4bd5e3492cb34eede6ff",
+      "word_count": 59
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/its-time-to-say-au-revoir-jack-blackburn-remembered-ohio-state-alumnus-was-top-runner-and-race-walker",
+      "local_url": "archive/shore-ac-news--its-time-to-say-au-revoir-jack-blackburn-remembered-ohio-state-alumnus-was-top-runner-and-race-walker.html",
+      "text_sha256": "628b4b71c3a0c79214c5ad528e2f0b726bebc1c27ccf490ede33e299a83db894",
+      "word_count": 1384
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/jess-abbott-1500m-3000m-champion-at-usatf-region-2-junior-olympic-tf-championship",
+      "local_url": "archive/shore-ac-news--jess-abbott-1500m-3000m-champion-at-usatf-region-2-junior-olympic-tf-championship.html",
+      "text_sha256": "06c0fdeb4fae3b61659fee08d336a07af2658de6875cfb442cb89a1e8455fc1b",
+      "word_count": 74
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/jessica-abbott-is-the-junior-olympics-xc-state-champion",
+      "local_url": "archive/shore-ac-news--jessica-abbott-is-the-junior-olympics-xc-state-champion.html",
+      "text_sha256": "472ab1705cc3804bf966e5e05df473e4e12f4e8f878f67a5266d87742caeeaaa",
+      "word_count": 77
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/john-kuhi-almost-won-the-race-until-he-pulled-a-hamstring-he-was-leading-with-200-to-go-pictures-dont-lie",
+      "local_url": "archive/shore-ac-news--john-kuhi-almost-won-the-race-until-he-pulled-a-hamstring-he-was-leading-with-200-to-go-pictures-dont-lie.html",
+      "text_sha256": "872a42015a5071687badf0fef979cc2e2271a531696dd02f541df2b4def8edc0",
+      "word_count": 68
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/join-shore-ac-for-global-running-day",
+      "local_url": "archive/shore-ac-news--join-shore-ac-for-global-running-day.html",
+      "text_sha256": "15372196395079a4e3f38c4941c8c54314a39170dcf75d1e3603bb5ba954de0f",
+      "word_count": 152
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/join-us-for-some-holiday-cheer-on-december-30th-at-road-runner-sports",
+      "local_url": "archive/shore-ac-news--join-us-for-some-holiday-cheer-on-december-30th-at-road-runner-sports.html",
+      "text_sha256": "59a87af18bbef5540ee2f1218f7f0b1f032aad54f2376d5e6739476d6bd5d775",
+      "word_count": 21
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/june-16th-2021",
+      "local_url": "archive/shore-ac-news--june-16th-2021.html",
+      "text_sha256": "4249f4d613e85b9aef401cfcef778a687ad61baa30c187d43137d3461de38596",
+      "word_count": 902
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/keep-walking-new-jersey-from-elliott-denman-himself",
+      "local_url": "archive/shore-ac-news--keep-walking-new-jersey-from-elliott-denman-himself.html",
+      "text_sha256": "c8f54a4dad146bb91f4be33060bc42f5cb1663e9e140fe9ca8604ffee4eab2bd",
+      "word_count": 134
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/kingsway-grads-and-allen-familystar-for-shore-ac-at-tcs-nyc-marathon-mrs-connie-brown-makes-it-number-45",
+      "local_url": "archive/shore-ac-news--kingsway-grads-and-allen-familystar-for-shore-ac-at-tcs-nyc-marathon-mrs-connie-brown-makes-it-number-45.html",
+      "text_sha256": "d0c05e2e7fd26e2aa64f44cce45ab67cae799fa4559f029fd4bcaa600e690dbb",
+      "word_count": 435
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/lake-takanassee-carries-on-even-during-an-unprecedented-time-thanks-to-these-fellas",
+      "local_url": "archive/shore-ac-news--lake-takanassee-carries-on-even-during-an-unprecedented-time-thanks-to-these-fellas.html",
+      "text_sha256": "2ee5f2bb7a48ad968cdfdf089c03554d81f1e2fb50eaa4f2acacc9cd91a36d84",
+      "word_count": 80
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/lancaster-shea-starat-princeton-widener-meets",
+      "local_url": "archive/shore-ac-news--lancaster-shea-starat-princeton-widener-meets.html",
+      "text_sha256": "964807793f98d4a3d01fb00d694fd45861cf13a9120bb9d8f51e29ac22184da8",
+      "word_count": 176
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/larry-ramirez-placed-1st-in-the-800m-race-at-the-gotham-classic-in-1542-larry-led-from-the-start-and-ran-strong-way-to-go-larry",
+      "local_url": "archive/shore-ac-news--larry-ramirez-placed-1st-in-the-800m-race-at-the-gotham-classic-in-1542-larry-led-from-the-start-and-ran-strong-way-to-go-larry.html",
+      "text_sha256": "7f8c6a0ab7c067d704f726a5cf09e828fd801b6aec51d2c9f01dad845c0151dc",
+      "word_count": 34
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/last-call-for-34th-annual-nj-international-meet-entries",
+      "local_url": "archive/shore-ac-news--last-call-for-34th-annual-nj-international-meet-entries.html",
+      "text_sha256": "d59e46985be506cf95a35242f66671930bfb30ab9861310283443440370aca1d",
+      "word_count": 356
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/lets-salute-our-newest-shore-ac-olympian-lets-all-cheer-for-beijing-winter-olympic-games-skeleton-competitor-ms-kelly-curtis-slide-kelly-slide",
+      "local_url": "archive/shore-ac-news--lets-salute-our-newest-shore-ac-olympian-lets-all-cheer-for-beijing-winter-olympic-games-skeleton-competitor-ms-kelly-curtis-slide-kelly-slide.html",
+      "text_sha256": "9d6c750ca88362e319e72632caca060dbfbb093a03c3a330fd7943f0ce57bf0f",
+      "word_count": 256
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/major-congrats-to-teammates-aj-gruttadauro-michael-mannozzi",
+      "local_url": "archive/shore-ac-news--major-congrats-to-teammates-aj-gruttadauro-michael-mannozzi.html",
+      "text_sha256": "0b01719b9b3fd8c17383b7465eb5e3059cc830e2732b52fa8cb0fdad13b48054",
+      "word_count": 133
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/major-congratulations-to-coach-steve-dolan",
+      "local_url": "archive/shore-ac-news--major-congratulations-to-coach-steve-dolan.html",
+      "text_sha256": "57e0e83b227ac5274e1cd29582d2adeff441d3f2bf8ccefa6eb76a6742c926cb",
+      "word_count": 1070
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/many-cheers-for-ms-amina-smith",
+      "local_url": "archive/shore-ac-news--many-cheers-for-ms-amina-smith.html",
+      "text_sha256": "7e5af03645693d18706353d78509a7f00531a7d0f4318e09466b94e767af2967",
+      "word_count": 143
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/many-congratulations-to-aliann-pompey-on-being-promoted-to-associate-head-coach-at-st-johns",
+      "local_url": "archive/shore-ac-news--many-congratulations-to-aliann-pompey-on-being-promoted-to-associate-head-coach-at-st-johns.html",
+      "text_sha256": "951de0de36eb2dc26c3c20276bb86fb2669dca40e4d4832d2cf01298fb203f13",
+      "word_count": 434
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/marathon-original-ralph-garfieldto-be-honored-at-festivities-of50th-running-of-nyc-26-mile-classic",
+      "local_url": "archive/shore-ac-news--marathon-original-ralph-garfieldto-be-honored-at-festivities-of50th-running-of-nyc-26-mile-classic.html",
+      "text_sha256": "f1a3cb888c8ce08aaa28d72e4fc6ccade00faff68c2ee8b94dfc618efc7662e0",
+      "word_count": 866
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/march-09th-2021",
+      "local_url": "archive/shore-ac-news--march-09th-2021.html",
+      "text_sha256": "91519f510dd2322ddd253854167b4f4901762a9ceb54bf82777c7e7e494db177",
+      "word_count": 607
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/markus-rooth-worlds-greatest-athletebut-americans-hardly-notice",
+      "local_url": "archive/shore-ac-news--markus-rooth-worlds-greatest-athletebut-americans-hardly-notice.html",
+      "text_sha256": "2683ad1eb96a86ba68779ab7ee8a4d8fa749ab528873bbcfbead84cc1d619630",
+      "word_count": 912
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/message-from-elliott-denmanto-all-his-track-and-fieldcolleaguesteammatesfriends",
+      "local_url": "archive/shore-ac-news--message-from-elliott-denmanto-all-his-track-and-fieldcolleaguesteammatesfriends.html",
+      "text_sha256": "59cc703dded34105f5c2da8f29d079683e305f6a50753a15a782d3e5e131fc5f",
+      "word_count": 279
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/mondays-blog-new-mom-maria-michta-coffey-carries-the-flag-in-world-championships",
+      "local_url": "archive/shore-ac-news--mondays-blog-new-mom-maria-michta-coffey-carries-the-flag-in-world-championships.html",
+      "text_sha256": "a1c260958add794adc90adb8bf77c2d09f3f50ddb3716965eb9e20028b43d2d3",
+      "word_count": 585
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/monmouth-university-athletes-remain-hopeful-for-competition-soon",
+      "local_url": "archive/shore-ac-news--monmouth-university-athletes-remain-hopeful-for-competition-soon.html",
+      "text_sha256": "37ed5229671f1a66c33bb949e1ad09f111639819065e0fc9fde1a763a2c43546",
+      "word_count": 362
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/monmouth-university-dedicates-their-track-to-coach-joe-compagni",
+      "local_url": "archive/shore-ac-news--monmouth-university-dedicates-their-track-to-coach-joe-compagni.html",
+      "text_sha256": "ae9d66ff08dbd648570d856bd5d663eeea7d9aa866c4fa4d03b8266dfcc10396",
+      "word_count": 118
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/monmouth-university-plans-to-name-track-after-coach-joe-compagni",
+      "local_url": "archive/shore-ac-news--monmouth-university-plans-to-name-track-after-coach-joe-compagni.html",
+      "text_sha256": "66e7a551ae91cf9da71986bd3958601ba983194ca9c5da5ef4ca53e089347367",
+      "word_count": 220
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/mr-lester-wright-senior-of-shore-ac-lowers-world-100-meter-record-to-2634-seconds-before-huge-crowd-at-126th-penn-relays",
+      "local_url": "archive/shore-ac-news--mr-lester-wright-senior-of-shore-ac-lowers-world-100-meter-record-to-2634-seconds-before-huge-crowd-at-126th-penn-relays.html",
+      "text_sha256": "f5bb36f242f49f87167b3db803cce53ea7633e0fe129da1c43441582310b9be8",
+      "word_count": 873
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/national-champions-confer",
+      "local_url": "archive/shore-ac-news--national-champions-confer.html",
+      "text_sha256": "55bfe795151bc5138c1bf6a37dbf579bb4362a0850f59c439a6fb170f20eb4fd",
+      "word_count": 147
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/neptunes-ajee-wilson-wins-armory-600-in-world-leading-time",
+      "local_url": "archive/shore-ac-news--neptunes-ajee-wilson-wins-armory-600-in-world-leading-time.html",
+      "text_sha256": "9fc2eccdc79543cd8b7962bdebf48a3e6bbdd46027eb4047048bd4fbe562bb3f",
+      "word_count": 859
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/never-count-out-the-underdog",
+      "local_url": "archive/shore-ac-news--never-count-out-the-underdog.html",
+      "text_sha256": "890cde3e47418d10c88c4da1f70f024e25531a8330fecd77fd47c15d6b522aac",
+      "word_count": 682
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/new-jersey-hall-of-fameat-american-dream-mallis-dream-come-trueto-joetta-clark-diggs",
+      "local_url": "archive/shore-ac-news--new-jersey-hall-of-fameat-american-dream-mallis-dream-come-trueto-joetta-clark-diggs.html",
+      "text_sha256": "7037df709cb89fa820a9013b4bc6a7a5d0d71146b2f33d5e1db6d17eef595606",
+      "word_count": 964
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/new-shore-ac-record-set-on-march-23rd-at-the-nyc-armory-front-runner",
+      "local_url": "archive/shore-ac-news--new-shore-ac-record-set-on-march-23rd-at-the-nyc-armory-front-runner.html",
+      "text_sha256": "efcadd8030b747d421c66498341bee34bc8be250148cbb9b94b6484ac5239f05",
+      "word_count": 770
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/nine-2022-winter-olympians-connected-to-princeton-university",
+      "local_url": "archive/shore-ac-news--nine-2022-winter-olympians-connected-to-princeton-university.html",
+      "text_sha256": "197292d04d74a244f75d85ba188b1863470a867e0cedc0bd1fd43e6d135d8660",
+      "word_count": 518
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/nine-shore-ac-athletes-rank-among-national-elite-for-curtailed-2020-track-and-field-season",
+      "local_url": "archive/shore-ac-news--nine-shore-ac-athletes-rank-among-national-elite-for-curtailed-2020-track-and-field-season.html",
+      "text_sha256": "c483f5b26558e4f04e63600b8a9076d7abcabfb06d7c92420ab7325708a73486",
+      "word_count": 656
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/nj-coaches-honor-olympian-moore-with-coach-of-the-year-award",
+      "local_url": "archive/shore-ac-news--nj-coaches-honor-olympian-moore-with-coach-of-the-year-award.html",
+      "text_sha256": "d0d20f189dc4a17fc3f34dae4c259c5b0348f861f5ee744fc928c2e19c770815",
+      "word_count": 19
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/nj-international-meet-returnsafter-1-year-postponementthank-youthank-youthank-you",
+      "local_url": "archive/shore-ac-news--nj-international-meet-returnsafter-1-year-postponementthank-youthank-youthank-you.html",
+      "text_sha256": "5b2d8c6746119e6c263a815173a9547b00550a316d513e2fb3654f9b5bb67217",
+      "word_count": 872
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/no-one-runsbut-everyone-trains-in-kenya-the-land-of-supreme-distance-runners",
+      "local_url": "archive/shore-ac-news--no-one-runsbut-everyone-trains-in-kenya-the-land-of-supreme-distance-runners.html",
+      "text_sha256": "a4d987261e2e614fdc5b364f42f37764bd5bb2a507b624a0a708e47d62a8b849",
+      "word_count": 1657
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/noah-lyles-again-lives-up-to-fathers-coachs-golden-prophecy",
+      "local_url": "archive/shore-ac-news--noah-lyles-again-lives-up-to-fathers-coachs-golden-prophecy.html",
+      "text_sha256": "8a2852e516d868b9c71d84009d142ebd97a16d53de9207c2de9e14cf2f102b4a",
+      "word_count": 765
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/official-results-of-the-1-mile-race-walking-corporating-the-usatf-national-championship-at-the-115th-annual-millrose-games-at-the-nike-armory-track-center-nyc-on-february-11-2023",
+      "local_url": "archive/shore-ac-news--official-results-of-the-1-mile-race-walking-corporating-the-usatf-national-championship-at-the-115th-annual-millrose-games-at-the-nike-armory-track-center-nyc-on-february-11-2023.html",
+      "text_sha256": "99dc311a1b9fc50b4582fd4420774fe317c6b858a58e68629c34a6b139a3b103",
+      "word_count": 167
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/olympic-gold-medalist-athing-mu-millrose-legend-ajee-wilson-bound-for-jack-and-lewis-rudin-womens-800m-in-the-114th-millrose-games",
+      "local_url": "archive/shore-ac-news--olympic-gold-medalist-athing-mu-millrose-legend-ajee-wilson-bound-for-jack-and-lewis-rudin-womens-800m-in-the-114th-millrose-games.html",
+      "text_sha256": "e34ea1c76cdd8888ecddfd603ec9f787e3175ae63dd18b573978404770b22fee",
+      "word_count": 1319
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/our-farewell-to-teammate-todd-scully",
+      "local_url": "archive/shore-ac-news--our-farewell-to-teammate-todd-scully.html",
+      "text_sha256": "9c72c74f17a20a57c634b362939b223f4091b7f5009a3fdf5f969e0efd5fa191",
+      "word_count": 545
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/outstanding-performances-by-our-youth-athletes-at-the-usatf-youth-championships",
+      "local_url": "archive/shore-ac-news--outstanding-performances-by-our-youth-athletes-at-the-usatf-youth-championships.html",
+      "text_sha256": "a09d5edc13395bc434e64f4f783f88ef5314842c6fc7b0be51b5075c541f4d00",
+      "word_count": 81
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/paris-olympic-racewalkers-draw-big-crowds-to-trocadero-area-their-seniority-deseves-more-respect",
+      "local_url": "archive/shore-ac-news--paris-olympic-racewalkers-draw-big-crowds-to-trocadero-area-their-seniority-deseves-more-respect.html",
+      "text_sha256": "0509301f0de657e3ed10b9e211a95320c1953dcc02b1ec8d7ae5722cdaca5a16",
+      "word_count": 815
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/paris-olympic-racewalkers-draw-big-crowds-to-trocadero-area-their-seniority-deseves-more-respect7973835",
+      "local_url": "archive/shore-ac-news--paris-olympic-racewalkers-draw-big-crowds-to-trocadero-area-their-seniority-deseves-more-respect7973835.html",
+      "text_sha256": "035e9dca35a9e7476677a5f5555cd414cee7e9fb560be36f1e7ba31657abd60b",
+      "word_count": 815
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/pedersen-breaks-record-at-the-60th-asbury-parkpolar-bear-2023-5kmateescu-wins-the-womens-division-nolan-stars-for-60th-straight-year",
+      "local_url": "archive/shore-ac-news--pedersen-breaks-record-at-the-60th-asbury-parkpolar-bear-2023-5kmateescu-wins-the-womens-division-nolan-stars-for-60th-straight-year.html",
+      "text_sha256": "38c0b4b70fc0e6bd0b9f3394c9ce96a1e584eed7e60e17bc3c07f6e7cec0497e",
+      "word_count": 1163
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/pedersen-dyke-run-to-victoriesat-58th-annual-asbury-parkpolar-bear-races-on-boardwalkpaul-and-logan-lead-racewalkers",
+      "local_url": "archive/shore-ac-news--pedersen-dyke-run-to-victoriesat-58th-annual-asbury-parkpolar-bear-races-on-boardwalkpaul-and-logan-lead-racewalkers.html",
+      "text_sha256": "e3b9247837940607cab17d7c5b4649738036a3df47e286f6dff998b636d1df32",
+      "word_count": 809
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/pederson-breaks-record-at-the-60th-asbury-park-polar-bear-2023-5k-matteesou-wins-the-womens-division",
+      "local_url": "archive/shore-ac-news--pederson-breaks-record-at-the-60th-asbury-park-polar-bear-2023-5k-matteesou-wins-the-womens-division.html",
+      "text_sha256": "963737dc6e8f9adba6dbc07bd06623ff88472c1605939ead6470bb9b8c68aad7",
+      "word_count": 334
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/propert-booth-lead-runnerscocce-hayes-top-racewalkersin-rain-soaked-trick-or-trot",
+      "local_url": "archive/shore-ac-news--propert-booth-lead-runnerscocce-hayes-top-racewalkersin-rain-soaked-trick-or-trot.html",
+      "text_sha256": "e80e132ca583fc05510da2af69cc4b0f754e37a88883003e00b9e741e3795ab6",
+      "word_count": 250
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/rafferty-and-huneke-take-honors-in-the-59th-annual-polar-bear-carnaval-5k",
+      "local_url": "archive/shore-ac-news--rafferty-and-huneke-take-honors-in-the-59th-annual-polar-bear-carnaval-5k.html",
+      "text_sha256": "6482858b3bdd535ad7b37b45dd5ae8a82daa25c0917f99833fde481c74132f7c",
+      "word_count": 351
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/rick-lee-strikes-gold-four-times-at-the-pan-american-masters-track-field-championships-three-other-shore-ac-athletes-also-claim-gold-medals",
+      "local_url": "archive/shore-ac-news--rick-lee-strikes-gold-four-times-at-the-pan-american-masters-track-field-championships-three-other-shore-ac-athletes-also-claim-gold-medals.html",
+      "text_sha256": "6053e79cd62c7d189bef5f1f1317da2714dfe5e639049eef36c8d9ea14337274",
+      "word_count": 361
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/robbie-otal-us-7-and-world-36-in-the-discus",
+      "local_url": "archive/shore-ac-news--robbie-otal-us-7-and-world-36-in-the-discus.html",
+      "text_sha256": "7263a549765fb9de3c6d924d9eb6b7b6ee8846ec7be0aed6eca47735e5f1fd6f",
+      "word_count": 70
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/roberta-crosses-the-finish-line-at-the-gate-river-run-15k-in-atlanta-on-march-22-2021",
+      "local_url": "archive/shore-ac-news--roberta-crosses-the-finish-line-at-the-gate-river-run-15k-in-atlanta-on-march-22-2021.html",
+      "text_sha256": "f1d1f681bd4221e4088d9b2f12e444c1f0affc129b09db3c58109393b5bd578f",
+      "word_count": 207
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/roberta-qualifying-for-the-olympic-trails",
+      "local_url": "archive/shore-ac-news--roberta-qualifying-for-the-olympic-trails.html",
+      "text_sha256": "39211f7e5bd2a55544c2d938435866e650638915cb2bd536bd8cab385eb13c82",
+      "word_count": 53
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/rookie-rick-lee-bags-american-60-64-ag-record-2-50m",
+      "local_url": "archive/shore-ac-news--rookie-rick-lee-bags-american-60-64-ag-record-2-50m.html",
+      "text_sha256": "fb69b495f6b9790f484ff9d1139598f3ac5faf8d9ad63ff64c32c06b8f4bd5f0",
+      "word_count": 304
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/sac-60-men-took-2nd-in-usatf-national-half-marathon",
+      "local_url": "archive/shore-ac-news--sac-60-men-took-2nd-in-usatf-national-half-marathon.html",
+      "text_sha256": "ce0bcc706458e5d01a81a33832c5589c750ee2278d98ca7c11d3911db412143e",
+      "word_count": 612
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/sadly-speaking-the-sapporo-50kwill-be-the-20th-and-final-in-the-annals-ofthe-longest-and-toughest-eventon-the-olympic-games-athletics-program",
+      "local_url": "archive/shore-ac-news--sadly-speaking-the-sapporo-50kwill-be-the-20th-and-final-in-the-annals-ofthe-longest-and-toughest-eventon-the-olympic-games-athletics-program.html",
+      "text_sha256": "a71cd813754db0ef0acce9aeae1663bcbfcd228630651c187e5bde55fa76ade7",
+      "word_count": 1023
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/sam-allen-leads-way-for-team-usain-world-racewalking-team-championship20km-event-in-journey-to-muscat-oman",
+      "local_url": "archive/shore-ac-news--sam-allen-leads-way-for-team-usain-world-racewalking-team-championship20km-event-in-journey-to-muscat-oman.html",
+      "text_sha256": "123efa32e1d6a045a06251bf155f483816b61c3c5cd4d54cb75cdb1473bc78bb",
+      "word_count": 1140
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/sam-and-ryan-allen-rank-as-usas-very-best-young-race-walkers",
+      "local_url": "archive/shore-ac-news--sam-and-ryan-allen-rank-as-usas-very-best-young-race-walkers.html",
+      "text_sha256": "fd7a647ead51b41e73525ed6665c1b5e64f884cf64ef10a10a6fda6883417249",
+      "word_count": 167
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/sandy-hook-foundation-recieves-3000-from-jersey-shore-half-marathon-runners",
+      "local_url": "archive/shore-ac-news--sandy-hook-foundation-recieves-3000-from-jersey-shore-half-marathon-runners.html",
+      "text_sha256": "d7747c6e5827ecaa35558730480ba9c756bdc42e27c75497bbf84df96241b07e",
+      "word_count": 419
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/santee-california-when-the-going-got-tough-in-the-quadrenially-staged-usa-olympic-trials-50-kilometer-racewalk-the-five-shore-ac-entries-truly-got-tough-and-got-going",
+      "local_url": "archive/shore-ac-news--santee-california-when-the-going-got-tough-in-the-quadrenially-staged-usa-olympic-trials-50-kilometer-racewalk-the-five-shore-ac-entries-truly-got-tough-and-got-going.html",
+      "text_sha256": "d8b511248fb6675f1aa358ff4676bd4fce608021e0db42c3f9ce6bc09d454de4",
+      "word_count": 447
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/saying-goodbye-to-teammate-michael-mcdonnell",
+      "local_url": "archive/shore-ac-news--saying-goodbye-to-teammate-michael-mcdonnell.html",
+      "text_sha256": "c801fa831f0dc07a92831bb46475b185e75fedeee61a8f02f87ca4dd74839e8f",
+      "word_count": 714
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/scheid-and-marzigliano-run-to-polar-bear-triumphs-soucheck-paul-pace-walkers",
+      "local_url": "archive/shore-ac-news--scheid-and-marzigliano-run-to-polar-bear-triumphs-soucheck-paul-pace-walkers.html",
+      "text_sha256": "3ed54db16f840b8ea2d2900506810b93ba79356cc223f3478e4bfe0f4e285932",
+      "word_count": 768
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/september-04th-2023",
+      "local_url": "archive/shore-ac-news--september-04th-2023.html",
+      "text_sha256": "8540e35364ffffea62a9c533e8c33d7787e6173547a2ef9d4ee06c7928129f50",
+      "word_count": 333
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-and-asbury-park-sheehan-classic-5k-participants-raise-4189-for-the-boys-and-girls-club-of-monmouth-county",
+      "local_url": "archive/shore-ac-news--shore-ac-and-asbury-park-sheehan-classic-5k-participants-raise-4189-for-the-boys-and-girls-club-of-monmouth-county.html",
+      "text_sha256": "b0ba13b92b2e40ac21d532fa2ce08c8ec1055efc41962d17ffe07ecc3c8e8aff",
+      "word_count": 73
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-and-friends-say-their-sad-goodbyesau-revoir-dear-friend-teammate-andwalking-partner-col-alan-sherman",
+      "local_url": "archive/shore-ac-news--shore-ac-and-friends-say-their-sad-goodbyesau-revoir-dear-friend-teammate-andwalking-partner-col-alan-sherman.html",
+      "text_sha256": "7d66f0ba781950c4e2f1c2614fd1792626861dcde747e2dd98f7e982971a46bb",
+      "word_count": 697
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-at-usa-indoor-nationals-ocean-breeze-222-224",
+      "local_url": "archive/shore-ac-news--shore-ac-at-usa-indoor-nationals-ocean-breeze-222-224.html",
+      "text_sha256": "32ff17fe3ff3e0d238c8481539cac3d83e8007e7c8ed517a04a22fb22cc150b3",
+      "word_count": 482
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-athletes-and-alumni-do-big-things-at-usa-indoor-nationals-at-albuquerque",
+      "local_url": "archive/shore-ac-news--shore-ac-athletes-and-alumni-do-big-things-at-usa-indoor-nationals-at-albuquerque.html",
+      "text_sha256": "b3cb6f22172e13ddaad2e4acd9956e26135380a02f40af6bb5dceef380ee46bf",
+      "word_count": 652
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-athletes-do-very-big-things-at-olympic-trials-thanksthanksthanks-to-all-helped-the-team-cause",
+      "local_url": "archive/shore-ac-news--shore-ac-athletes-do-very-big-things-at-olympic-trials-thanksthanksthanks-to-all-helped-the-team-cause.html",
+      "text_sha256": "151cf53cb1055defd150be57f129f537e786497a6a6a5b03a309cd746ddf75f6",
+      "word_count": 636
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-athletes-excel-in-nyc",
+      "local_url": "archive/shore-ac-news--shore-ac-athletes-excel-in-nyc.html",
+      "text_sha256": "d0ef79d5b262dd76e6f4cb0426a90dd5e0dd74dc3e9daf53ca8e0825f4165b42",
+      "word_count": 89
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-athletes-light-it-upat-thomas-edison-park-meet",
+      "local_url": "archive/shore-ac-news--shore-ac-athletes-light-it-upat-thomas-edison-park-meet.html",
+      "text_sha256": "9dd1ee71905a40c32b4165a9017e632439bd7e574cca4c9568d6dab675c753e0",
+      "word_count": 417
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-athletes-play-dominant-rolesat-annual-association-championships",
+      "local_url": "archive/shore-ac-news--shore-ac-athletes-play-dominant-rolesat-annual-association-championships.html",
+      "text_sha256": "e574de890201caa229dea34092fc820047361e8c22dad49eff7729ef25c42790",
+      "word_count": 913
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-athletes-play-starring-roles-at-usa-indoor-national-masters-championships-12-teammates-capture-gold-medals",
+      "local_url": "archive/shore-ac-news--shore-ac-athletes-play-starring-roles-at-usa-indoor-national-masters-championships-12-teammates-capture-gold-medals.html",
+      "text_sha256": "2aa7cbd05ef8ed848edb2671269f1f0b855c2ce9fcd96bf3b23140e1a3b5937b",
+      "word_count": 1199
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-delegation-plays-brilliant-role-at-the-armorys-classic-117th-millrose-games-on-super-bowl-weekend",
+      "local_url": "archive/shore-ac-news--shore-ac-delegation-plays-brilliant-role-at-the-armorys-classic-117th-millrose-games-on-super-bowl-weekend.html",
+      "text_sha256": "7569be273fb9531b7eb5f7e7a23d367442441fffee7e56ebdc69c9336b405058",
+      "word_count": 1235
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-gone-running-athletes-shine-at-nationals",
+      "local_url": "archive/shore-ac-news--shore-ac-gone-running-athletes-shine-at-nationals.html",
+      "text_sha256": "f7406b41bec1d909489e3e8ff797b6d76d6b60a8afbe1a9a19aeff525bfe8906",
+      "word_count": 52
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-harriers-fly-at-premier-pre-thanksgiving-races",
+      "local_url": "archive/shore-ac-news--shore-ac-harriers-fly-at-premier-pre-thanksgiving-races.html",
+      "text_sha256": "8f22d128d2245f8d1e0002642616edeb7b1596aac2bb0892fb4e22b038c8257e",
+      "word_count": 257
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-has-so-many-reasons-to-express-its-pride",
+      "local_url": "archive/shore-ac-news--shore-ac-has-so-many-reasons-to-express-its-pride.html",
+      "text_sha256": "118258904fc8641db118316fc0f75c8c08f20b26db2a52bb036728e921b8cf08",
+      "word_count": 520
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-hauls-in-booty-at-hook-12k-today",
+      "local_url": "archive/shore-ac-news--shore-ac-hauls-in-booty-at-hook-12k-today.html",
+      "text_sha256": "3ca4ec9a4e809c04cc9c89ac48ef62239e802b31f5f765c9c9ca59e65bb1170a",
+      "word_count": 379
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-library",
+      "local_url": "archive/shore-ac-news--shore-ac-library.html",
+      "text_sha256": "ea1390d3e4becedc641be00f018c40bdbae4c23b0ba2b43547bd11f62e19971e",
+      "word_count": 381
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-loves-to-hear-success-stories",
+      "local_url": "archive/shore-ac-news--shore-ac-loves-to-hear-success-stories.html",
+      "text_sha256": "b565485ccf75cba62e379826bcad027bb3c8c507cebf35ea590e080751214215",
+      "word_count": 176
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-makes-usatf-news",
+      "local_url": "archive/shore-ac-news--shore-ac-makes-usatf-news.html",
+      "text_sha256": "ebffaeff65a77b0f7a720a27fa2d3c12c5b6845fadedd8a6614766f2ab145734",
+      "word_count": 251
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-masters-60s-team-wins-4-x-400-relay-at-the-2024-millrose-games-track-meet-club-70s-teams-claims-second-in-their-age-group-race-shore-ac-club-team-hits-a-third-place-in-the-distance-medley",
+      "local_url": "archive/shore-ac-news--shore-ac-masters-60s-team-wins-4-x-400-relay-at-the-2024-millrose-games-track-meet-club-70s-teams-claims-second-in-their-age-group-race-shore-ac-club-team-hits-a-third-place-in-the-distance-medley.html",
+      "text_sha256": "27c37fa53f84ac67f795ea2c3b0fc521a8b178090f3b4228bfe242fec4a1115b",
+      "word_count": 517
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-masters-distance-star-marc-bloom-reflects-on-a-lifetime-of-running-and-how-he-keeps-going-as-originally-published-by-dyestatcom",
+      "local_url": "archive/shore-ac-news--shore-ac-masters-distance-star-marc-bloom-reflects-on-a-lifetime-of-running-and-how-he-keeps-going-as-originally-published-by-dyestatcom.html",
+      "text_sha256": "500479a02039129c4e78e7c39a2fcedfc22e2e4d63123676aa94d69c4429d7dc",
+      "word_count": 64
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-masters-runners-clean-house-at-the-2022-penn-relays",
+      "local_url": "archive/shore-ac-news--shore-ac-masters-runners-clean-house-at-the-2022-penn-relays.html",
+      "text_sha256": "e0294a6100bbc67bcc227ba62af6153c8150cf480dd9a435f4c6f227dd2b03bb",
+      "word_count": 871
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-masters-runners-shine-in-a-rainy-2023-new-york-5th-avenue-mile",
+      "local_url": "archive/shore-ac-news--shore-ac-masters-runners-shine-in-a-rainy-2023-new-york-5th-avenue-mile.html",
+      "text_sha256": "557e9c586d4fc2a63f7df9f9cd69d35f2f9754d5ee7bced95f6600dcf8489f18",
+      "word_count": 418
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-masters-score-at-the-2022-usatf-national-masters-track-field-championships",
+      "local_url": "archive/shore-ac-news--shore-ac-masters-score-at-the-2022-usatf-national-masters-track-field-championships.html",
+      "text_sha256": "0439d7092ebdb566278e7baa2083c4b887cad0cca21ae8b76e48d8e1b813b072",
+      "word_count": 718
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-masters-shine-in-2024-penn-relays",
+      "local_url": "archive/shore-ac-news--shore-ac-masters-shine-in-2024-penn-relays.html",
+      "text_sha256": "8d9bb1043001f947c92673e72e32f959779572c806b6a3b5a47787d8bedc0790",
+      "word_count": 374
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-masters-sprinters-win-at-penn-relays-masters-and-open-relay-teams-run-well",
+      "local_url": "archive/shore-ac-news--shore-ac-masters-sprinters-win-at-penn-relays-masters-and-open-relay-teams-run-well.html",
+      "text_sha256": "feb4dab787bd46c4c7e0d33169f841e97e489549a6838dc6af47ae0e9771e1dd",
+      "word_count": 444
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-men-and-women-take-11-golds-and-race-to-usatf-eastern-regional-team-titles-by-large-margins-masters-cap-it-all-with-national-record",
+      "local_url": "archive/shore-ac-news--shore-ac-men-and-women-take-11-golds-and-race-to-usatf-eastern-regional-team-titles-by-large-margins-masters-cap-it-all-with-national-record.html",
+      "text_sha256": "4de32e7efd7ad048a259ef4aef7821f4303825fb053a0f6571ca4616a093e2fd",
+      "word_count": 1056
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-play-starring-roles-at-new-york-championships",
+      "local_url": "archive/shore-ac-news--shore-ac-play-starring-roles-at-new-york-championships.html",
+      "text_sha256": "58bdc75ead062f68f5d53087cbe03a0382b6e2adc2ebcd87858ca1e729bb4b68",
+      "word_count": 396
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-presents-a-check-to-saint-james-elementary-school-in-red-bank-nj",
+      "local_url": "archive/shore-ac-news--shore-ac-presents-a-check-to-saint-james-elementary-school-in-red-bank-nj.html",
+      "text_sha256": "d1f372419c3f7da35d33f777864423520003b72beb2716d85ec8ea909c184642",
+      "word_count": 71
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-relay-in-honor-of-penn-relays-masters-fun",
+      "local_url": "archive/shore-ac-news--shore-ac-relay-in-honor-of-penn-relays-masters-fun.html",
+      "text_sha256": "1e1f52aabedee203d4a65dd3f8c5f66e13ec99c489f7658c814be47598b55610",
+      "word_count": 354
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-relay-runners-and-race-walkers-score-at-the-2023-millrose-games-track-and-field-meet",
+      "local_url": "archive/shore-ac-news--shore-ac-relay-runners-and-race-walkers-score-at-the-2023-millrose-games-track-and-field-meet.html",
+      "text_sha256": "ab0314c7259fd063ce39d52237df5ee4f2732cf3a44ade167cd406b306600c62",
+      "word_count": 546
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-results-for-the-2018-usatf-nj-lager-run-5k-race-in-glen-ridge-nj",
+      "local_url": "archive/shore-ac-news--shore-ac-results-for-the-2018-usatf-nj-lager-run-5k-race-in-glen-ridge-nj.html",
+      "text_sha256": "aacdd8299a0d5080ca9a4a31c852845c0ba2d87a3a4e2b25bb249647d7baba29",
+      "word_count": 1191
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-results-for-the-2018-usatf-nj-newport-10k-race-in-jersey-city-nj",
+      "local_url": "archive/shore-ac-news--shore-ac-results-for-the-2018-usatf-nj-newport-10k-race-in-jersey-city-nj.html",
+      "text_sha256": "3a2311cf5b0ee6c42a69099cb94aee092c91169a5e0b6bb935a020667c6bc51f",
+      "word_count": 985
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-results-for-the-2018-usatf-nj-our-house-4-mile-race-in-summit-nj",
+      "local_url": "archive/shore-ac-news--shore-ac-results-for-the-2018-usatf-nj-our-house-4-mile-race-in-summit-nj.html",
+      "text_sha256": "e0b0eb3cc5a43d663677811d18bc4f7e5fecb70f3a01a200c2b72deccebc4254",
+      "word_count": 239
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-runners-enjoy-a-good-day-on-5th-avenue",
+      "local_url": "archive/shore-ac-news--shore-ac-runners-enjoy-a-good-day-on-5th-avenue.html",
+      "text_sha256": "cd7bd42863c8fe8793b91e2a28e6e5caf89889f164ff439a1a1074649d0742a1",
+      "word_count": 323
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-salutes-frank-and-beth-harris",
+      "local_url": "archive/shore-ac-news--shore-ac-salutes-frank-and-beth-harris.html",
+      "text_sha256": "9d135c1c4f6f706d6fd346d6fd7ecf49c24565efee80a067e4610ebec1d5f018",
+      "word_count": 272
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-stands-out-at-spring-lake-5",
+      "local_url": "archive/shore-ac-news--shore-ac-stands-out-at-spring-lake-5.html",
+      "text_sha256": "12a9731850bd89295d114582f1b259367c822d68fd5879a6b19372f894349fa8",
+      "word_count": 294
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-star-teammate-overcomes-injuries-and-more-to-dominate-masters-throwing-ranks",
+      "local_url": "archive/shore-ac-news--shore-ac-star-teammate-overcomes-injuries-and-more-to-dominate-masters-throwing-ranks.html",
+      "text_sha256": "f97dd9b3b85a113b56e672255d1e5e198dee2a467e29b11d876d5d5d869c3fb4",
+      "word_count": 1281
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-teammates-ajee-wilson-josh-awotunde-star-for-team-usa-at-the-18th-edition-of-the-world-indoor-championships-staged-march-18-19-20-at-the-stark-arena-in-belgrade-serbia",
+      "local_url": "archive/shore-ac-news--shore-ac-teammates-ajee-wilson-josh-awotunde-star-for-team-usa-at-the-18th-edition-of-the-world-indoor-championships-staged-march-18-19-20-at-the-stark-arena-in-belgrade-serbia.html",
+      "text_sha256": "87a1a648f16f8d10cf187c030185cd0f95908d879c1ede55962177f02e7b6e23",
+      "word_count": 471
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-teammates-excel-at-running-at-50th-running-of-tcs-nyc-marathon",
+      "local_url": "archive/shore-ac-news--shore-ac-teammates-excel-at-running-at-50th-running-of-tcs-nyc-marathon.html",
+      "text_sha256": "3b442a5f0718369ab773ffbba186205434d11dae83b1ef19a29d45ae7f071dfc",
+      "word_count": 275
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-throwers-and-freinds-at-nj-ny-ct-usatf-championship-meet-at-ocean-breeze",
+      "local_url": "archive/shore-ac-news--shore-ac-throwers-and-freinds-at-nj-ny-ct-usatf-championship-meet-at-ocean-breeze.html",
+      "text_sha256": "1611bbfc154d94163e717551471f4fdd05deb9f4d4cef21a07df40846e916cef",
+      "word_count": 66
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-ac-varsity-team-stalwart-jevon-hutchison-excels-for-team-usa-at-penn-relays-and-world-relays-in-japan",
+      "local_url": "archive/shore-ac-news--shore-ac-varsity-team-stalwart-jevon-hutchison-excels-for-team-usa-at-penn-relays-and-world-relays-in-japan.html",
+      "text_sha256": "a5cad0a26bd50da3a26aa559933dd44918565db1138874ca8d93355016fe3644",
+      "word_count": 94
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-acs-awotunde-opens-seasonin-brilliant-form-atsouth-carolina-invitational-meet",
+      "local_url": "archive/shore-ac-news--shore-acs-awotunde-opens-seasonin-brilliant-form-atsouth-carolina-invitational-meet.html",
+      "text_sha256": "b51d6655a22541e37c9ccec6a879cc96b784f3ef58d12e976fa54424b1420e9a",
+      "word_count": 273
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-acs-finest-play-prominent-roles-in-world-usa-rankings",
+      "local_url": "archive/shore-ac-news--shore-acs-finest-play-prominent-roles-in-world-usa-rankings.html",
+      "text_sha256": "36660a5014f43615d857f0b3b3194bd1c50d0a62332194dbec5a0372f4f3f68c",
+      "word_count": 628
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-acs-rick-leean-amazing-amazing-runner",
+      "local_url": "archive/shore-ac-news--shore-acs-rick-leean-amazing-amazing-runner.html",
+      "text_sha256": "a31a31209c08be01539c1097cf2b823c1f790254e2bd32421651eb92f58853b2",
+      "word_count": 1422
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-athletic-club-and-atlantic-physical-therapy-center-forge-exciting-partnership-for-2024-2025",
+      "local_url": "archive/shore-ac-news--shore-athletic-club-and-atlantic-physical-therapy-center-forge-exciting-partnership-for-2024-2025.html",
+      "text_sha256": "9321d7aa054cd00677385d3bd51a8925b3806dd31ce58ffc4897c448af86d4fa",
+      "word_count": 460
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-athletic-club-members-mourn-the-sudden-passing-of-teammate-thomas-tom-bazley",
+      "local_url": "archive/shore-ac-news--shore-athletic-club-members-mourn-the-sudden-passing-of-teammate-thomas-tom-bazley.html",
+      "text_sha256": "d91e77e5761bd8ee0c372906d384d56a0b746da2cbeb9a2d60ff39a77b2ffae2",
+      "word_count": 444
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/shore-athletic-club-salutes-mr-liam-murphy-and-his-villanova-university-teammates-charlie-odonovan-and-sean-dolan",
+      "local_url": "archive/shore-ac-news--shore-athletic-club-salutes-mr-liam-murphy-and-his-villanova-university-teammates-charlie-odonovan-and-sean-dolan.html",
+      "text_sha256": "6216455e19f842449a393f585677685c993f22594cffe1d085eff9d08c0f5e04",
+      "word_count": 590
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/some-outstanding-weekend-results",
+      "local_url": "archive/shore-ac-news--some-outstanding-weekend-results.html",
+      "text_sha256": "c0cf89ff43e50e1de1aee8e482586b7858955b380bd74686346cc7bd8b0f98e3",
+      "word_count": 164
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/success-all-around-for-the-ldr-teams-at-the-usatf-masters-national-half-marathon-and-the-spring-distance-classic-15k-team-championship",
+      "local_url": "archive/shore-ac-news--success-all-around-for-the-ldr-teams-at-the-usatf-masters-national-half-marathon-and-the-spring-distance-classic-15k-team-championship.html",
+      "text_sha256": "bcbbc2f596e3c3bdf542f085ebb4272ac5667cfc7314f8baf08c6e812813b2d8",
+      "word_count": 74
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/sydney-mclaughlin-makes-nj-proud-again",
+      "local_url": "archive/shore-ac-news--sydney-mclaughlin-makes-nj-proud-again.html",
+      "text_sha256": "a4069660ed2198f7deac1784e9599e73675e4a62c9548be5dd1bfb90cea042b9",
+      "word_count": 686
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/talithia-diggs-400m-outdoor-national-champion-in-4999",
+      "local_url": "archive/shore-ac-news--talithia-diggs-400m-outdoor-national-champion-in-4999.html",
+      "text_sha256": "a0ccf4f46544be386d852e4ee8cba4bdff0e981c8dee3b0d2aa1abe7cad3eb5c",
+      "word_count": 1275
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/teammate-josh-awotundesets-two-all-time-bests-and-powers-team-usa-tohistoric-shot-put-sweep-atworld-championships-by-elliott-denman",
+      "local_url": "archive/shore-ac-news--teammate-josh-awotundesets-two-all-time-bests-and-powers-team-usa-tohistoric-shot-put-sweep-atworld-championships-by-elliott-denman.html",
+      "text_sha256": "25cb0fed7a1c9117da633a4cd577eaafdd05398e3f84b64b1d0723be61ce001f",
+      "word_count": 672
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/thank-you-joe-renzella-capt-zinn-races-a-success",
+      "local_url": "archive/shore-ac-news--thank-you-joe-renzella-capt-zinn-races-a-success.html",
+      "text_sha256": "c30a27611ba468f07ef43e523283d8f510e092df3cd9b8a0ad9e784868a9e28c",
+      "word_count": 255
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/thank-you-walter-macgowan",
+      "local_url": "archive/shore-ac-news--thank-you-walter-macgowan.html",
+      "text_sha256": "95ba36ecac797fd2b241d2f692683c5f5c682b108083f0d2bc5a8e3a8e697005",
+      "word_count": 329
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/the-15th-of-november-2025a-great-saturday-at-holmdel-park",
+      "local_url": "archive/shore-ac-news--the-15th-of-november-2025a-great-saturday-at-holmdel-park.html",
+      "text_sha256": "1f9ffd59462bbe3af6d40c3af1d16bec81f85a7f38024a8161433494d50fdde9",
+      "word_count": 349
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/the-60th-annual-asbury-park-polar-bear-racesscheduled-for-saturday-december-30th",
+      "local_url": "archive/shore-ac-news--the-60th-annual-asbury-park-polar-bear-racesscheduled-for-saturday-december-30th.html",
+      "text_sha256": "65df3585c45d30194129d07bc1d8612278f0e07d9608e27f3872e92069ec7da0",
+      "word_count": 991
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/the-blossom-training-system-a-high-school-track-nickname-spurs-a-victory-for-the-ages",
+      "local_url": "archive/shore-ac-news--the-blossom-training-system-a-high-school-track-nickname-spurs-a-victory-for-the-ages.html",
+      "text_sha256": "066fd31ae249fcb1169bcdb1da1c3ee24579776723c80b9deb23bec0a4464ef7",
+      "word_count": 2638
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/the-pride-and-joy-of-william-howard-taft-high-schoolthe-late-and-truly-great-chita-rivera",
+      "local_url": "archive/shore-ac-news--the-pride-and-joy-of-william-howard-taft-high-schoolthe-late-and-truly-great-chita-rivera.html",
+      "text_sha256": "a1990d396a159393549aa779d3cb8e0f5137a4dbaeb59df337989d96a0b31020",
+      "word_count": 736
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/the-route-to-eugene-and-budapest-now-running-though-joe-compagni-track-at-kessler-stadium",
+      "local_url": "archive/shore-ac-news--the-route-to-eugene-and-budapest-now-running-though-joe-compagni-track-at-kessler-stadium.html",
+      "text_sha256": "0a46e882015497257a1bdf4d4eaa539ebcd44242a187946d59ffc4bf0aba215b",
+      "word_count": 1493
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/the-shore-ac-mourns-the-loss-of-lester-wright-jr-the-man-who-wore-many-hats",
+      "local_url": "archive/shore-ac-news--the-shore-ac-mourns-the-loss-of-lester-wright-jr-the-man-who-wore-many-hats.html",
+      "text_sha256": "0e14eafd8d805fbc26faa0ae93ee329544a708c96bd096eae5008a10c7034e9a",
+      "word_count": 478
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/the-things-we-tell-ourselves",
+      "local_url": "archive/shore-ac-news--the-things-we-tell-ourselves.html",
+      "text_sha256": "16f1f0e8f1b01287e612444f4116f4a56d1b47cd8b3ef6c6afe9a8239cc2f3d2",
+      "word_count": 712
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/the-usatf-and-shore-ac-mourn-the-loss-of-ed-grant",
+      "local_url": "archive/shore-ac-news--the-usatf-and-shore-ac-mourn-the-loss-of-ed-grant.html",
+      "text_sha256": "9840e3edf50989659576bfbb5d9a41510188ddbbb803c9390339553ddf0341e1",
+      "word_count": 363
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/thompson-herah-ingebrigtsen-shine-in-pre-classics-record-setting-return-to-hayward-field-from-the-register-guard",
+      "local_url": "archive/shore-ac-news--thompson-herah-ingebrigtsen-shine-in-pre-classics-record-setting-return-to-hayward-field-from-the-register-guard.html",
+      "text_sha256": "9e4a45dc356800e1fb8bb16a080e9bf6e31641dd12ae154bd190f66c33626ef2",
+      "word_count": 490
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/top-college-track-townsays-goodbye-to-top-college-coach",
+      "local_url": "archive/shore-ac-news--top-college-track-townsays-goodbye-to-top-college-coach.html",
+      "text_sha256": "f8c656d725600648f1fb132a18bfc2be3327b810e46d44070f7e7f4d0b1e6a39",
+      "word_count": 1432
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/track-and-field-worldirishmen-villanovans-say-farewellsto-the-immortal-ron-delany",
+      "local_url": "archive/shore-ac-news--track-and-field-worldirishmen-villanovans-say-farewellsto-the-immortal-ron-delany.html",
+      "text_sha256": "d19f9c9f931811ce9eccc911926db6e5d4eba14512b6a58629377208a823b81a",
+      "word_count": 2328
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/tuesdays-blog-of-2019-world-championships",
+      "local_url": "archive/shore-ac-news--tuesdays-blog-of-2019-world-championships.html",
+      "text_sha256": "3b3542a755bc7bee00b0201d820fd546821b8275aafb9d0aae886fcd66fad7b9",
+      "word_count": 623
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/two-2021-national-champions-here-congratulations-jess-and-liliah",
+      "local_url": "archive/shore-ac-news--two-2021-national-champions-here-congratulations-jess-and-liliah.html",
+      "text_sha256": "798e72ee59b15f813c8516019eba0ffbfbf68db85f789c82746acaa04561f87a",
+      "word_count": 125
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/two-youth-national-champions-congratulations-to-shore-ac-gone-running-jess-abbott-and-liliah-gordon",
+      "local_url": "archive/shore-ac-news--two-youth-national-champions-congratulations-to-shore-ac-gone-running-jess-abbott-and-liliah-gordon.html",
+      "text_sha256": "c279b61e35037071649edd7ccd0f671c6d6cde1bb247c37145ce8cfe9791793a",
+      "word_count": 126
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/usa-indoor-nationals-at-spokane-washington",
+      "local_url": "archive/shore-ac-news--usa-indoor-nationals-at-spokane-washington.html",
+      "text_sha256": "134c7a4326fd0084632251859d4e9848248cf89dbba3cdae4e637cefc283906b",
+      "word_count": 551
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/usatf-40km-championship-recap-results",
+      "local_url": "archive/shore-ac-news--usatf-40km-championship-recap-results.html",
+      "text_sha256": "b3e04387e0e8e5993a5c5a5b3e921dbd8a00a2a650f16d0c5e860c81fa0cb8a2",
+      "word_count": 738
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/usatf-announces-2022-usatf-outdoor-championships-site-usatf-announces-that-team-usatf-will-compete-at-hayward-field-for-its-2022-outdoor-championships-in-eugene-oregon",
+      "local_url": "archive/shore-ac-news--usatf-announces-2022-usatf-outdoor-championships-site-usatf-announces-that-team-usatf-will-compete-at-hayward-field-for-its-2022-outdoor-championships-in-eugene-oregon.html",
+      "text_sha256": "d90945dc2fd894a22eb0a068c4bc00e60dd8780d6660e9186717672a46c160f4",
+      "word_count": 251
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/very-loud-and-major-cheers-for-our-amazing-teammate-mr-reno-stirrat",
+      "local_url": "archive/shore-ac-news--very-loud-and-major-cheers-for-our-amazing-teammate-mr-reno-stirrat.html",
+      "text_sha256": "40b05d7b38d18fa593c66a82b70cf467dd7fa326a99321fb8c3cc2e0b3dbed86",
+      "word_count": 161
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/wayne-baker-has-had-the-chance-to-put-johnny-hayes-medal-into-the-hands-of-quite-a-few-runners",
+      "local_url": "archive/shore-ac-news--wayne-baker-has-had-the-chance-to-put-johnny-hayes-medal-into-the-hands-of-quite-a-few-runners.html",
+      "text_sha256": "3f5b19d06fbee9de46f704156c9134cf90492219b26a3b396ce5ae9489327090",
+      "word_count": 41
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/well-done-shore-ac-member-rich-kenah",
+      "local_url": "archive/shore-ac-news--well-done-shore-ac-member-rich-kenah.html",
+      "text_sha256": "b6ab50d9d50913fca6c6e61c79db811570f63d773ee69c3f793c1e84264d3f22",
+      "word_count": 694
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/what-a-huge-weekend",
+      "local_url": "archive/shore-ac-news--what-a-huge-weekend.html",
+      "text_sha256": "ff37f30f262f2eea0e1bf6e88f02c23d072824eec9b47ef4a186a27c6b0ba617",
+      "word_count": 647
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/why-not-theyre-running-for-their-lives",
+      "local_url": "archive/shore-ac-news--why-not-theyre-running-for-their-lives.html",
+      "text_sha256": "7afbb0f8c819e6b7d726dcdb0a1b94edbeda9f47eb13eefb5be247c86659fe52",
+      "word_count": 704
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/womens-50-team-national-champs-at-the-syracuse-half-way-to-go-team",
+      "local_url": "archive/shore-ac-news--womens-50-team-national-champs-at-the-syracuse-half-way-to-go-team.html",
+      "text_sha256": "7f12a5da672943bf8d3a494efc5733e5de351ca1de99cf4a214d2e52f2725565",
+      "word_count": 44
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/wonderful-competition-by-andrew-hizzone-in-the-heptathlon-way-to-go-andrew",
+      "local_url": "archive/shore-ac-news--wonderful-competition-by-andrew-hizzone-in-the-heptathlon-way-to-go-andrew.html",
+      "text_sha256": "f105146913e637b07f5ea26a8910356cc7e76a1514f60c51bb316f3bd4c1e91e",
+      "word_count": 106
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/world-championship-recap",
+      "local_url": "archive/shore-ac-news--world-championship-recap.html",
+      "text_sha256": "8c3f7a17f3451a4f4a5dd4a3a9111c215b2f75eb2153b0ab456bcefc52c2210e",
+      "word_count": 811
+    },
+    {
+      "source_url": "https://www.shoreac.org/shore-ac-news/young-star-schmitt-and-bradley-take-capt-zinn-memorial-5k-run-titles-campos-rodriguez-pace-5k-racewalkers",
+      "local_url": "archive/shore-ac-news--young-star-schmitt-and-bradley-take-capt-zinn-memorial-5k-run-titles-campos-rodriguez-pace-5k-racewalkers.html",
+      "text_sha256": "809f61a5368332662c1aa81276b567d90d8504bf0959fe96f67d5882dab7a7b3",
+      "word_count": 500
+    },
+    {
+      "source_url": "https://www.shoreac.org/sitka-jacket.html",
+      "local_url": "archive/sitka-jacket.html",
+      "text_sha256": "29f60e4dde51a621ad9c83a9a07959d54f32bcd268a7f1b3c80f7c5160b27ee5",
+      "word_count": 25
+    },
+    {
+      "source_url": "https://www.shoreac.org/social-media.html",
+      "local_url": "archive/social-media.html",
+      "text_sha256": "6769a4b7beaf786bb62adb55daf9490f5d8a9a1156baec421145450bd9b1a77c",
+      "word_count": 6
+    },
+    {
+      "source_url": "https://www.shoreac.org/spring-distance-classic-15k.html",
+      "local_url": "archive/spring-distance-classic-15k.html",
+      "text_sha256": "ed12403a21d54c7f869713df68cdace3afc08a7c56a0ce5d433cfe878ef48fa7",
+      "word_count": 14
+    },
+    {
+      "source_url": "https://www.shoreac.org/store/c1/Featured_Products.html",
+      "local_url": "archive/store--c1--featured_products.html",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "word_count": 0
+    },
+    {
+      "source_url": "https://www.shoreac.org/store/c2/Membership.html",
+      "local_url": "archive/store--c2--membership.html",
+      "text_sha256": "8e53abbd247d5ce543f80dd0897a8dc3b9ec3f2de5a8b679f74576fbef19eabc",
+      "word_count": 11
+    },
+    {
+      "source_url": "https://www.shoreac.org/store/p10/Vendor_table_and_more.html",
+      "local_url": "archive/store--p10--vendor_table_and_more.html",
+      "text_sha256": "f63be05be224a4f7202df1ee70fc97c455e8c1e37dabd05c77396a6d827c7fd5",
+      "word_count": 17
+    },
+    {
+      "source_url": "https://www.shoreac.org/store/p11/Website_and_more.html",
+      "local_url": "archive/store--p11--website_and_more.html",
+      "text_sha256": "3eb19ae6431aa0d935378f0db686d8e0f9a2c8bc1f60b7e5fadf65e5d2f67867",
+      "word_count": 29
+    },
+    {
+      "source_url": "https://www.shoreac.org/store/p12/Cedar_Hall_-_Single_Room.html",
+      "local_url": "archive/store--p12--cedar_hall_-_single_room.html",
+      "text_sha256": "b3d4bf5e34f2b76424db1f0652b54644f2a702e3d30984a5021447d4f8b37c9a",
+      "word_count": 117
+    },
+    {
+      "source_url": "https://www.shoreac.org/store/p14/Cedar_Hall_-_Triple_Room.html",
+      "local_url": "archive/store--p14--cedar_hall_-_triple_room.html",
+      "text_sha256": "be560f7fc104708dba3417243d308f488a9f158ff6f6ff99b37435f3b3dbaa9c",
+      "word_count": 142
+    },
+    {
+      "source_url": "https://www.shoreac.org/store/p15/Linen_%26_Towel_Rental.html",
+      "local_url": "archive/store--p15--linen_-_towel_rental.html",
+      "text_sha256": "47c201ed26bc96e6868f5496e064dbea672ec2988a80a35f1f093472b5cdd4ee",
+      "word_count": 66
+    },
+    {
+      "source_url": "https://www.shoreac.org/store/p16/Become_a_marketing_sponsor.html",
+      "local_url": "archive/store--p16--become_a_marketing_sponsor.html",
+      "text_sha256": "b3711385916181d2145751eb989b829819d6b79b98a88c85ecdcb0fb1360e8c6",
+      "word_count": 18
+    },
+    {
+      "source_url": "https://www.shoreac.org/store/p17/Website_sponsor_and_more.html",
+      "local_url": "archive/store--p17--website_sponsor_and_more.html",
+      "text_sha256": "0a4568b0c355ed0832f427f747f5f7a3f5f9fe5fa5f93a64b2cae703087d2652",
+      "word_count": 30
+    },
+    {
+      "source_url": "https://www.shoreac.org/store/p2/2021_Shore_AC_Membership.html",
+      "local_url": "archive/store--p2--2021_shore_ac_membership.html",
+      "text_sha256": "fb4115362836b40dcef7952ddcc1a55bfdf47dfc4424f668bc804dcb696181c1",
+      "word_count": 103
+    },
+    {
+      "source_url": "https://www.shoreac.org/store/p3/Cross_Country_Series_-_All_Races.html",
+      "local_url": "archive/store--p3--cross_country_series_-_all_races.html",
+      "text_sha256": "b6bc49ff0b0c4ff22c00f744b2ed7bc0884f11c88808f7bced2af67a0bd8dfe6",
+      "word_count": 38
+    },
+    {
+      "source_url": "https://www.shoreac.org/store/p4/Cross_Country_Series_-_%22Per_race%22.html",
+      "local_url": "archive/store--p4--cross_country_series_-_-per_race.html",
+      "text_sha256": "f5590ab0570b35d8655b40e3914c5a6cea1b6fdce8007d592673f728761b3cb9",
+      "word_count": 51
+    },
+    {
+      "source_url": "https://www.shoreac.org/store/p5/Shore_A.C._Salutes_Legends.html",
+      "local_url": "archive/store--p5--shore_a.c._salutes_legends.html",
+      "text_sha256": "be3728dd85513c34a64996824433b7c14b52498f17447e4cf52570f997eeefba",
+      "word_count": 45
+    },
+    {
+      "source_url": "https://www.shoreac.org/store/p6/New_Jersey_Track_Reunion_Party%21_%7C_Sunday_November_24%2C_2019.html",
+      "local_url": "archive/store--p6--new_jersey_track_reunion_party-_-_sunday_november_24-_2019.html",
+      "text_sha256": "3bd7ff58935fdbf0a94b5b2774192f2f6cebf825de9c6c8d054cdba4575a1493",
+      "word_count": 34
+    },
+    {
+      "source_url": "https://www.shoreac.org/store/p7/Women%27s_Sitka_Hybrid_Softshell_Jacket.html",
+      "local_url": "archive/store--p7--womens_sitka_hybrid_softshell_jacket.html",
+      "text_sha256": "7089ab3193351b3982f4dd7b41062e2c091d994a77bafd6ba853d7dba5eae5cb",
+      "word_count": 41
+    },
+    {
+      "source_url": "https://www.shoreac.org/store/p8/Men%27s_Sitka_Hybrid_Softshell_Jacket.html",
+      "local_url": "archive/store--p8--mens_sitka_hybrid_softshell_jacket.html",
+      "text_sha256": "dd94b03a89e66589129c53ad258e8a1373b33a9e7e820fb6cd13892970739672",
+      "word_count": 39
+    },
+    {
+      "source_url": "https://www.shoreac.org/support-us.html",
+      "local_url": "archive/support-us.html",
+      "text_sha256": "ef39690e443e4431671bc33f1d139f6f1cd3c38f6e4c24532af30f2b9d65cc90",
+      "word_count": 356
+    },
+    {
+      "source_url": "https://www.shoreac.org/the-runners-forum.html",
+      "local_url": "archive/the-runners-forum.html",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "word_count": 0
+    },
+    {
+      "source_url": "https://www.shoreac.org/under-armour-footwear.html",
+      "local_url": "archive/under-armour-footwear.html",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "word_count": 0
+    },
+    {
+      "source_url": "https://www.shoreac.org/usatf-long-distance-running-teams.html",
+      "local_url": "archive/usatf-long-distance-running-teams.html",
+      "text_sha256": "9ef6197539e59a4ca0d9c82f97b3536818629d45456f5b8765aea423de6ebcf8",
+      "word_count": 423
+    },
+    {
+      "source_url": "https://www.shoreac.org/usatf-masters-track-field.html",
+      "local_url": "archive/usatf-masters-track-field.html",
+      "text_sha256": "ced8ec8de367f694dc36aa2b56ef54ae30b82f6a3b42db75de198b533785ecfb",
+      "word_count": 19
+    },
+    {
+      "source_url": "https://www.shoreac.org/usatf-open-long-distance-running.html",
+      "local_url": "archive/usatf-open-long-distance-running.html",
+      "text_sha256": "de54eb41164e475e59b4291c67133249dbe8095b011bc306c70a7bec542ba071",
+      "word_count": 19
+    },
+    {
+      "source_url": "https://www.shoreac.org/usatf-open-track-field.html",
+      "local_url": "archive/usatf-open-track-field.html",
+      "text_sha256": "995f890fb5f4ca6f573205bb17c0d5aa3758ffabe1d2af94711eb81b8d420c82",
+      "word_count": 19
+    },
+    {
+      "source_url": "https://www.shoreac.org/usatf-xc-club-nationals-2019.html",
+      "local_url": "archive/usatf-xc-club-nationals-2019.html",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "word_count": 0
+    },
+    {
+      "source_url": "https://www.shoreac.org/videos.html",
+      "local_url": "archive/videos.html",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "word_count": 0
+    },
+    {
+      "source_url": "https://www.shoreac.org/volunteer-opportunities.html",
+      "local_url": "archive/volunteer-opportunities.html",
+      "text_sha256": "fe82a301cf410607534b29776bfd9798169d2068b9c93149caa9cab67ab9a761",
+      "word_count": 16
+    },
+    {
+      "source_url": "https://www.shoreac.org/youth-programs.html",
+      "local_url": "archive/youth-programs.html",
+      "text_sha256": "4b57a160db29eb72d18827c23697179c0db4b178e1c4d5f87930db7e99cdbdef",
+      "word_count": 283
+    },
+    {
+      "source_url": "https://www.shoreac.org/youth-xc-series.html",
+      "local_url": "archive/youth-xc-series.html",
+      "text_sha256": "c44dbf8bc9bf708cdc82cdf8c73dcd3b9c4e58322a05af93d3da705204a37e40",
+      "word_count": 566
+    },
+    {
+      "source_url": "https://www.shoreac.org/youth.html",
+      "local_url": "archive/youth.html",
+      "text_sha256": "34208f4f7a8bdc9f0ac505d4bb21ac8783e35408d1a2994c4dc81153b01c1c19",
+      "word_count": 562
+    }
+  ]
+}

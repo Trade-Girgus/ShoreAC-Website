@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="assets/shore-ac.png">
   <title>Shore Athletic Club | Join, Train &amp; Race in New Jersey</title>
   <meta name="description" content="Join Shore Athletic Club, register for 2026 races, find youth and adult training, and explore the club's history.">
   <style>
@@ -181,6 +182,12 @@
       border-color: rgba(255, 255, 255, .72);
     }
 
+    .button-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+    }
+
     .menu-icon {
       width: 18px;
       display: grid;
@@ -288,17 +295,15 @@
       align-items: center;
       overflow: hidden;
       color: var(--white);
-      background:
-        linear-gradient(90deg, rgba(7, 27, 77, .93) 0%, rgba(7, 27, 77, .66) 52%, rgba(7, 27, 77, .2) 100%),
-        url("assets/elliott-denman-2026.png") center / cover no-repeat;
+      background-color: #173d8f;
+      background-image: url("assets/elliott-denman-2026.png");
+      background-position: center;
+      background-size: cover;
+      background-blend-mode: multiply;
     }
 
     .hero::after {
-      content: "";
-      position: absolute;
-      inset: auto 0 0;
-      height: 150px;
-      background: linear-gradient(180deg, rgba(245, 247, 251, 0), var(--paper));
+      content: none;
     }
 
     .hero-content {
@@ -345,7 +350,7 @@
     h1 {
       max-width: 820px;
       margin-top: 18px;
-      font-size: clamp(52px, 7vw, 98px);
+      font-size: 82px;
       line-height: .94;
       letter-spacing: 0;
     }
@@ -1068,9 +1073,11 @@
 
       .hero {
         min-height: 650px;
-        background:
-          linear-gradient(180deg, rgba(7, 27, 77, .92) 0%, rgba(7, 27, 77, .78) 62%, rgba(7, 27, 77, .42) 100%),
-          url("assets/elliott-denman-2026.png") center / cover no-repeat;
+        background-color: #173d8f;
+        background-image: url("assets/elliott-denman-2026.png");
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: multiply;
       }
 
       .eyebrow {
@@ -1173,7 +1180,7 @@
         </span>
       </a>
       <div class="header-actions">
-        <a class="button primary" href="https://runsignup.com/Club/NJ/SpringLake/ShoreAthleticClub">Join</a>
+        <a class="button primary" href="https://runsignup.com/MemberOrg/ShoreAthleticClub/Register">Join</a>
         <a class="button secondary" href="support.html">Donate</a>
         <a class="button light" href="events.html">Race Calendar</a>
       </div>
@@ -1197,7 +1204,7 @@
         <section class="menu-group">
           <h3>Join &amp; Member Tools</h3>
           <a href="membership.html">Membership Benefits</a>
-          <a href="https://runsignup.com/Club/NJ/SpringLake/ShoreAthleticClub">Join or Renew</a>
+          <a href="https://runsignup.com/MemberOrg/ShoreAthleticClub/Register">Join or Renew</a>
           <a href="membership.html#coaching">Coaching Add-On</a>
           <a href="programs.html#compete">Compete for Shore A.C.</a>
           <a href="news.html">Newsletter &amp; News</a>
@@ -1213,7 +1220,7 @@
         <section class="menu-group">
           <h3>Training &amp; Programs</h3>
           <a href="programs.html#youth">Youth Programs</a>
-          <a href="programs.html#workout-wednesday">Workout Wednesday</a>
+          <a href="archive/workout-wednesday.html">Workout Wednesday</a>
           <a href="programs.html#gone-running">Gone Running</a>
           <a href="programs.html#coaching">Coaches Corner</a>
           <a href="programs.html#compete">USATF Teams</a>
@@ -1224,6 +1231,7 @@
           <a href="news.html">News &amp; Blog</a>
           <a href="media.html">Photos, Videos, Social</a>
           <a href="club.html">Board, Records, Hall of Fame</a>
+          <a href="archive.html">Full Searchable Archive</a>
           <a href="contact.html">Contact Us</a>
         </section>
       </nav>
@@ -1303,7 +1311,7 @@
               <div class="tag-row"><span class="tag red">5K</span><span class="tag green">Racewalk</span><span class="tag">Kids Run</span></div>
               <h3>Memorial race day with sponsorship opportunities</h3>
               <p>5K run, race walk, and kids fun run honoring Captain Ronald Zinn.</p>
-              <a class="button primary" href="https://runsignup.com/Race/NJ/SpringLake/THE52NDANNUALCAPTAINRONALDZINNMEMORIALRACES?remMeAttempt=">Race Page</a>
+              <a class="button primary" href="archive/captain-zinn.html">Details and 2026 Results</a>
             </div>
           </article>
           <article class="event-card card" data-type="track youth">
@@ -1312,7 +1320,7 @@
               <div class="tag-row"><span class="tag">Track</span><span class="tag">Jumps</span><span class="tag">Throws</span></div>
               <h3>Open track meets for all ages and abilities</h3>
               <p>Sprints, distance, racewalk, relays, jumps, and throwing events.</p>
-              <a class="button secondary" href="events.html#all-comers">Meet Info</a>
+              <a class="button secondary" href="archive/all-comers-tf-meet-series.html">Meet Info</a>
             </div>
           </article>
           <article class="event-card card" data-type="track youth" data-featured="true">
@@ -1321,7 +1329,7 @@
               <div class="tag-row"><span class="tag">Elite</span><span class="tag">Masters</span><span class="tag">Youth</span></div>
               <h3>Signature track and field meet</h3>
               <p>The 39th edition brings top athletes plus masters, youth, and high school competitors.</p>
-              <a class="button primary" href="https://www.mosaic-sports.com/org/ShoreAC">Register Now</a>
+              <div class="button-row"><a class="button primary" href="https://www.mosaic-sports.com/org/ShoreAC">Register Now</a><a class="button secondary" href="archive/njinternational.html">Meet Details</a></div>
             </div>
           </article>
           <article class="event-card card" data-type="road youth">
@@ -1330,7 +1338,7 @@
               <div class="tag-row"><span class="tag red">Mile</span><span class="tag">USATF-NJ</span><span class="tag">Family</span></div>
               <h3>Fast road mile with 10 race sections</h3>
               <p>Open, masters, high school, kids, and community mile races with a STEM atmosphere.</p>
-              <a class="button primary" href="https://runsignup.com/Race/NJ/Holmdel/BigBangMile">Register</a>
+              <div class="button-row"><a class="button primary" href="https://runsignup.com/Race/NJ/Holmdel/BigBangMile">Register</a><a class="button secondary" href="archive/big-bang-mile.html">Race Details</a></div>
             </div>
           </article>
           <article class="event-card card" data-type="road youth">
@@ -1339,7 +1347,7 @@
               <div class="tag-row"><span class="tag red">5K</span><span class="tag">1500m Kids</span><span class="tag">Series</span></div>
               <h3>Weekly summer racing in Long Branch</h3>
               <p>5K and kids 1500m around Lake Takanassee with weekly and series awards.</p>
-              <a class="button secondary" href="https://runsignup.com/Race/NJ/LongBranch/LakeTakanasseeSummerSeries">Register for the Series</a>
+              <div class="button-row"><a class="button primary" href="https://runsignup.com/Race/NJ/LongBranch/LakeTakanasseeSummerSeries">Register for the Series</a><a class="button secondary" href="archive/lake-takanassee-series.html">Series Details</a></div>
             </div>
           </article>
           <article class="event-card card" data-type="road youth">
@@ -1348,16 +1356,16 @@
               <div class="tag-row"><span class="tag red">5K</span><span class="tag">Kiddie Dashes</span><span class="tag green">Cash Prizes</span></div>
               <h3>Legendary 5K and family race day</h3>
               <p>Race tee, open and masters prizes, age-group awards, and kiddie dash medals.</p>
-              <a class="button primary" href="https://runsignup.com/Race/NJ/AsburyPark/AsburyPark5K">Register</a>
+              <div class="button-row"><a class="button primary" href="https://runsignup.com/Race/NJ/AsburyPark/AsburyPark5K">Register</a><a class="button secondary" href="archive/sheehan-classic.html">Race Details</a></div>
             </div>
           </article>
           <article class="event-card card" data-type="xc youth">
-            <div class="event-date"><strong>Sep<br>19</strong><span><b>Youth Cross Country Fall Series</b>Holmdel Park</span></div>
+            <div class="event-date"><strong>Sep<br>20</strong><span><b>Youth Cross Country Fall Series</b>Holmdel Park</span></div>
             <div class="event-body">
               <div class="tag-row"><span class="tag">400m</span><span class="tag">800m</span><span class="tag">2K-4K</span></div>
               <h3>Multi-week youth XC racing</h3>
               <p>Weekly races with ribbons, championship medals, trophies, and team scoring.</p>
-              <a class="button primary" href="https://runsignup.com/Race/NJ/Holmdel/ShoreACYouthXCSeries">Register</a>
+              <div class="button-row"><a class="button primary" href="https://runsignup.com/Race/NJ/Holmdel/ShoreACYouthXCSeries">Register</a><a class="button secondary" href="archive/youth-xc-series.html">Series Details</a></div>
             </div>
           </article>
           <article class="event-card card" data-type="xc">
@@ -1366,7 +1374,7 @@
               <div class="tag-row"><span class="tag red">5K</span><span class="tag">Team Scoring</span><span class="tag">Series</span></div>
               <h3>Trail 5Ks across local parks</h3>
               <p>Six-race adult series with individual, age-group, and team awards.</p>
-              <a class="button secondary" href="https://runsignup.com/Race/NJ/Holmdel/AdultCrossCountrySeries">Register for the Series</a>
+              <div class="button-row"><a class="button primary" href="https://runsignup.com/Race/NJ/Holmdel/AdultCrossCountrySeries">Register for the Series</a><a class="button secondary" href="archive/cross-country-series.html">Series Details</a></div>
             </div>
           </article>
           <article class="event-card card" data-type="road">
@@ -1375,7 +1383,7 @@
               <div class="tag-row"><span class="tag red">Half Marathon</span><span class="tag">2 Mile</span><span class="tag green">Pacers</span></div>
               <h3>Historic shore distance race</h3>
               <p>Flat, fast Sandy Hook course with clocks, water stations, shirts, medals, and post-race celebration.</p>
-              <a class="button primary" href="events.html#half-marathon">Race Details</a>
+              <a class="button primary" href="archive/jersey-shore-half.html">Race Details</a>
             </div>
           </article>
           <article class="event-card card" data-type="xc">
@@ -1384,7 +1392,7 @@
               <div class="tag-row"><span class="tag">3K</span><span class="tag">5K</span><span class="tag">Teams</span></div>
               <h3>Alumni cross country tradition</h3>
               <p>Open and masters awards plus biggest-and-best team recognition.</p>
-              <a class="button secondary" href="https://runsignup.com/Race/NJ/Holmdel/AlumniXCRun">Register</a>
+              <a class="button secondary" href="archive/alumni-xc-run1.html">Details - Registration Coming Soon</a>
             </div>
           </article>
           <article class="event-card card" data-type="road">
@@ -1393,7 +1401,7 @@
               <div class="tag-row"><span class="tag red">1 Mile</span><span class="tag">5K</span><span class="tag green">Awards</span></div>
               <h3>Longest-standing Shore A.C. race</h3>
               <p>Rain, snow, or sunshine, the annual Polar Bear tradition keeps going.</p>
-              <a class="button primary" href="https://runsignup.com/Race/NJ/AsburyPark/AsburyParkPolarBearRaces?remMeAttempt=">Register</a>
+              <div class="button-row"><a class="button primary" href="https://runsignup.com/Race/NJ/AsburyPark/AsburyParkPolarBearRaces">Register</a><a class="button secondary" href="archive/polar-bear-races.html">Race Details</a></div>
             </div>
           </article>
         </div>
@@ -1411,38 +1419,38 @@
             <h3>Youth</h3>
             <strong class="price">$15</strong>
             <p>Annual youth membership for athletes under 18.</p>
-            <a class="button secondary" href="https://runsignup.com/Club/NJ/SpringLake/ShoreAthleticClub">Join Youth</a>
+            <a class="button secondary" href="https://runsignup.com/MemberOrg/ShoreAthleticClub/Register?level=5614">Join Youth</a>
           </article>
           <article class="content-card card">
             <h3>Adult</h3>
             <strong class="price">$40</strong>
             <p>Annual adult membership for runners, racewalkers, track and field athletes, and community members.</p>
-            <a class="button primary" href="https://runsignup.com/Club/NJ/SpringLake/ShoreAthleticClub">Join Adult</a>
+            <a class="button primary" href="https://runsignup.com/MemberOrg/ShoreAthleticClub/Register?level=5612">Join Adult</a>
           </article>
           <article class="content-card card">
             <h3>Annual + Coaching</h3>
             <strong class="price">$120</strong>
             <p>Membership plus individualized race training support from Shore A.C.'s coach network.</p>
-            <a class="button dark" href="membership.html#coaching">Explore Coaching</a>
+            <a class="button dark" href="https://runsignup.com/MemberOrg/ShoreAthleticClub/Register?level=5613">Join with Coaching</a>
           </article>
           <article class="content-card card">
             <h3>Two-Year Membership</h3>
             <strong class="price">$75</strong>
-            <p>A longer membership option is available for athletes who want to stay active with the club beyond one season.</p>
-            <a class="button secondary" href="https://runsignup.com/Club/NJ/SpringLake/ShoreAthleticClub">Join for Two Years</a>
+            <p>Covers the remainder of 2026 and all of 2027 with standard adult membership benefits.</p>
+            <a class="button secondary" href="https://runsignup.com/MemberOrg/ShoreAthleticClub/Register?level=8504">Join for Two Years</a>
           </article>
         </div>
         <div class="benefits-layout">
           <div class="feature-card card">
             <h3>Why join Shore A.C.?</h3>
             <p>Members get more than a club name. They get race discounts, training access, competition opportunities, coaching paths, and community.</p>
-            <a class="button primary" href="https://runsignup.com/Club/NJ/SpringLake/ShoreAthleticClub">Join or Renew Today</a>
+            <a class="button primary" href="https://runsignup.com/MemberOrg/ShoreAthleticClub/Register">Join or Renew Today</a>
           </div>
           <article class="benefit-card card">
             <h3>Member benefits</h3>
             <ul class="card-list">
               <li>One-time Shore A.C. racing singlet for new members</li>
-              <li>$10 discount at five hosted events</li>
+              <li>Promo-code discounts at five signature events</li>
               <li>Free adult track workouts and youth workout discounts</li>
               <li>Club communications, incentives, and group chat</li>
               <li>USATF competition opportunities and group runs</li>
@@ -1542,7 +1550,7 @@
           <article class="content-card card">
             <h3>Donate</h3>
             <p>Shore A.C. is a 501(c)(3) nonprofit. Donations help support events, athletes, youth programs, and club operations.</p>
-            <a class="button primary" href="https://runsignup.com/Club/Donate/NJ/Belford/ShoreAthleticClub">Donate Here</a>
+            <a class="button primary" href="https://runsignup.com/MemberOrg/ShoreAthleticClub/Donate">Donate Here</a>
           </article>
           <article class="content-card card">
             <h3>Sponsor or Partner</h3>
@@ -1583,7 +1591,7 @@
               <li>11/19/25 - Kingsway grads and Allen family star for Shore A.C. at NYC Marathon</li>
               <li>11/15/25 - A great Saturday at Holmdel Park</li>
             </ul>
-            <a class="button light" href="news.html">View News Archive</a>
+            <div class="button-row"><a class="button light" href="news.html">Latest News</a><a class="button secondary" href="archive.html?category=News%20and%20Blog">All 204 Articles</a></div>
           </article>
           <article class="content-card card">
             <h3>Awards and scholarship</h3>
@@ -1608,7 +1616,7 @@
         <div class="media-grid">
           <article class="content-card card">
             <h3>Media archive</h3>
-            <p>Organize galleries by event and moment: 85th Anniversary and Elliott's Birthday, Alumni XC Run, Captain Zinn, Millrose, Sheehan Classic, Spring Distance Classic, USATF XC Club Nationals, miscellaneous photos, and videos.</p>
+            <p>Browse 2,539 distinct local images from club history, meets, races, athletes, and nine named photo collections, plus all three archived videos.</p>
             <div class="gallery-strip">
               <img src="assets/sac-est-1934.png" alt="Shore A.C. established 1934">
               <img src="assets/nj-international-logo.png" alt="NJ International meet logo">
@@ -1642,7 +1650,7 @@
             <div class="content-card">
               <h3>Club archive</h3>
               <p>Board and staff, past presidents, Johnny Hayes Memorial Award, Hall of Fame, Olympians, club records, masters relay records, and photo history.</p>
-              <a class="button secondary" href="club.html">Explore Club &amp; Legacy</a>
+              <div class="button-row"><a class="button secondary" href="club.html">Explore Club &amp; Legacy</a><a class="button dark" href="archive.html">Search All 560 Pages</a></div>
             </div>
           </article>
           <div class="legacy-copy">
@@ -1650,7 +1658,7 @@
               <div class="timeline-item"><strong>1934</strong><p>Official birth year of Shore A.C.</p></div>
               <div class="timeline-item"><strong>1964</strong><p>The modern club era begins, leading to the organization people know today.</p></div>
               <div class="timeline-item"><strong>500+</strong><p>Members across road running, track, field, cross country, racewalking, youth, open, and masters competition.</p></div>
-              <div class="timeline-item"><strong>Archive</strong><p>Hall of Fame members, Olympians, Johnny Hayes award winners, club records, board roles, and past presidents become searchable supporting content.</p></div>
+              <div class="timeline-item"><strong>Archive</strong><p>560 original pages preserve Hall of Fame members, Olympians, Johnny Hayes award winners, club records, board roles, past presidents, results, and news.</p></div>
             </div>
           </div>
         </div>
@@ -1679,7 +1687,7 @@
         <p>P.O. Box 74, Belford, NJ 07718-9998<br>501(c)(3) nonprofit. Tax ID: 22-2386529.</p>
       </div>
       <nav class="footer-links" aria-label="Footer links">
-        <a href="https://runsignup.com/Club/NJ/SpringLake/ShoreAthleticClub">Join</a>
+        <a href="https://runsignup.com/MemberOrg/ShoreAthleticClub/Register">Join</a>
         <a href="events.html">Events</a>
         <a href="programs.html#youth">Youth</a>
         <a href="support.html">Support</a>
