@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Photos, Video & Social | Shore Athletic Club</title>
+  <meta name="description" content="Shore A.C. photo galleries, Johnny Hayes archive images, race-day albums, video, and social channels.">
+  <link rel="stylesheet" href="interior.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html"><img src="https://www.shoreac.org/uploads/1/1/5/0/115007939/shore-ac.png" alt="Shore A.C."><span>Shore Athletic Club</span></a>
+      <nav class="nav" aria-label="Primary">
+        <a class="button light" href="index.html">Home</a>
+        <a class="button secondary" href="events.html">Races</a>
+        <a class="button" href="club.html">Club</a>
+        <a class="button primary" href="https://runsignup.com/Club/NJ/SpringLake/ShoreAthleticClub">Join</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="wrap">
+        <span class="eyebrow">Club media</span>
+        <h1>Photos, video, and memories from Shore A.C.</h1>
+        <p>Official gallery images have been organized into this local media archive, including event albums, historic photos, Johnny Hayes images, and race-day collections.</p>
+      </div>
+    </section>
+
+    <section class="section white" id="gallery">
+      <div class="wrap">
+        <span id="johnny" hidden></span>
+        <span id="alumni" hidden></span>
+        <div class="section-head">
+          <h2>Photo archive</h2>
+          <p>Choose a gallery. Images load on this page, so visitors stay inside the new site.</p>
+        </div>
+        <div class="gallery-toolbar" id="galleryFilters" aria-label="Photo gallery filters"></div>
+        <div class="grid two" style="margin-bottom:18px">
+          <article class="card feature" id="galleryIntro">
+            <h3>Official Photo Archive</h3>
+            <p>Historic club images and race-day moments from the official photo archive.</p>
+          </article>
+          <article class="card">
+            <h3>Archive size</h3>
+            <p><strong id="galleryCount">0</strong> images available in this gallery. Use the button below to load more photos without making the page too heavy at first.</p>
+            <button class="button secondary" type="button" id="loadMore">Load more photos</button>
+          </article>
+        </div>
+        <div class="gallery-grid" id="galleryGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="video">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Video</h2>
+          <p>Meet footage, interviews, race highlights, and moments from the club archive.</p>
+        </div>
+        <div class="video-frame">
+          <iframe src="https://www.youtube.com/embed/WaJDlL0P7c4" title="Shore A.C. video archive" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="section white" id="social">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Social channels</h2>
+          <p>For current announcements, results, race albums, and day-to-day updates.</p>
+        </div>
+        <div class="grid three">
+          <article class="card feature"><h3>Facebook</h3><p>Race announcements, results, albums, and community updates.</p><a class="button primary" href="https://www.facebook.com/shoreac/">Follow on Facebook</a></article>
+          <article class="card"><h3>Instagram</h3><p>Photos and current moments from Shore A.C. events and athletes.</p><a class="button secondary" href="https://www.instagram.com/theshoreac/">Follow @theshoreac</a></article>
+          <article class="card"><h3>X / Twitter</h3><p>Quick club updates from @TheShoreAC.</p><a class="button secondary" href="https://twitter.com/TheShoreAC">Follow @TheShoreAC</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="share">
+      <div class="wrap">
+        <div class="callout">
+          <div>
+            <h2>Have photos from a Shore A.C. event?</h2>
+            <p>Send them to the club for possible inclusion in the archive or social channels.</p>
+          </div>
+          <a class="button primary" href="mailto:shoreac1954@gmail.com">Email photos</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><strong>Shore Athletic Club</strong><br>P.O. Box 74, Belford, NJ 07718-9998</div>
+      <nav class="footer-links" aria-label="Footer links">
+        <a href="index.html">Home</a>
+        <a href="events.html">Races</a>
+        <a href="programs.html">Programs</a>
+        <a href="club.html">Club</a>
+        <a href="news.html">News</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="gallery-data.js"></script>
+  <script>
+    const filters = document.getElementById("galleryFilters");
+    const grid = document.getElementById("galleryGrid");
+    const intro = document.getElementById("galleryIntro");
+    const count = document.getElementById("galleryCount");
+    const loadMore = document.getElementById("loadMore");
+    const galleries = window.SHORE_GALLERIES || [];
+    let active = galleries[0];
+    let visible = 24;
+
+    function renderButtons() {
+      filters.innerHTML = "";
+      galleries.forEach((gallery) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "filter-button" + (gallery.id === active.id ? " active" : "");
+        button.textContent = gallery.title;
+        button.addEventListener("click", () => {
+          active = gallery;
+          visible = 24;
+          render();
+        });
+        filters.appendChild(button);
+      });
+    }
+
+    function render() {
+      renderButtons();
+      intro.querySelector("h3").textContent = active.title;
+      intro.querySelector("p").textContent = active.description;
+      count.textContent = active.images.length.toLocaleString();
+      grid.innerHTML = "";
+      active.images.slice(0, visible).forEach((src, index) => {
+        const card = document.createElement("figure");
+        card.className = "gallery-card";
+        const image = document.createElement("img");
+        image.src = src;
+        image.alt = active.title + " photo " + (index + 1);
+        image.loading = "lazy";
+        const caption = document.createElement("span");
+        caption.textContent = active.title + " #" + (index + 1);
+        card.append(image, caption);
+        grid.appendChild(card);
+      });
+      loadMore.style.display = visible >= active.images.length ? "none" : "inline-flex";
+    }
+
+    loadMore.addEventListener("click", () => {
+      visible += 24;
+      render();
+    });
+
+    if (galleries.length) {
+      const hashId = window.location.hash.replace("#", "");
+      active = galleries.find((gallery) => gallery.id === hashId) || galleries[0];
+      render();
+    }
+  </script>
+</body>
+</html>
