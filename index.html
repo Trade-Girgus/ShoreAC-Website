@@ -1,0 +1,1771 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shore Athletic Club | Join, Train &amp; Race in New Jersey</title>
+  <meta name="description" content="Join Shore Athletic Club, register for 2026 races, find youth and adult training, and explore the club's history.">
+  <style>
+    :root {
+      --ink: #101725;
+      --muted: #5c6676;
+      --line: #dce2ec;
+      --paper: #f5f7fb;
+      --white: #ffffff;
+      --blue: #173d8f;
+      --blue-dark: #071b4d;
+      --red: #d9292f;
+      --gold: #f0b429;
+      --teal: #2e9aa0;
+      --green: #19734b;
+      --slate: #293241;
+      --shadow: 0 18px 48px rgba(16, 23, 37, .14);
+      --radius: 8px;
+      --max: 1180px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.5;
+      overflow-x: hidden;
+    }
+
+    body.menu-open {
+      overflow: hidden;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button,
+    input,
+    textarea {
+      font: inherit;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      background: rgba(255, 255, 255, .94);
+      border-bottom: 1px solid rgba(16, 23, 37, .08);
+      backdrop-filter: blur(16px);
+    }
+
+    .header-inner,
+    .wrap,
+    .footer-inner {
+      width: min(var(--max), calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .header-inner {
+      min-height: 74px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .brand {
+      min-width: 0;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 900;
+    }
+
+    .brand img {
+      width: 98px;
+      flex: 0 0 auto;
+    }
+
+    .brand-copy {
+      display: grid;
+      line-height: 1.05;
+    }
+
+    .brand-copy span:first-child {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .brand-copy span:last-child {
+      color: var(--blue-dark);
+      font-size: 19px;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 10px;
+      flex: 1 1 auto;
+    }
+
+    .button,
+    .menu-button,
+    .mobile-menu-button {
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      padding: 0 17px;
+      border: 1px solid transparent;
+      border-radius: var(--radius);
+      font-size: 14px;
+      font-weight: 900;
+      line-height: 1;
+      white-space: nowrap;
+      cursor: pointer;
+      transition: transform .18s ease, box-shadow .18s ease, background-color .18s ease, border-color .18s ease;
+    }
+
+    .button:hover,
+    .menu-button:hover,
+    .mobile-menu-button:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 10px 24px rgba(16, 23, 37, .16);
+    }
+
+    .button.primary {
+      color: var(--white);
+      background: var(--red);
+    }
+
+    .button.secondary {
+      color: var(--white);
+      background: var(--blue);
+    }
+
+    .button.light,
+    .menu-button,
+    .mobile-menu-button {
+      color: var(--blue-dark);
+      background: var(--white);
+      border-color: rgba(16, 23, 37, .14);
+    }
+
+    .mobile-menu-button {
+      display: none;
+    }
+
+    .button.dark {
+      color: var(--white);
+      background: var(--blue-dark);
+    }
+
+    .button.ghost {
+      color: var(--white);
+      border-color: rgba(255, 255, 255, .72);
+    }
+
+    .menu-icon {
+      width: 18px;
+      display: grid;
+      gap: 4px;
+    }
+
+    .menu-icon span {
+      height: 2px;
+      display: block;
+      background: currentColor;
+    }
+
+    .menu-panel {
+      position: fixed;
+      inset: 0;
+      z-index: 40;
+      display: none;
+      background: rgba(7, 27, 77, .72);
+    }
+
+    body.menu-open .menu-panel {
+      display: block;
+    }
+
+    .menu-sheet {
+      width: min(1120px, calc(100% - 32px));
+      max-height: calc(100vh - 32px);
+      margin: 16px auto;
+      overflow: auto;
+      background: var(--white);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .menu-head {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 20px;
+      background: var(--white);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .menu-head strong {
+      color: var(--blue-dark);
+      font-size: 22px;
+    }
+
+    .menu-close {
+      width: 44px;
+      height: 44px;
+      display: inline-grid;
+      place-items: center;
+      color: var(--blue-dark);
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      font-size: 28px;
+      line-height: 1;
+      cursor: pointer;
+    }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background: var(--line);
+    }
+
+    .menu-group {
+      min-height: 260px;
+      padding: 22px;
+      background: var(--white);
+    }
+
+    .menu-group h3 {
+      margin: 0 0 14px;
+      color: var(--red);
+      font-size: 13px;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    .menu-group a {
+      display: block;
+      padding: 8px 0;
+      color: var(--ink);
+      font-size: 15px;
+      font-weight: 750;
+      border-bottom: 1px solid rgba(220, 226, 236, .72);
+    }
+
+    .menu-group a:last-child {
+      border-bottom: 0;
+    }
+
+    .hero {
+      position: relative;
+      min-height: 690px;
+      display: grid;
+      align-items: center;
+      overflow: hidden;
+      color: var(--white);
+      background:
+        linear-gradient(90deg, rgba(7, 27, 77, .93) 0%, rgba(7, 27, 77, .66) 52%, rgba(7, 27, 77, .2) 100%),
+        url("https://www.shoreac.org/uploads/1/1/5/0/115007939/published/2026-elliott-denman-save-the-date.png?1773246964") center / cover no-repeat;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0;
+      height: 150px;
+      background: linear-gradient(180deg, rgba(245, 247, 251, 0), var(--paper));
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      width: min(var(--max), calc(100% - 32px));
+      margin: 0 auto;
+      padding: 96px 0 132px;
+    }
+
+    .eyebrow {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      width: min(680px, 100%);
+      color: #edf4ff;
+      font-size: 13px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .eyebrow-text {
+      display: block;
+      flex: 1 1 auto;
+      min-width: 0;
+      white-space: normal;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 34px;
+      flex: 0 0 34px;
+      height: 4px;
+      background: var(--gold);
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin: 0;
+    }
+
+    h1 {
+      max-width: 820px;
+      margin-top: 18px;
+      font-size: clamp(52px, 7vw, 98px);
+      line-height: .94;
+      letter-spacing: 0;
+    }
+
+    .hero-lede {
+      max-width: 690px;
+      margin-top: 24px;
+      color: #eef3ff;
+      font-size: 20px;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 32px;
+    }
+
+    .hero-rail {
+      position: relative;
+      z-index: 2;
+      width: min(var(--max), calc(100% - 32px));
+      margin: -82px auto 0;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      background: var(--white);
+      border: 1px solid rgba(16, 23, 37, .08);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .rail-item {
+      display: grid;
+      gap: 8px;
+      padding: 22px;
+      border-right: 1px solid var(--line);
+    }
+
+    .rail-item:last-child {
+      border-right: 0;
+    }
+
+    .rail-item strong {
+      color: var(--blue-dark);
+      font-size: 28px;
+      line-height: 1;
+    }
+
+    .rail-item span {
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 780;
+    }
+
+    .section {
+      padding: 84px 0;
+    }
+
+    .section.white {
+      background: var(--white);
+    }
+
+    .section.dark-section {
+      color: var(--white);
+      background: var(--blue-dark);
+    }
+
+    .section-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 28px;
+      margin-bottom: 30px;
+    }
+
+    .section-head h2 {
+      max-width: 760px;
+      font-size: clamp(32px, 4.2vw, 56px);
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
+    .section-head p {
+      max-width: 530px;
+      color: var(--muted);
+      font-size: 17px;
+    }
+
+    .dark-section .section-head p,
+    .dark-section .card p,
+    .dark-section .mini-note {
+      color: #dce7ff;
+    }
+
+    .action-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 14px;
+    }
+
+    .action-card {
+      min-height: 154px;
+      display: grid;
+      align-content: space-between;
+      gap: 18px;
+      padding: 18px;
+      color: var(--white);
+      background: var(--blue-dark);
+      border-radius: var(--radius);
+    }
+
+    .action-card:nth-child(2) {
+      background: var(--red);
+    }
+
+    .action-card:nth-child(3) {
+      background: var(--teal);
+    }
+
+    .action-card:nth-child(4) {
+      background: var(--green);
+    }
+
+    .action-card:nth-child(5) {
+      background: #72530d;
+    }
+
+    .action-card:nth-child(6) {
+      background: var(--slate);
+    }
+
+    .action-card span {
+      color: rgba(255, 255, 255, .78);
+      font-size: 12px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .action-card strong {
+      font-size: 21px;
+      line-height: 1.08;
+    }
+
+    .event-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
+    }
+
+    .filter-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .filter-button {
+      min-height: 38px;
+      padding: 0 13px;
+      color: var(--blue-dark);
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      font-size: 13px;
+      font-weight: 900;
+      cursor: pointer;
+    }
+
+    .filter-button.active {
+      color: var(--white);
+      background: var(--blue);
+      border-color: var(--blue);
+    }
+
+    .mini-note {
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 750;
+    }
+
+    .event-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .card {
+      background: var(--white);
+      border: 1px solid rgba(16, 23, 37, .09);
+      border-radius: var(--radius);
+      box-shadow: 0 10px 28px rgba(16, 23, 37, .08);
+    }
+
+    .dark-section .card {
+      background: rgba(255, 255, 255, .08);
+      border-color: rgba(255, 255, 255, .16);
+      box-shadow: none;
+    }
+
+    .event-card {
+      display: grid;
+      overflow: hidden;
+    }
+
+    .event-card[data-featured="true"] {
+      order: -1;
+      grid-column: span 2;
+      border: 2px solid var(--red);
+      box-shadow: 0 18px 42px rgba(217, 41, 47, .18);
+    }
+
+    .event-card[data-featured="true"] .event-date {
+      grid-template-columns: 76px 1fr auto;
+    }
+
+    .event-card[data-featured="true"] .event-date::after {
+      content: "NEXT UP";
+      align-self: center;
+      justify-self: end;
+      margin-right: 16px;
+      padding: 6px 9px;
+      color: #8a1117;
+      background: #ffe7e8;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 950;
+    }
+
+    .event-date {
+      display: grid;
+      grid-template-columns: 76px 1fr;
+      background: var(--white);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .event-date strong {
+      display: grid;
+      place-items: center;
+      min-height: 76px;
+      color: var(--white);
+      background: var(--red);
+      font-size: 20px;
+      line-height: 1.05;
+      text-align: center;
+    }
+
+    .event-date span {
+      display: grid;
+      align-content: center;
+      gap: 3px;
+      padding: 12px 16px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .event-date b {
+      color: var(--blue-dark);
+      font-size: 15px;
+    }
+
+    .event-body {
+      display: grid;
+      gap: 14px;
+      padding: 20px;
+    }
+
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+    }
+
+    .tag {
+      width: fit-content;
+      padding: 6px 9px;
+      color: var(--blue-dark);
+      background: #e7efff;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 900;
+    }
+
+    .tag.red {
+      color: #8a1117;
+      background: #ffe7e8;
+    }
+
+    .tag.green {
+      color: #0d5736;
+      background: #ddf4e8;
+    }
+
+    .event-body h3,
+    .card h3 {
+      color: var(--blue-dark);
+      font-size: 23px;
+      line-height: 1.1;
+    }
+
+    .dark-section .card h3 {
+      color: var(--white);
+    }
+
+    .event-body p,
+    .card p,
+    .legacy-copy p,
+    .footer-inner p {
+      color: var(--muted);
+    }
+
+    .card-list {
+      display: grid;
+      gap: 8px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .card-list li {
+      display: flex;
+      gap: 9px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .card-list li::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      margin-top: 9px;
+      flex: 0 0 auto;
+      background: var(--red);
+      border-radius: 999px;
+    }
+
+    .price-grid,
+    .program-grid,
+    .support-grid,
+    .legacy-grid,
+    .news-grid,
+    .media-grid {
+      display: grid;
+      gap: 18px;
+    }
+
+    .price-grid {
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    }
+
+    .program-grid,
+    .support-grid,
+    .news-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .media-grid {
+      grid-template-columns: 1.08fr .92fr;
+    }
+
+    .legacy-grid {
+      grid-template-columns: .95fr 1.05fr;
+      align-items: start;
+    }
+
+    .content-card {
+      display: grid;
+      gap: 16px;
+      padding: 24px;
+    }
+
+    .price {
+      color: var(--red);
+      font-size: 42px;
+      font-weight: 950;
+      line-height: 1;
+    }
+
+    .benefits-layout {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 18px;
+      margin-top: 18px;
+    }
+
+    .feature-card {
+      min-height: 390px;
+      display: grid;
+      align-content: end;
+      gap: 18px;
+      padding: 28px;
+      color: var(--white);
+      background:
+        linear-gradient(180deg, rgba(7, 27, 77, .94), rgba(7, 27, 77, .72)),
+        url("https://www.shoreac.org/uploads/1/1/5/0/115007939/new-intl-meet-logo_orig.png") center / cover no-repeat;
+      border-radius: var(--radius);
+    }
+
+    .feature-card h3 {
+      color: var(--white);
+      font-size: 35px;
+      line-height: 1;
+    }
+
+    .feature-card p {
+      color: #edf4ff;
+      font-size: 18px;
+    }
+
+    .benefit-card {
+      display: grid;
+      gap: 18px;
+      padding: 24px;
+    }
+
+    .schedule-list {
+      display: grid;
+      gap: 12px;
+    }
+
+    .schedule-item {
+      display: grid;
+      grid-template-columns: 120px 1fr;
+      gap: 16px;
+      padding: 16px;
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+    }
+
+    .schedule-item strong {
+      color: var(--blue-dark);
+    }
+
+    .contact-band {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      margin-top: 18px;
+    }
+
+    .contact-card {
+      padding: 22px;
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+    }
+
+    .legacy-card {
+      overflow: hidden;
+    }
+
+    .legacy-card img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      background: #e8edf6;
+    }
+
+    .timeline {
+      display: grid;
+      gap: 12px;
+    }
+
+    .timeline-item {
+      display: grid;
+      grid-template-columns: 90px 1fr;
+      gap: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .timeline-item:last-child {
+      border-bottom: 0;
+    }
+
+    .timeline-item strong {
+      color: var(--red);
+    }
+
+    .news-list {
+      display: grid;
+      gap: 12px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .news-list li {
+      padding-bottom: 12px;
+      color: var(--muted);
+      border-bottom: 1px solid var(--line);
+      font-weight: 720;
+    }
+
+    .news-list li:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .gallery-strip {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+
+    .gallery-strip img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: var(--radius);
+    }
+
+    .form-card {
+      display: grid;
+      gap: 12px;
+      padding: 24px;
+      background: var(--white);
+      border: 1px solid rgba(16, 23, 37, .09);
+      border-radius: var(--radius);
+      box-shadow: 0 10px 28px rgba(16, 23, 37, .08);
+    }
+
+    .field-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    label {
+      display: grid;
+      gap: 6px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      min-height: 44px;
+      padding: 10px 12px;
+      color: var(--ink);
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+    }
+
+    textarea {
+      min-height: 118px;
+      resize: vertical;
+    }
+
+    .site-map {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+    }
+
+    .site-map h3 {
+      margin: 0 0 10px;
+      color: var(--blue-dark);
+      font-size: 18px;
+    }
+
+    .site-map ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .site-map li {
+      padding: 5px 0;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 720;
+    }
+
+    .site-footer {
+      padding: 46px 0;
+      color: #dce7ff;
+      background: #061641;
+    }
+
+    .footer-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      align-items: start;
+    }
+
+    .footer-inner p {
+      color: #dce7ff;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      gap: 14px;
+      color: var(--white);
+      font-weight: 800;
+    }
+
+    @media (max-width: 1040px) {
+      .menu-grid,
+      .action-grid,
+      .event-grid,
+      .site-map {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .price-grid,
+      .program-grid,
+      .support-grid,
+      .news-grid,
+      .media-grid,
+      .legacy-grid,
+      .benefits-layout,
+      .contact-band {
+        grid-template-columns: 1fr;
+      }
+
+      .event-card[data-featured="true"] {
+        grid-column: span 1;
+      }
+
+      .event-card[data-featured="true"] .event-date {
+        grid-template-columns: 76px 1fr;
+      }
+
+      .event-card[data-featured="true"] .event-date::after {
+        display: none;
+      }
+
+      .hero-rail {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .rail-item:nth-child(2) {
+        border-right: 0;
+      }
+
+      .rail-item:nth-child(1),
+      .rail-item:nth-child(2) {
+        border-bottom: 1px solid var(--line);
+      }
+    }
+
+    @media (max-width: 720px) {
+      .header-inner,
+      .wrap,
+      .footer-inner,
+      .hero-content,
+      .hero-rail {
+        width: calc(100% - 32px);
+      }
+
+      .brand img {
+        width: 78px;
+      }
+
+      .brand-copy {
+        display: none;
+      }
+
+      .header-inner {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        padding: 0 16px;
+        gap: 8px;
+      }
+
+      .brand {
+        flex: 0 0 auto;
+      }
+
+      .header-actions {
+        display: none;
+      }
+
+      .button,
+      .menu-button,
+      .mobile-menu-button {
+        min-height: 42px;
+        padding: 0 13px;
+        font-size: 13px;
+      }
+
+      .header-inner > .menu-button {
+        display: none !important;
+      }
+
+      .mobile-menu-button {
+        position: fixed;
+        top: 16px;
+        right: 16px;
+        z-index: 35;
+        display: inline-flex;
+        flex: 0 0 44px;
+        width: 44px;
+        height: 42px;
+        color: var(--white);
+        background: var(--blue-dark);
+        border-color: var(--blue-dark);
+        padding: 0;
+        gap: 0;
+        font-size: 0;
+      }
+
+      .menu-button .menu-icon,
+      .mobile-menu-button .menu-icon {
+        width: 18px;
+      }
+
+      .hero {
+        min-height: 650px;
+        background:
+          linear-gradient(180deg, rgba(7, 27, 77, .92) 0%, rgba(7, 27, 77, .78) 62%, rgba(7, 27, 77, .42) 100%),
+          url("https://www.shoreac.org/uploads/1/1/5/0/115007939/published/2026-elliott-denman-save-the-date.png?1773246964") center / cover no-repeat;
+      }
+
+      .eyebrow {
+        align-items: flex-start;
+        width: 100%;
+        max-width: 340px;
+        font-size: 12px;
+        line-height: 1.35;
+      }
+
+      .eyebrow::before {
+        margin-top: 7px;
+      }
+
+      .hero-content {
+        padding: 72px 0 126px;
+      }
+
+      h1 {
+        max-width: 350px;
+        font-size: 44px;
+        line-height: 1;
+      }
+
+      .hero-lede {
+        max-width: 350px;
+        font-size: 17px;
+      }
+
+      .hero-actions,
+      .event-toolbar {
+        display: grid;
+      }
+
+      .hero-rail {
+        grid-template-columns: 1fr;
+      }
+
+      .rail-item,
+      .rail-item:nth-child(2) {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .rail-item:last-child {
+        border-bottom: 0;
+      }
+
+      .section {
+        padding: 64px 0;
+      }
+
+      .section-head,
+      .footer-inner {
+        display: grid;
+      }
+
+      .menu-grid,
+      .action-grid,
+      .event-grid,
+      .site-map,
+      .field-grid,
+      .schedule-item,
+      .timeline-item {
+        grid-template-columns: 1fr;
+      }
+
+      .menu-sheet {
+        width: calc(100% - 18px);
+        max-height: calc(100vh - 18px);
+        margin: 9px auto;
+      }
+
+      .menu-group {
+        min-height: auto;
+      }
+
+      .event-date {
+        grid-template-columns: 68px 1fr;
+      }
+
+      .gallery-strip {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .footer-links {
+        justify-content: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Shore Athletic Club home">
+        <img src="https://www.shoreac.org/uploads/1/1/5/0/115007939/shore-ac.png" alt="Shore A.C.">
+        <span class="brand-copy">
+          <span>Est. 1934</span>
+          <span>Shore Athletic Club</span>
+        </span>
+      </a>
+      <div class="header-actions">
+        <a class="button primary" href="https://runsignup.com/Club/NJ/SpringLake/ShoreAthleticClub">Join</a>
+        <a class="button secondary" href="support.html">Donate</a>
+        <a class="button light" href="events.html">Race Calendar</a>
+      </div>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="menu-panel" data-menu-open>
+        <span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+        Menu
+      </button>
+    </div>
+  </header>
+  <button class="mobile-menu-button" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel" data-menu-open>
+    <span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+  </button>
+
+  <div class="menu-panel" id="menu-panel" aria-hidden="true">
+    <div class="menu-sheet" role="dialog" aria-modal="true" aria-label="Shore Athletic Club menu">
+      <div class="menu-head">
+        <strong>Everything Shore A.C.</strong>
+        <button class="menu-close" type="button" aria-label="Close menu" data-menu-close>&times;</button>
+      </div>
+      <nav class="menu-grid" aria-label="Full site menu">
+        <section class="menu-group">
+          <h3>Join &amp; Member Tools</h3>
+          <a href="https://runsignup.com/Club/NJ/SpringLake/ShoreAthleticClub">Join or Renew</a>
+          <a href="#membership">Membership Benefits</a>
+          <a href="programs.html#coaching">Coaching Add-On</a>
+          <a href="programs.html#compete">Compete for Shore A.C.</a>
+          <a href="news.html">Newsletter &amp; News</a>
+        </section>
+        <section class="menu-group">
+          <h3>Events &amp; Races</h3>
+          <a href="events.html">2026 Race Calendar</a>
+          <a href="events.html#road">Road Races</a>
+          <a href="events.html#track">Track Meets</a>
+          <a href="events.html#youth-xc">Youth Race Series</a>
+          <a href="support.html">Awards &amp; Fundraising</a>
+        </section>
+        <section class="menu-group">
+          <h3>Training &amp; Programs</h3>
+          <a href="programs.html#youth">Youth Programs</a>
+          <a href="programs.html#workout-wednesday">Workout Wednesday</a>
+          <a href="programs.html#gone-running">Gone Running</a>
+          <a href="programs.html#coaching">Coaches Corner</a>
+          <a href="programs.html#compete">USATF Teams</a>
+        </section>
+        <section class="menu-group">
+          <h3>Club Info</h3>
+          <a href="support.html">Donate, Partner, Volunteer</a>
+          <a href="news.html">News &amp; Blog</a>
+          <a href="media.html">Photos, Videos, Social</a>
+          <a href="club.html">Board, Records, Hall of Fame</a>
+          <a href="contact.html">Contact Us</a>
+        </section>
+      </nav>
+    </div>
+  </div>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <span class="eyebrow"><span class="eyebrow-text">Next race: Saturday, July 11 at Monmouth University</span></span>
+        <h1 id="hero-title">Elliott Denman NJ International.</h1>
+        <p class="hero-lede">The 39th edition brings elite, masters, youth, and high school athletes together on Monmouth University's eight-lane track. Registration is open now.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://www.mosaic-sports.com/org/ShoreAC">Register for July 11</a>
+          <a class="button secondary" href="https://runsignup.com/Club/NJ/SpringLake/ShoreAthleticClub">Join Shore A.C.</a>
+          <a class="button ghost" href="programs.html#youth">Find Youth Programs</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="hero-rail" aria-label="Club highlights">
+      <a class="rail-item" href="#membership">
+        <strong>$15+</strong>
+        <span>Youth, adult, and coaching membership options</span>
+      </a>
+      <a class="rail-item" href="events.html">
+        <strong>11</strong>
+        <span>Major 2026 event and race opportunities</span>
+      </a>
+      <a class="rail-item" href="programs.html#workout-wednesday">
+        <strong>Weekly</strong>
+        <span>Workout Wednesday, group runs, and coaching</span>
+      </a>
+      <a class="rail-item" href="support.html">
+        <strong>501(c)(3)</strong>
+        <span>Donate, sponsor, volunteer, or partner</span>
+      </a>
+    </div>
+
+    <section class="section" aria-labelledby="action-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="action-title">What do you want to do?</h2>
+          <p>Start with the most common tasks, then use the menu for the club's deeper programs and archives.</p>
+        </div>
+        <div class="action-grid">
+          <a class="action-card" href="https://runsignup.com/Club/NJ/SpringLake/ShoreAthleticClub"><span>Members</span><strong>Join or renew</strong></a>
+          <a class="action-card" href="events.html"><span>Runners</span><strong>Register for races</strong></a>
+          <a class="action-card" href="programs.html#youth"><span>Parents</span><strong>Youth running</strong></a>
+          <a class="action-card" href="programs.html"><span>Athletes</span><strong>Train and compete</strong></a>
+          <a class="action-card" href="support.html"><span>Community</span><strong>Donate or sponsor</strong></a>
+          <a class="action-card" href="club.html"><span>Club</span><strong>History and records</strong></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section white" id="events" aria-labelledby="events-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="events-title">Register for a 2026 race</h2>
+          <p>The next available race is featured first. Filter the calendar by road, track, youth, or cross country.</p>
+        </div>
+        <div class="event-toolbar">
+          <div class="filter-row" aria-label="Event filters">
+            <button class="filter-button active" type="button" data-filter="all">All</button>
+            <button class="filter-button" type="button" data-filter="road">Road</button>
+            <button class="filter-button" type="button" data-filter="track">Track</button>
+            <button class="filter-button" type="button" data-filter="youth">Youth</button>
+            <button class="filter-button" type="button" data-filter="xc">Cross Country</button>
+          </div>
+          <span class="mini-note">Includes the club's major event pages, series, and fundraising items.</span>
+        </div>
+        <div class="event-grid">
+          <article class="event-card card" data-type="road youth">
+            <div class="event-date"><strong>Apr<br>12</strong><span><b>Captain Zinn Memorial Races</b>Dorbrook Park, Colts Neck</span></div>
+            <div class="event-body">
+              <div class="tag-row"><span class="tag red">5K</span><span class="tag green">Racewalk</span><span class="tag">Kids Run</span></div>
+              <h3>Memorial race day with sponsorship opportunities</h3>
+              <p>5K run, race walk, and kids fun run honoring Captain Ronald Zinn.</p>
+              <a class="button primary" href="https://runsignup.com/Race/NJ/SpringLake/THE52NDANNUALCAPTAINRONALDZINNMEMORIALRACES?remMeAttempt=">Race Page</a>
+            </div>
+          </article>
+          <article class="event-card card" data-type="track youth">
+            <div class="event-date"><strong>Jun<br>6</strong><span><b>All-Comers Track Series</b>June 6, 13, 20 at Ranney School</span></div>
+            <div class="event-body">
+              <div class="tag-row"><span class="tag">Track</span><span class="tag">Jumps</span><span class="tag">Throws</span></div>
+              <h3>Open track meets for all ages and abilities</h3>
+              <p>Sprints, distance, racewalk, relays, jumps, and throwing events.</p>
+              <a class="button secondary" href="events.html#all-comers">Meet Info</a>
+            </div>
+          </article>
+          <article class="event-card card" data-type="track youth" data-featured="true">
+            <div class="event-date"><strong>Jul<br>11</strong><span><b>Elliott Denman NJ International T&amp;F Meet</b>Monmouth University</span></div>
+            <div class="event-body">
+              <div class="tag-row"><span class="tag">Elite</span><span class="tag">Masters</span><span class="tag">Youth</span></div>
+              <h3>Signature track and field meet</h3>
+              <p>The 39th edition brings top athletes plus masters, youth, and high school competitors.</p>
+              <a class="button primary" href="https://www.mosaic-sports.com/org/ShoreAC">Register Now</a>
+            </div>
+          </article>
+          <article class="event-card card" data-type="road youth">
+            <div class="event-date"><strong>Jul<br>18</strong><span><b>Big Bang Mile</b>Bell Works, Holmdel</span></div>
+            <div class="event-body">
+              <div class="tag-row"><span class="tag red">Mile</span><span class="tag">USATF-NJ</span><span class="tag">Family</span></div>
+              <h3>Fast road mile with 10 race sections</h3>
+              <p>Open, masters, high school, kids, and community mile races with a STEM atmosphere.</p>
+              <a class="button primary" href="https://runsignup.com/Race/NJ/Holmdel/BigBangMile">Register</a>
+            </div>
+          </article>
+          <article class="event-card card" data-type="road youth">
+            <div class="event-date"><strong>Jul<br>6</strong><span><b>Lake Takanassee Summer Series</b>Monday nights through August 3</span></div>
+            <div class="event-body">
+              <div class="tag-row"><span class="tag red">5K</span><span class="tag">1500m Kids</span><span class="tag">Series</span></div>
+              <h3>Weekly summer racing in Long Branch</h3>
+              <p>5K and kids 1500m around Lake Takanassee with weekly and series awards.</p>
+              <a class="button secondary" href="https://runsignup.com/Race/NJ/LongBranch/LakeTakanasseeSummerSeries">Register for the Series</a>
+            </div>
+          </article>
+          <article class="event-card card" data-type="road youth">
+            <div class="event-date"><strong>Aug<br>8</strong><span><b>Asbury Park Sheehan Classic</b>Bradley Park, Asbury Park</span></div>
+            <div class="event-body">
+              <div class="tag-row"><span class="tag red">5K</span><span class="tag">Kiddie Dashes</span><span class="tag green">Cash Prizes</span></div>
+              <h3>Legendary 5K and family race day</h3>
+              <p>Race tee, open and masters prizes, age-group awards, and kiddie dash medals.</p>
+              <a class="button primary" href="https://runsignup.com/Race/NJ/AsburyPark/AsburyPark5K">Register</a>
+            </div>
+          </article>
+          <article class="event-card card" data-type="xc youth">
+            <div class="event-date"><strong>Sep<br>19</strong><span><b>Youth Cross Country Fall Series</b>Holmdel Park</span></div>
+            <div class="event-body">
+              <div class="tag-row"><span class="tag">400m</span><span class="tag">800m</span><span class="tag">2K-4K</span></div>
+              <h3>Multi-week youth XC racing</h3>
+              <p>Weekly races with ribbons, championship medals, trophies, and team scoring.</p>
+              <a class="button primary" href="https://runsignup.com/Race/NJ/Holmdel/ShoreACYouthXCSeries">Register</a>
+            </div>
+          </article>
+          <article class="event-card card" data-type="xc">
+            <div class="event-date"><strong>Oct<br>3</strong><span><b>Adult Cross Country Fall Series</b>Monmouth County parks</span></div>
+            <div class="event-body">
+              <div class="tag-row"><span class="tag red">5K</span><span class="tag">Team Scoring</span><span class="tag">Series</span></div>
+              <h3>Trail 5Ks across local parks</h3>
+              <p>Six-race adult series with individual, age-group, and team awards.</p>
+              <a class="button secondary" href="https://runsignup.com/Race/NJ/Holmdel/AdultCrossCountrySeries">Register for the Series</a>
+            </div>
+          </article>
+          <article class="event-card card" data-type="road">
+            <div class="event-date"><strong>Oct<br>4</strong><span><b>Jersey Shore Half Marathon + 2 Mile</b>Sandy Hook</span></div>
+            <div class="event-body">
+              <div class="tag-row"><span class="tag red">Half Marathon</span><span class="tag">2 Mile</span><span class="tag green">Pacers</span></div>
+              <h3>Historic shore distance race</h3>
+              <p>Flat, fast Sandy Hook course with clocks, water stations, shirts, medals, and post-race celebration.</p>
+              <a class="button primary" href="events.html#half-marathon">Race Details</a>
+            </div>
+          </article>
+          <article class="event-card card" data-type="xc">
+            <div class="event-date"><strong>Nov<br>14</strong><span><b>Bill Bruno Alumni XC Run</b>Holmdel Park</span></div>
+            <div class="event-body">
+              <div class="tag-row"><span class="tag">3K</span><span class="tag">5K</span><span class="tag">Teams</span></div>
+              <h3>Alumni cross country tradition</h3>
+              <p>Open and masters awards plus biggest-and-best team recognition.</p>
+              <a class="button secondary" href="https://runsignup.com/Race/NJ/Holmdel/AlumniXCRun">Register</a>
+            </div>
+          </article>
+          <article class="event-card card" data-type="road">
+            <div class="event-date"><strong>Dec<br>27</strong><span><b>Asbury Park Polar Bear Races</b>Convention Hall</span></div>
+            <div class="event-body">
+              <div class="tag-row"><span class="tag red">1 Mile</span><span class="tag">5K</span><span class="tag green">Awards</span></div>
+              <h3>Longest-standing Shore A.C. race</h3>
+              <p>Rain, snow, or sunshine, the annual Polar Bear tradition keeps going.</p>
+              <a class="button primary" href="https://runsignup.com/Race/NJ/AsburyPark/AsburyParkPolarBearRaces?remMeAttempt=">Register</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="membership" aria-labelledby="membership-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="membership-title">Join Shore A.C.</h2>
+          <p>Choose the membership that fits, then complete registration through the club's official RunSignup page.</p>
+        </div>
+        <div class="price-grid">
+          <article class="content-card card">
+            <h3>Youth</h3>
+            <strong class="price">$15</strong>
+            <p>Annual youth membership for athletes under 18.</p>
+            <a class="button secondary" href="https://runsignup.com/Club/NJ/SpringLake/ShoreAthleticClub">Join Youth</a>
+          </article>
+          <article class="content-card card">
+            <h3>Adult</h3>
+            <strong class="price">$40</strong>
+            <p>Annual adult membership for runners, racewalkers, track and field athletes, and community members.</p>
+            <a class="button primary" href="https://runsignup.com/Club/NJ/SpringLake/ShoreAthleticClub">Join Adult</a>
+          </article>
+          <article class="content-card card">
+            <h3>Annual + Coaching</h3>
+            <strong class="price">$120</strong>
+            <p>Membership plus individualized race training support from Shore A.C.'s coach network.</p>
+            <a class="button dark" href="programs.html#coaching">Explore Coaching</a>
+          </article>
+          <article class="content-card card">
+            <h3>Two-Year Membership</h3>
+            <strong class="price">$75</strong>
+            <p>RunSignup lists a two-year option covering the remainder of 2026 and all of 2027.</p>
+            <a class="button secondary" href="https://runsignup.com/Club/NJ/SpringLake/ShoreAthleticClub">Join for Two Years</a>
+          </article>
+        </div>
+        <div class="benefits-layout">
+          <div class="feature-card card">
+            <h3>Why join Shore A.C.?</h3>
+            <p>Members get more than a club name. They get race discounts, training access, competition opportunities, coaching paths, and community.</p>
+            <a class="button primary" href="https://runsignup.com/Club/NJ/SpringLake/ShoreAthleticClub">Join or Renew Today</a>
+          </div>
+          <article class="benefit-card card">
+            <h3>Member benefits to surface clearly</h3>
+            <ul class="card-list">
+              <li>One-time Shore A.C. racing singlet for new members</li>
+              <li>$10 discount at five hosted events</li>
+              <li>Free adult track workouts and youth workout discounts</li>
+              <li>Club communications, incentives, and group chat</li>
+              <li>USATF competition opportunities and group runs</li>
+              <li>Optional individualized coaching plans and flexible sessions</li>
+              <li>Renewal path for members moving through RunSignup</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section white" id="youth" aria-labelledby="youth-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="youth-title">Youth running and racing</h2>
+          <p>Find youth races, weekly training, cross country options, and age-appropriate competition paths together.</p>
+        </div>
+        <div class="program-grid">
+          <article class="content-card card">
+            <h3>Youth race opportunities</h3>
+            <ul class="card-list">
+              <li>Captain Zinn kids 1 mile run</li>
+              <li>All-Comers track events: 100, 200, 400, 800, 1600</li>
+              <li>Lake Takanassee 1500m kids run</li>
+              <li>Big Bang Mile community and middle school mile</li>
+              <li>Youth XC distances: 400m, 800m, 2K, 3K, 4K</li>
+              <li>Bill Bruno Alumni Run 2K and Polar Bear 1 mile fun run</li>
+            </ul>
+          </article>
+          <article class="content-card card">
+            <h3>Gone Running</h3>
+            <p>10-14 week youth running and fitness programs built around positive experiences, confidence, form, drills, and preparation for Junior Olympic competition.</p>
+            <p>Locations include Chesterfield, Manalapan, Marlboro, Manasquan, Middletown, and Holmdel.</p>
+            <a class="button secondary" href="http://www.gone-running.com">Explore Gone Running</a>
+          </article>
+          <article class="content-card card">
+            <h3>Workout Wednesday</h3>
+            <p>Professional track and running training for youth and adults at Mater Dei Track in Middletown, with groups separated by age and level.</p>
+            <a class="button primary" href="https://runsignup.com/Race/NJ/Middletown/WorkoutWednesday">Register for Workout Wednesday</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="training" aria-labelledby="training-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="training-title">Training, coaching, and competition</h2>
+          <p>Move from weekly workouts to individualized coaching and USATF team competition.</p>
+        </div>
+        <div class="program-grid">
+          <article class="content-card card">
+            <h3>Workout Wednesday</h3>
+            <p>Mater Dei Track, 538 Church Street, Middletown.</p>
+            <ul class="card-list">
+              <li>Winter: 4:30 to 5:30 PM</li>
+              <li>Spring and Summer: 5:30 to 6:30 PM</li>
+              <li>Fall: 5:00 to 6:00 PM</li>
+              <li>Adult club members work out free</li>
+            </ul>
+          </article>
+          <article class="content-card card">
+            <h3>Coaches Corner</h3>
+            <p>Coach network for distance, sprints, hurdles, throws, strength, youth development, and race-specific plans.</p>
+            <ul class="card-list">
+              <li>Kerri Gallagher: 800m through marathon distance</li>
+              <li>Joe Kalnas: throws and strength</li>
+              <li>Rich Airey: endurance and ultra distance</li>
+              <li>Albert Essilfie: sprints and hurdles</li>
+              <li>Brian Hirshblond: sprints, hurdles, jumps, multi-events</li>
+              <li>Erika Flores: beginners through competitive road runners</li>
+            </ul>
+          </article>
+          <article class="content-card card" id="compete">
+            <h3>Compete for Shore A.C.</h3>
+            <p>Make the steps plain: join Shore A.C., join USATF, use club code <strong>07-0101</strong>, then connect with the right team lead.</p>
+            <ul class="card-list">
+              <li>Elite, open, masters, and youth: Joe Compagni</li>
+              <li>Open and masters long distance: Scott Linnell</li>
+              <li>Elite track and field: Tim Brennan</li>
+              <li>Open and masters track and field: Harry Nolan</li>
+              <li>Youth XC / T&amp;F: Bob Andrews</li>
+              <li>Racewalking: John Soucheck</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="support" aria-labelledby="support-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="support-title">Help Shore A.C. keep athletes moving</h2>
+          <p>Partners, sponsors, donors, and volunteers support races, athletes, youth programs, and club operations.</p>
+        </div>
+        <div class="support-grid">
+          <article class="content-card card">
+            <h3>Donate</h3>
+            <p>Shore A.C. is a 501(c)(3) nonprofit. Donations help support events, athletes, youth programs, and club operations.</p>
+            <a class="button primary" href="https://runsignup.com/Club/Donate/NJ/Belford/ShoreAthleticClub">Donate Here</a>
+          </article>
+          <article class="content-card card">
+            <h3>Sponsor or Partner</h3>
+            <p>Business and community partners can support races, athletes, event-day experiences, awards, and ongoing programs.</p>
+            <a class="button secondary" href="support.html#partner">Partnership Options</a>
+          </article>
+          <article class="content-card card">
+            <h3>Volunteer</h3>
+            <p>Volunteers can help with event-day operations, planning committees, community support, and service-hour confirmation.</p>
+            <a class="button dark" href="support.html#volunteer">Volunteer</a>
+          </article>
+        </div>
+        <div class="contact-band">
+          <article class="contact-card">
+            <h3>Friends of Shore A.C.</h3>
+            <p>Donors of $250 or more can be recognized here. Current examples include the Hill Family, Hanlon Family, and Harrison Family.</p>
+          </article>
+          <article class="contact-card">
+            <h3>Partner examples</h3>
+            <p>Raw Generation, The Robinson Ale House, Bombas, Gone Running, Promo Coach, HydraPatch, Skytop Landscaping, and Joetta Sports and Beyond.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section white" id="news" aria-labelledby="news-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="news-title">Latest from Shore A.C.</h2>
+          <p>Meet reports, athlete performances, club history, awards, and Elliott's blog continue on the dedicated news page.</p>
+        </div>
+        <div class="news-grid">
+          <article class="content-card card">
+            <h3>Latest headlines</h3>
+            <ul class="news-list">
+              <li>5/5/26 - Ancient IC4A championships show new life in 150th year</li>
+              <li>3/16/26 - Track and field world says farewell to Ron Delany</li>
+              <li>11/19/25 - Kingsway grads and Allen family star for Shore A.C. at NYC Marathon</li>
+              <li>11/15/25 - A great Saturday at Holmdel Park</li>
+            </ul>
+            <a class="button light" href="news.html">View News Archive</a>
+          </article>
+          <article class="content-card card">
+            <h3>Awards and scholarship</h3>
+            <p>The Richard and Patricia Hill Scholarship offers two $500 scholarships to senior high school students continuing education and participating in track and field or cross country.</p>
+            <a class="button secondary" href="mailto:jkuhi@aol.com">Scholarship Info</a>
+          </article>
+          <form class="form-card" id="newsletter">
+            <h3>Newsletter signup</h3>
+            <p>For new visitors who want major club updates without hunting through social media.</p>
+            <label>Email<input type="email" placeholder="runner@example.com"></label>
+            <label><input type="checkbox"> I agree to receive club updates</label>
+            <a class="button primary" href="mailto:shoreac1954@gmail.com">Email the Club</a>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="media" aria-labelledby="media-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="media-title">Photos, video, and social</h2>
+          <p>See the athletes, teammates, races, and memories that make the club more than a calendar.</p>
+        </div>
+        <div class="media-grid">
+          <article class="content-card card">
+            <h3>Media archive</h3>
+            <p>Organize galleries by event and moment: 85th Anniversary and Elliott's Birthday, Alumni XC Run, Captain Zinn, Millrose, Sheehan Classic, Spring Distance Classic, USATF XC Club Nationals, miscellaneous photos, and videos.</p>
+            <div class="gallery-strip">
+              <img src="https://www.shoreac.org/uploads/1/1/5/0/115007939/published/sac-w-est-date.png?1743426842" alt="Shore A.C. established 1934">
+              <img src="https://www.shoreac.org/uploads/1/1/5/0/115007939/new-intl-meet-logo_orig.png" alt="NJ International meet logo">
+              <img src="https://www.shoreac.org/uploads/1/1/5/0/115007939/bbm-logo-2025_orig.png" alt="Big Bang Mile logo">
+              <img src="https://www.shoreac.org/uploads/1/1/5/0/115007939/jshm-logo_orig.png" alt="Jersey Shore Half logo">
+            </div>
+            <a class="button secondary" href="media.html">Open Media Hub</a>
+          </article>
+          <article class="content-card card">
+            <h3>Social channels</h3>
+            <ul class="card-list">
+              <li>Twitter / X: @TheShoreAC</li>
+              <li>Facebook: @shoreac</li>
+              <li>Instagram: @theshoreac</li>
+            </ul>
+            <a class="button secondary" href="media.html">See All Social Channels</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section white" id="legacy" aria-labelledby="legacy-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="legacy-title">A club built on remarkable history</h2>
+          <p>Explore Shore A.C.'s leadership, Olympians, Hall of Fame, Johnny Hayes collection, club records, and award history.</p>
+        </div>
+        <div class="legacy-grid">
+          <article class="legacy-card card">
+            <img src="https://www.shoreac.org/uploads/1/1/5/0/115007939/published/sac-w-est-date.png?1743426842" alt="Shore A.C. established 1934 mark">
+            <div class="content-card">
+              <h3>Club archive</h3>
+              <p>Board and staff, past presidents, Johnny Hayes Memorial Award, Hall of Fame, Olympians, club records, masters relay records, and photo history.</p>
+              <a class="button secondary" href="club.html">Explore Club &amp; Legacy</a>
+            </div>
+          </article>
+          <div class="legacy-copy">
+            <div class="timeline">
+              <div class="timeline-item"><strong>1934</strong><p>Official birth year of Shore A.C.</p></div>
+              <div class="timeline-item"><strong>1964</strong><p>The modern club era begins, leading to the organization people know today.</p></div>
+              <div class="timeline-item"><strong>500+</strong><p>Members across road running, track, field, cross country, racewalking, youth, open, and masters competition.</p></div>
+              <div class="timeline-item"><strong>Archive</strong><p>Hall of Fame members, Olympians, Johnny Hayes award winners, club records, board roles, and past presidents become searchable supporting content.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="contact-title">Need help finding the right person?</h2>
+          <p>Use the official contact form for membership, race registration, youth programs, coaching, sponsorship, volunteering, or archive questions.</p>
+        </div>
+        <div class="form-card">
+          <h3>Contact Shore A.C.</h3>
+          <p>Tell the club what you need and your message will be routed to the appropriate officer, coach, or race director.</p>
+          <a class="button primary" href="contact.html">Contact Shore A.C.</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <strong>Shore Athletic Club</strong>
+        <p>P.O. Box 74, Belford, NJ 07718-9998<br>501(c)(3) nonprofit. Tax ID: 22-2386529.</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer links">
+        <a href="https://runsignup.com/Club/NJ/SpringLake/ShoreAthleticClub">Join</a>
+        <a href="events.html">Events</a>
+        <a href="programs.html#youth">Youth</a>
+        <a href="support.html">Support</a>
+        <a href="club.html">Club</a>
+        <a href="news.html">News</a>
+        <a href="media.html">Media</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    const body = document.body;
+    const menuPanel = document.getElementById("menu-panel");
+    const openButtons = document.querySelectorAll("[data-menu-open]");
+    const mobileOpenButton = document.querySelector(".mobile-menu-button");
+    const closeButton = document.querySelector("[data-menu-close]");
+    const filterButtons = document.querySelectorAll("[data-filter]");
+    const eventCards = document.querySelectorAll("[data-type]");
+    let lastOpenButton = openButtons[0];
+
+    function syncMobileMenuButton() {
+      const showMobileButton = window.innerWidth <= 720;
+      Object.assign(mobileOpenButton.style, {
+        display: showMobileButton ? "inline-flex" : "none",
+        position: "fixed",
+        top: "16px",
+        right: "16px",
+        zIndex: "35",
+        width: "44px",
+        height: "42px",
+        color: "#ffffff",
+        background: "#071b4d",
+        borderColor: "#071b4d",
+        padding: "0",
+        gap: "0",
+        fontSize: "0"
+      });
+    }
+
+    function setMenu(open) {
+      body.classList.toggle("menu-open", open);
+      menuPanel.setAttribute("aria-hidden", String(!open));
+      openButtons.forEach((button) => {
+        button.setAttribute("aria-expanded", String(open));
+      });
+      if (open) {
+        closeButton.focus();
+      } else {
+        lastOpenButton.focus();
+      }
+    }
+
+    openButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        lastOpenButton = button;
+        setMenu(true);
+      });
+    });
+    closeButton.addEventListener("click", () => setMenu(false));
+    menuPanel.addEventListener("click", (event) => {
+      if (event.target === menuPanel || event.target.closest("a")) {
+        setMenu(false);
+      }
+    });
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && body.classList.contains("menu-open")) {
+        setMenu(false);
+      }
+    });
+
+    syncMobileMenuButton();
+    window.addEventListener("resize", syncMobileMenuButton);
+
+    filterButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const filter = button.dataset.filter;
+        filterButtons.forEach((item) => item.classList.toggle("active", item === button));
+        eventCards.forEach((card) => {
+          const show = filter === "all" || card.dataset.type.split(" ").includes(filter);
+          card.hidden = !show;
+        });
+      });
+    });
+  </script>
+</body>
+</html>
