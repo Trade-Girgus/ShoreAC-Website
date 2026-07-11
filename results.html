@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Results & Event Resources | Shore Athletic Club</title>
-  <meta name="description" content="Shore A.C. race results, course resources, event programs, photos, volunteer links, and registration-adjacent resources.">
+  <title>Results Archive | Shore Athletic Club</title>
+  <meta name="description" content="Search Shore A.C. race results, photos, course resources, programs, and event documents by year, event type, and platform.">
   <link rel="stylesheet" href="interior.css">
 </head>
 <body>
   <header class="site-header">
     <div class="header-inner">
-      <a class="brand" href="index.html"><img src="https://www.shoreac.org/uploads/1/1/5/0/115007939/shore-ac.png" alt="Shore A.C."><span>Shore Athletic Club</span></a>
+      <a class="brand" href="index.html"><img src="assets/shore-ac.png" alt="Shore A.C."><span>Shore Athletic Club</span></a>
       <nav class="nav" aria-label="Primary">
         <a class="button light" href="index.html">Home</a>
         <a class="button secondary" href="events.html">Races</a>
@@ -23,9 +23,41 @@
   <main>
     <section class="page-hero compact">
       <div class="wrap">
-        <span class="eyebrow">Results and resources</span>
-        <h1>Race results, course maps, programs, photos, and event extras.</h1>
-        <p>The original Shore A.C. site has many hidden result and resource links. This local hub organizes the useful ones without making the race calendar harder to scan.</p>
+        <span class="eyebrow">Results archive</span>
+        <h1>Find race results, photos, course resources, and event documents.</h1>
+        <p>Use the filters to narrow Shore A.C. race resources by year, event type, and platform.</p>
+        <div class="filter-panel" data-results-filter>
+          <label>Year
+            <select name="year">
+              <option value="all">All years</option>
+              <option value="2026">2026</option>
+              <option value="2025">2025</option>
+              <option value="2024">2024</option>
+              <option value="older">Older</option>
+            </select>
+          </label>
+          <label>Type
+            <select name="type">
+              <option value="all">All types</option>
+              <option value="road">Road</option>
+              <option value="track">Track</option>
+              <option value="xc">XC</option>
+              <option value="racewalk">Racewalk</option>
+              <option value="youth">Youth</option>
+              <option value="masters">Masters</option>
+            </select>
+          </label>
+          <label>Platform
+            <select name="platform">
+              <option value="all">All platforms</option>
+              <option value="runsignup">RunSignup</option>
+              <option value="milesplit">MileSplit</option>
+              <option value="pdf">PDF or document</option>
+              <option value="photos">Photos</option>
+            </select>
+          </label>
+          <div class="result-count" data-result-count></div>
+        </div>
       </div>
     </section>
 
@@ -34,22 +66,39 @@
         <a href="#track">Track</a>
         <a href="#road">Road</a>
         <a href="#xc">Cross country</a>
-        <a href="#big-bang-mile">Big Bang Mile</a>
-        <a href="#jersey-shore-half">Jersey Shore Half</a>
-        <a href="#mopl">MOPL</a>
+        <a href="#half">Jersey Shore Half</a>
+        <a href="#photos">Photos</a>
+        <a href="#documents">Documents</a>
       </nav>
     </div>
 
     <section class="section white" id="track">
       <div class="wrap">
         <div class="section-head">
-          <h2>Track and field resources</h2>
-          <p>Current and recent result links from the original event pages.</p>
+          <h2>Track and field</h2>
+          <p>All-Comers and meet resources for track, field, racewalk, youth, masters, and open athletes.</p>
         </div>
         <div class="grid three">
-          <article class="card feature"><h3>All-Comers week 1 results</h3><p>2026 MileSplit raw results.</p><a class="button primary" href="https://nj.milesplit.com/meets/758700-shore-athletic-club-all-comers-meet-1-2026/results/1308082/raw">Open results</a></article>
-          <article class="card"><h3>All-Comers week 3 results</h3><p>2026 MileSplit raw results.</p><a class="button secondary" href="https://nj.milesplit.com/meets/761667-shore-athletic-club-all-comers-meet-3-2026/results/1309577/raw">Open results</a></article>
-          <article class="card"><h3>NJ International</h3><p>Meet information, entry updates, and program resources.</p><a class="button secondary" href="https://docs.google.com/document/d/1zdXhqqafC-zvTjgmt5OIewyv8lkP3Hkz/edit">Meet info</a></article>
+          <article class="card feature resource-card" data-result-card data-year="2026" data-type="track racewalk youth masters" data-platform="milesplit">
+            <h3>All-Comers week 1 results</h3>
+            <p>Raw 2026 results on MileSplit.</p>
+            <a class="button primary" href="https://nj.milesplit.com/meets/758700-shore-athletic-club-all-comers-meet-1-2026/results/1308082/raw">Open results</a>
+          </article>
+          <article class="card resource-card" data-result-card data-year="2026" data-type="track racewalk youth masters" data-platform="milesplit">
+            <h3>All-Comers week 2</h3>
+            <p>Meet page for the second 2026 All-Comers event.</p>
+            <a class="button secondary" href="https://nj.milesplit.com/meets/761291-shore-athletic-club-all-comers-meet-2-2026">Open meet page</a>
+          </article>
+          <article class="card resource-card" data-result-card data-year="2026" data-type="track racewalk youth masters" data-platform="milesplit">
+            <h3>All-Comers week 3 results</h3>
+            <p>Raw 2026 results on MileSplit.</p>
+            <a class="button secondary" href="https://nj.milesplit.com/meets/761667-shore-athletic-club-all-comers-meet-3-2026/results/1309577/raw">Open results</a>
+          </article>
+          <article class="card resource-card" data-result-card data-year="2026" data-type="track youth masters" data-platform="pdf">
+            <h3>NJ International meet info</h3>
+            <p>Meet information and program notes for the Elliott Denman New Jersey International Track & Field Meet.</p>
+            <a class="button secondary" href="https://docs.google.com/document/d/1zdXhqqafC-zvTjgmt5OIewyv8lkP3Hkz/edit">Meet document</a>
+          </article>
         </div>
       </div>
     </section>
@@ -57,33 +106,61 @@
     <section class="section" id="road">
       <div class="wrap">
         <div class="section-head">
-          <h2>Road race results and extras</h2>
-          <p>Official result providers and event-specific action links should stay external because they handle timing, registrations, donations, volunteer slots, and photo fulfillment.</p>
+          <h2>Road race results</h2>
+          <p>Official RunSignup result pages for Shore A.C. road races and signature club events.</p>
         </div>
         <div class="grid three">
-          <article class="card"><h3>Captain Zinn results</h3><a class="button secondary" href="https://runsignup.com/Race/Results/Overview/45684">RunSignup results</a></article>
-          <article class="card"><h3>Big Bang Mile results</h3><a class="button secondary" href="https://runsignup.com/Race/Results/111764#resultSetId-566829;perpage:100">RunSignup results</a></article>
-          <article class="card"><h3>Sheehan Classic results</h3><a class="button secondary" href="https://runsignup.com/Race/Results/9735#resultSetId-268008;perpage:100">RunSignup results</a></article>
-          <article class="card"><h3>Sheehan donations</h3><a class="button primary" href="https://runsignup.com/Race/Donate/NJ/AsburyPark/AsburyPark5K">Donate to race</a></article>
-          <article class="card"><h3>Sheehan volunteers</h3><a class="button secondary" href="https://runsignup.com/Race/Volunteer/NJ/AsburyPark/AsburyPark5K">Volunteer on RunSignup</a></article>
-          <article class="card"><h3>Polar Bear results</h3><a class="button secondary" href="https://runsignup.com/Race/Results/40686#resultSetId-520889;perpage:100">RunSignup results</a></article>
+          <article class="card feature resource-card" data-result-card data-year="2026 2025 2024 older" data-type="road racewalk youth" data-platform="runsignup">
+            <h3>Captain Zinn results</h3>
+            <p>5K, race walk, and kids run result archive.</p>
+            <a class="button primary" href="https://runsignup.com/Race/Results/Overview/45684">RunSignup results</a>
+          </article>
+          <article class="card resource-card" data-result-card data-year="2026 2025 2024 older" data-type="road youth masters" data-platform="runsignup">
+            <h3>Big Bang Mile results</h3>
+            <p>Open, masters, high school, and kids mile results.</p>
+            <a class="button secondary" href="https://runsignup.com/Race/Results/111764#resultSetId-566829;perpage:100">RunSignup results</a>
+          </article>
+          <article class="card resource-card" data-result-card data-year="2026 2025 2024 older" data-type="road masters youth" data-platform="runsignup">
+            <h3>Sheehan Classic results</h3>
+            <p>Asbury Park 5K, kiddie dash, open, masters, and age-group results.</p>
+            <a class="button secondary" href="https://runsignup.com/Race/Results/9735#resultSetId-268008;perpage:100">RunSignup results</a>
+          </article>
+          <article class="card resource-card" data-result-card data-year="2026 2025 2024 older" data-type="road masters" data-platform="runsignup">
+            <h3>Polar Bear results</h3>
+            <p>Asbury Park 1 mile, 5K, and repeat-racer result archive.</p>
+            <a class="button secondary" href="https://runsignup.com/Race/Results/40686#resultSetId-520889;perpage:100">RunSignup results</a>
+          </article>
+          <article class="card resource-card" data-result-card data-year="2026" data-type="road youth" data-platform="runsignup">
+            <h3>Lake Takanassee series</h3>
+            <p>Summer 5K and 1500m kids run registration and result resources.</p>
+            <a class="button secondary" href="https://runsignup.com/Race/NJ/LongBranch/LakeTakanasseeSummerSeries">Series page</a>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="section white" id="jersey-shore-half">
+    <section class="section white" id="half">
       <div class="wrap">
         <div class="section-head">
           <h2>Jersey Shore Half Marathon</h2>
-          <p>Registration, results, photos, and donation paths for the Sandy Hook race.</p>
+          <p>Results, photos, race details, and charity links for the Sandy Hook race.</p>
         </div>
         <div class="grid three">
-          <article class="card feature"><h3>Register</h3><a class="button primary" href="https://runsignup.com/Race/NJ/Highlands/JSHM">RunSignup registration</a></article>
-          <article class="card"><h3>Results</h3><a class="button secondary" href="https://runsignup.com/Race/Results/61942#resultSetId-592394;perpage:100">RunSignup results</a></article>
-          <article class="card"><h3>2 mile event</h3><a class="button secondary" href="https://runsignup.com/Race/Events/NJ/Highlands/JSHM#event-240712">2 mile details</a></article>
-          <article class="card"><h3>Photos</h3><a class="button secondary" href="https://www.finisherpix.com/en/event/5608/">FinisherPix photos</a></article>
-          <article class="card"><h3>Donate</h3><a class="button primary" href="https://runsignup.com/Race/Donate/NJ/Highlands/JSHM">Donate on RunSignup</a></article>
-          <article class="card"><h3>Race details</h3><a class="button light" href="events.html#half-marathon">Local race page</a></article>
+          <article class="card feature resource-card" data-result-card data-year="2026 2025 2024 older" data-type="road masters" data-platform="runsignup">
+            <h3>Half marathon results</h3>
+            <p>Official RunSignup results for the half marathon and 2 mile.</p>
+            <a class="button primary" href="https://runsignup.com/Race/Results/61942#resultSetId-592394;perpage:100">RunSignup results</a>
+          </article>
+          <article class="card resource-card" data-result-card data-year="2026" data-type="road" data-platform="photos">
+            <h3>FinisherPix photos</h3>
+            <p>Official race photos for Jersey Shore Half Marathon participants.</p>
+            <a class="button secondary" href="https://www.finisherpix.com/en/event/5608/">Open photos</a>
+          </article>
+          <article class="card resource-card" data-result-card data-year="2026" data-type="road" data-platform="runsignup">
+            <h3>Race details</h3>
+            <p>Registration status, schedule, course notes, packet pickup, awards, and charity information.</p>
+            <a class="button light" href="events.html#half-marathon">Race page</a>
+          </article>
         </div>
       </div>
     </section>
@@ -92,43 +169,81 @@
       <div class="wrap">
         <div class="section-head">
           <h2>Cross country</h2>
-          <p>Results, course resources, team scoring, and photo folders from the cross country archive.</p>
+          <p>Youth, adult, alumni, team scoring, course, and photo resources for fall racing.</p>
         </div>
         <div class="grid three">
-          <article class="card feature"><h3>Youth XC results</h3><a class="button primary" href="https://runsignup.com/Race/Results/96405#resultSetId-488703;perpage:100">RunSignup results</a></article>
-          <article class="card"><h3>Youth XC info</h3><a class="button secondary" href="https://runsignup.com/Race/Info/NJ/Holmdel/ShoreACYouthXCSeries">RunSignup info</a></article>
-          <article class="card"><h3>Holmdel course tour</h3><a class="button secondary" href="https://nj.milesplit.com/articles/266304/video-course-tour-of-holmdel-park">MileSplit course tour</a></article>
-          <article class="card"><h3>Alumni XC results</h3><a class="button secondary" href="https://runsignup.com/Race/Results/67106#resultSetId-423230;perpage:100">RunSignup results</a></article>
-          <article class="card"><h3>USATF long distance</h3><p>Team schedule and championship path.</p><a class="button light" href="programs.html#compete">Local team info</a></article>
-          <article class="card"><h3>Photos</h3><a class="button secondary" href="media.html#alumni">XC photo galleries</a></article>
+          <article class="card feature resource-card" data-result-card data-year="2026 2025 2024 older" data-type="xc youth" data-platform="runsignup">
+            <h3>Youth XC results</h3>
+            <p>RunSignup result archive for the Shore A.C. Youth Cross Country Series.</p>
+            <a class="button primary" href="https://runsignup.com/Race/Results/96405#resultSetId-488703;perpage:100">RunSignup results</a>
+          </article>
+          <article class="card resource-card" data-result-card data-year="2026" data-type="xc youth" data-platform="runsignup">
+            <h3>Youth XC information</h3>
+            <p>Distances, dates, fees, locations, scoring, and award details.</p>
+            <a class="button secondary" href="https://runsignup.com/Race/Info/NJ/Holmdel/ShoreACYouthXCSeries">RunSignup info</a>
+          </article>
+          <article class="card resource-card" data-result-card data-year="older" data-type="xc youth" data-platform="milesplit">
+            <h3>Holmdel course tour</h3>
+            <p>MileSplit video course tour for Holmdel Park.</p>
+            <a class="button secondary" href="https://nj.milesplit.com/articles/266304/video-course-tour-of-holmdel-park">Open course tour</a>
+          </article>
+          <article class="card resource-card" data-result-card data-year="2026 2025 2024 older" data-type="xc masters" data-platform="runsignup">
+            <h3>Alumni XC results</h3>
+            <p>Bill Bruno Alumni Cross Country Run result archive.</p>
+            <a class="button secondary" href="https://runsignup.com/Race/Results/67106#resultSetId-423230;perpage:100">RunSignup results</a>
+          </article>
+          <article class="card resource-card" data-result-card data-year="2026" data-type="xc masters" data-platform="runsignup">
+            <h3>Adult XC series</h3>
+            <p>Six-race fall series details, locations, team scoring, and awards.</p>
+            <a class="button secondary" href="events.html#adult-xc">Series page</a>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="section white" id="big-bang-mile">
+    <section class="section white" id="photos">
       <div class="wrap">
         <div class="section-head">
-          <h2>Big Bang Mile extras</h2>
-          <p>The original site includes more than registration: records, science talks, course resources, photos, and forms.</p>
+          <h2>Photo archives</h2>
+          <p>Galleries for club events, race traditions, alumni cross country, Johnny Hayes, and historic Shore A.C. moments.</p>
         </div>
         <div class="grid three">
-          <article class="card feature"><h3>Register</h3><a class="button primary" href="https://runsignup.com/Race/NJ/Holmdel/BigBangMile">RunSignup registration</a></article>
-          <article class="card"><h3>Science talks</h3><a class="button secondary" href="https://docs.google.com/forms/d/e/1FAIpQLScZGT6nZTvL7FsW7mn_9GfKDy0fjAd_5iXw13suyyjVTsjR7w/viewform">Speaker form</a></article>
-          <article class="card"><h3>Photos</h3><a class="button secondary" href="media.html">Media hub</a></article>
+          <article class="card feature resource-card" data-result-card data-year="2026 2025 2024 older" data-type="road track xc youth masters racewalk" data-platform="photos">
+            <h3>Shore A.C. media hub</h3>
+            <p>Photo galleries and video resources hosted inside this website.</p>
+            <a class="button primary" href="media.html">Open media hub</a>
+          </article>
+          <article class="card resource-card" data-result-card data-year="2026" data-type="road" data-platform="photos">
+            <h3>Jersey Shore Half photos</h3>
+            <p>FinisherPix participant photos.</p>
+            <a class="button secondary" href="https://www.finisherpix.com/en/event/5608/">Open photos</a>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="section" id="mopl">
+    <section class="section" id="documents">
       <div class="wrap">
         <div class="section-head">
-          <h2>MOPL</h2>
-          <p>The Monmouth-Ocean Parochial League resources on the original site are document-heavy. A full redesign would be worthwhile if MOPL is a current priority.</p>
+          <h2>Documents and club resources</h2>
+          <p>PDFs, meet documents, and club reference pages connected to Shore A.C. events and history.</p>
         </div>
         <div class="grid three">
-          <article class="card feature"><h3>What should be redesigned</h3><p>Invoices, rules, coach contact lists, orders of events, and championship materials should become a clean local document library if MOPL is still active.</p></article>
-          <article class="card"><h3>Why not copy everything into race cards</h3><p>Those documents serve coaches and administrators, not casual race registrants. Keeping them in a resources hub is easier to navigate.</p></article>
-          <article class="card"><h3>Recommended next step</h3><p>Create a MOPL page with current-year PDF cards, archive filters, and contact routing once the club confirms which documents are current.</p></article>
+          <article class="card feature resource-card" data-result-card data-year="older" data-type="road track xc racewalk youth masters" data-platform="pdf">
+            <h3>Pacesetter archive</h3>
+            <p>Shore A.C. newsletter PDF from the club archive.</p>
+            <a class="button primary" href="pacesetter_2020-2021.pdf">Open PDF</a>
+          </article>
+          <article class="card resource-card" data-result-card data-year="older" data-type="track masters" data-platform="pdf">
+            <h3>Club records</h3>
+            <p>Masters relay records and club record resources.</p>
+            <a class="button secondary" href="records.html">Open records</a>
+          </article>
+          <article class="card resource-card" data-result-card data-year="2026" data-type="track youth masters" data-platform="pdf">
+            <h3>NJ International meet document</h3>
+            <p>Meet information for athletes, coaches, and spectators.</p>
+            <a class="button secondary" href="https://docs.google.com/document/d/1zdXhqqafC-zvTjgmt5OIewyv8lkP3Hkz/edit">Meet document</a>
+          </article>
         </div>
       </div>
     </section>
@@ -146,5 +261,7 @@
       </nav>
     </div>
   </footer>
+  <script src="site-nav.js"></script>
+  <script src="site-results.js"></script>
 </body>
 </html>

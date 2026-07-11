@@ -66,13 +66,53 @@ img { display: block; max-width: 100%; }
 .button.dark { color: #fff; background: var(--navy); border-color: var(--navy); }
 .button.light { background: #eef3ff; border-color: #cbd8fb; color: var(--blue); }
 .button-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+.menu-button {
+  gap: 9px;
+  cursor: pointer;
+}
+.menu-icon { width: 18px; display: grid; gap: 3px; }
+.menu-icon span { height: 2px; background: currentColor; border-radius: 999px; }
+.menu-panel {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: none;
+  padding: 18px;
+  background: rgba(7, 27, 77, .58);
+}
+.menu-panel.open { display: grid; place-items: start center; }
+.menu-sheet {
+  width: min(900px, 100%);
+  margin-top: 70px;
+  padding: 24px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 28px 80px rgba(7, 27, 77, .28);
+}
+.menu-head { display: flex; align-items: center; justify-content: space-between; gap: 18px; margin-bottom: 18px; }
+.menu-head h2 { margin: 0; color: var(--navy); font-size: 26px; line-height: 1.1; }
+.menu-close { border: 0; cursor: pointer; }
+.menu-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.menu-group {
+  display: grid;
+  gap: 8px;
+  align-content: start;
+  padding: 16px;
+  background: #f7f9fd;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.menu-group h3 { margin: 0 0 4px; color: var(--navy); font-size: 15px; text-transform: uppercase; letter-spacing: .06em; }
+.menu-group a { color: var(--muted); font-weight: 800; }
+.menu-group a:hover { color: var(--red); }
 
 .page-hero {
   padding: 82px 0 70px;
   color: #fff;
   background:
     linear-gradient(110deg, rgba(7, 27, 77, .95), rgba(23, 61, 143, .85)),
-    url("https://www.shoreac.org/uploads/1/1/5/0/115007939/img-9116_1_orig.jpg") center / cover no-repeat;
+    url("assets/interior-hero.jpg") center / cover no-repeat;
 }
 .page-hero.compact { padding: 58px 0 52px; }
 .eyebrow { color: #ffd768; font-size: 13px; font-weight: 900; text-transform: uppercase; letter-spacing: .08em; }
@@ -191,6 +231,26 @@ img { display: block; max-width: 100%; }
 }
 .tag.red { color: #8d1116; background: #ffe8ea; }
 .tag.green { color: #0f563c; background: #e7f6ef; }
+.status-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 14px; }
+.status {
+  display: inline-flex;
+  min-height: 28px;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: var(--radius);
+  background: #fff7df;
+  border: 1px solid #f5d681;
+  color: #78530c;
+  font-size: 12px;
+  font-weight: 950;
+}
+.status.open { background: #e7f6ef; border-color: #a5dec4; color: #0f563c; }
+.status.closed { background: #eef1f6; border-color: #cfd7e4; color: #465366; }
+.status.results { background: #eef3ff; border-color: #cbd8fb; color: var(--blue); }
+.status.volunteer { background: #ffe8ea; border-color: #ffb9bf; color: #8d1116; }
+.status.discount { background: #fff7df; border-color: #f5d681; color: #78530c; }
+.price { margin: 6px 0 10px; color: var(--red); font-size: 34px; font-weight: 950; line-height: 1; }
+.price span { color: var(--muted); font-size: 14px; font-weight: 800; }
 .detail-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin-top: 14px; }
 .detail-grid div { padding: 14px; background: #f7f9fd; border: 1px solid var(--line); border-radius: var(--radius); }
 .detail-grid strong { display: block; color: var(--navy); }
@@ -207,6 +267,48 @@ td strong { color: var(--ink); }
 .callout { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 28px; color: #fff; background: var(--blue); border-radius: var(--radius); }
 .callout h2, .callout p { margin: 0; }
 .callout p { color: #e4edff; }
+
+.form-card { padding: 28px; }
+.form-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+.field { display: grid; gap: 6px; }
+.field.full { grid-column: 1 / -1; }
+.field label { color: var(--navy); font-size: 13px; font-weight: 900; }
+.field input, .field select, .field textarea {
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+}
+.field textarea { min-height: 130px; resize: vertical; }
+.form-status { min-height: 24px; margin-top: 12px; color: var(--green); font-weight: 850; }
+
+.filter-panel {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(160px, 1fr));
+  gap: 12px;
+  padding: 16px;
+  margin-top: 24px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.filter-panel label { display: grid; gap: 6px; color: var(--navy); font-size: 13px; font-weight: 900; }
+.filter-panel select {
+  min-height: 42px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 0 10px;
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+}
+.result-count { align-self: end; color: var(--muted); font-weight: 850; }
+.resource-card[hidden] { display: none; }
 
 .media-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
 .media-grid img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius); background: #e8edf6; }
@@ -229,6 +331,7 @@ td strong { color: var(--ink); }
 
 @media (max-width: 900px) {
   .grid, .grid.three, .grid.four, .stat-grid, .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+  .menu-grid, .filter-panel { grid-template-columns: repeat(2, 1fr); }
   .split, .event-detail { grid-template-columns: 1fr; }
   .event-date { max-width: 260px; }
 }
@@ -243,8 +346,9 @@ td strong { color: var(--ink); }
 }
 
 @media (max-width: 560px) {
-  .grid, .grid.two, .grid.four, .stat-grid, .media-grid, .gallery-grid { grid-template-columns: 1fr; }
+  .grid, .grid.two, .grid.four, .stat-grid, .media-grid, .gallery-grid, .menu-grid, .form-grid, .filter-panel { grid-template-columns: 1fr; }
   .brand span { display: none; }
+  .menu-sheet { margin-top: 20px; padding: 18px; }
   .section { padding: 54px 0; }
   .page-hero h1 { font-size: 42px; }
   .page-hero p { font-size: 17px; }

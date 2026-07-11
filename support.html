@@ -10,7 +10,7 @@
 <body>
   <header class="site-header">
     <div class="header-inner">
-      <a class="brand" href="index.html"><img src="https://www.shoreac.org/uploads/1/1/5/0/115007939/shore-ac.png" alt="Shore A.C."><span>Shore Athletic Club</span></a>
+      <a class="brand" href="index.html"><img src="assets/shore-ac.png" alt="Shore A.C."><span>Shore Athletic Club</span></a>
       <nav class="nav" aria-label="Primary">
         <a class="button light" href="index.html">Home</a>
         <a class="button secondary" href="events.html">Races</a>
@@ -78,7 +78,7 @@
           </article>
           <article class="card">
             <h3>Start the conversation</h3>
-            <p>The original site directs sponsorship questions to Erin O'Neill, president, and Joe Compagni, vice president. This page keeps that path simple.</p>
+            <p>Sponsorship questions can be sent to the club leadership team for follow-up and current partnership options.</p>
             <a class="button primary" href="mailto:shoreac1954@gmail.com?subject=Shore%20A.C.%20Sponsorship%20Inquiry">Email sponsorship inquiry</a>
           </article>
         </div>
@@ -94,8 +94,63 @@
         <div class="grid three">
           <article class="card"><h3>Race day</h3><p>Course support, packet pickup, finish-line help, water stations, awards, directions, and athlete support.</p></article>
           <article class="card"><h3>Planning</h3><p>Committee support, outreach, sponsors, logistics, communications, and event preparation.</p></article>
-          <article class="card feature"><h3>Service hours</h3><p>The club can help with volunteer confirmation letters and service-hour signoff when arranged with the event team.</p><a class="button secondary" href="mailto:shoreac1954@gmail.com?subject=Shore%20A.C.%20Volunteer%20Inquiry">Volunteer inquiry</a></article>
+          <article class="card feature"><h3>Service hours</h3><p>The club can help with volunteer confirmation letters and service-hour signoff when arranged with the event team.</p><a class="button secondary" href="#volunteer-form">Volunteer form</a></article>
         </div>
+        <form class="card form-card" id="volunteer-form" data-mailto-form data-recipient="shoreac1954@gmail.com" data-subject="Shore A.C. volunteer inquiry" style="margin-top:18px">
+          <div class="form-grid">
+            <div class="field">
+              <label for="vol-name">Name</label>
+              <input id="vol-name" name="name" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="vol-email">Email</label>
+              <input id="vol-email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="vol-phone">Phone</label>
+              <input id="vol-phone" name="phone" autocomplete="tel">
+            </div>
+            <div class="field">
+              <label for="vol-event">Event interest</label>
+              <select id="vol-event" name="event_interest" required>
+                <option value="">Choose an event</option>
+                <option>Big Bang Mile</option>
+                <option>Sheehan Classic</option>
+                <option>Jersey Shore Half Marathon</option>
+                <option>Youth Cross Country Series</option>
+                <option>Adult Cross Country Series</option>
+                <option>Polar Bear Races</option>
+                <option>Any event</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="vol-role">Preferred role</label>
+              <select id="vol-role" name="preferred_role">
+                <option>Wherever needed</option>
+                <option>Packet pickup</option>
+                <option>Course support</option>
+                <option>Water station</option>
+                <option>Finish line</option>
+                <option>Awards</option>
+                <option>Setup or breakdown</option>
+                <option>Planning committee</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="vol-hours">Service hours?</label>
+              <select id="vol-hours" name="service_hours">
+                <option>No</option>
+                <option>Yes, I need service-hour confirmation</option>
+              </select>
+            </div>
+            <div class="field full">
+              <label for="vol-message">Availability or notes</label>
+              <textarea id="vol-message" name="availability_or_notes"></textarea>
+            </div>
+          </div>
+          <button class="button primary" type="submit">Prepare volunteer email</button>
+          <div class="form-status" aria-live="polite"></div>
+        </form>
       </div>
     </section>
 
@@ -145,5 +200,7 @@
       </nav>
     </div>
   </footer>
+  <script src="site-nav.js"></script>
+  <script src="site-forms.js"></script>
 </body>
 </html>

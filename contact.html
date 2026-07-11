@@ -10,7 +10,7 @@
 <body>
   <header class="site-header">
     <div class="header-inner">
-      <a class="brand" href="index.html"><img src="https://www.shoreac.org/uploads/1/1/5/0/115007939/shore-ac.png" alt="Shore A.C."><span>Shore Athletic Club</span></a>
+      <a class="brand" href="index.html"><img src="assets/shore-ac.png" alt="Shore A.C."><span>Shore Athletic Club</span></a>
       <nav class="nav" aria-label="Primary">
         <a class="button light" href="index.html">Home</a>
         <a class="button secondary" href="events.html">Races</a>
@@ -25,20 +25,75 @@
       <div class="wrap">
         <span class="eyebrow">Contact</span>
         <h1>Find the right Shore A.C. path quickly.</h1>
-        <p>Use the cards below to route membership, race, youth, coaching, sponsorship, volunteering, media, and archive questions.</p>
+        <p>Use the cards below for quick actions, or send one organized inquiry with the form.</p>
       </div>
     </section>
 
     <section class="section white">
       <div class="wrap">
         <div class="grid three">
-          <article class="card feature"><h3>Membership</h3><p>Questions about joining, renewing, member benefits, or the RunSignup membership setup.</p><a class="button primary" href="https://runsignup.com/Club/NJ/SpringLake/ShoreAthleticClub">Join or renew</a></article>
+          <article class="card feature"><h3>Membership</h3><p>Compare youth, adult, coaching, and two-year membership options before joining.</p><a class="button primary" href="membership.html">Membership details</a></article>
           <article class="card"><h3>Race registration</h3><p>Find the race first, then use the official registration button for that event.</p><a class="button secondary" href="events.html">Race calendar</a></article>
           <article class="card"><h3>Youth programs</h3><p>Ask about youth racing, Gone Running, Workout Wednesday, or Junior Olympic pathways.</p><a class="button secondary" href="programs.html#youth">Youth programs</a></article>
           <article class="card"><h3>Coaching</h3><p>Review coaching options and coach specialties before reaching out.</p><a class="button secondary" href="programs.html#coaching">Coaching page</a></article>
           <article class="card"><h3>Sponsorship</h3><p>Ask about sponsor, partner, and community support opportunities.</p><a class="button secondary" href="support.html#partner">Sponsor info</a></article>
           <article class="card"><h3>General email</h3><p>Use email for anything that does not fit neatly into a category.</p><a class="button primary" href="mailto:shoreac1954@gmail.com">Email Shore A.C.</a></article>
         </div>
+      </div>
+    </section>
+
+    <section class="section" id="inquiry">
+      <div class="wrap split">
+        <div>
+          <div class="section-head">
+            <h2>Send an inquiry</h2>
+            <p>The form prepares an email to Shore A.C. with your topic and details filled in.</p>
+          </div>
+          <div class="card notice">
+            <h3>Helpful details to include</h3>
+            <ul class="card-list">
+              <li>For races, include the event name and registration question.</li>
+              <li>For youth programs, include the athlete's age and program interest.</li>
+              <li>For coaching, include your goal race and current weekly mileage if known.</li>
+            </ul>
+          </div>
+        </div>
+        <form class="card form-card" data-mailto-form data-recipient="shoreac1954@gmail.com" data-subject="Shore A.C. website inquiry">
+          <div class="form-grid">
+            <div class="field">
+              <label for="topic">Topic</label>
+              <select id="topic" name="topic" required>
+                <option value="">Choose a topic</option>
+                <option>Membership</option>
+                <option>Race registration</option>
+                <option>Youth programs</option>
+                <option>Coaching</option>
+                <option>Sponsorship</option>
+                <option>Volunteering</option>
+                <option>Photos or media</option>
+                <option>General question</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" autocomplete="tel">
+            </div>
+            <div class="field full">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+          </div>
+          <button class="button primary" type="submit">Prepare email</button>
+          <div class="form-status" aria-live="polite"></div>
+        </form>
       </div>
     </section>
 
@@ -67,5 +122,7 @@
       </nav>
     </div>
   </footer>
+  <script src="site-nav.js"></script>
+  <script src="site-forms.js"></script>
 </body>
 </html>
